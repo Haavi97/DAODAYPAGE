@@ -1,5 +1,3 @@
-# Write a function that writes import in the form of: "import andrewGreeneImage from '@/images/avatars/andrew-greene.jpg'"" from a given path
-
 import os
 
 
