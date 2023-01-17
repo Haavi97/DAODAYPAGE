@@ -5,8 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "set PORT=3006 && next start",
-    "restart": "next build && set PORT=3006 && next start",
+    "start": "set PORT=3005 && next start",
+    "restart": "next build && PORT=3006 && next start",
     "lint": "next lint"
   },
   "browserslist": "defaults, not ie <= 11",
