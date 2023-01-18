@@ -4,11 +4,17 @@ import { Container } from '@/components/Container'
 import logoINO from '@/images/logos/logoINO1.png'
 import logoLegalLab from '@/images/logos/legallab.png'
 import logoEResidency from '@/images/logos/e-residency_official-2.png'
+import logoChainalysis from '@/images/logos/Chainalysis-Logo.png'
+import logoFounderly from '@/images/logos/founderly-logo.png'
+import logoEFT from '@/images/logos/EasyFeedback-logo.png'
 
 const sponsors = [
   { name: 'INO', logo: logoINO },
   { name: 'LegalLab', logo: logoLegalLab },
   { name: 'EResidency', logo: logoEResidency },
+  { name: 'Chainalysis', logo: logoChainalysis },
+  { name: 'Founderly', logo: logoFounderly },
+  { name: 'Easy Feedback Token', logo: logoEFT },
 ]
 
 export function Sponsors() {

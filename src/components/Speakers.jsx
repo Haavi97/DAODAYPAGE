@@ -5,13 +5,22 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import { DiamondIcon } from '@/components/DiamondIcon'
-import idirLaurentImage from '@/images/avatars/idir-laurent.jpg'
+import astraTikasImage from '@/images/avatars/astra-tikas.jpg'
+import eyalEithcowichImage from '@/images/avatars/eyal-eithcowich.jpg'
 import ianLeeImage from '@/images/avatars/ian-lee.jpg'
+import idirLaurentImage from '@/images/avatars/idir-laurent.jpg'
+import innarLiivImage from '@/images/avatars/innar-liiv.jpg'
+import javierOrtinImage from '@/images/avatars/javier-ortin.jpg'
+import juliaRontImage from '@/images/avatars/julia-ront.jpg'
 import magnusJonesImage from '@/images/avatars/magnus-jones.jpg'
+import polinaBrottierImage from '@/images/avatars/polina-brottier.jpg'
 import priitLattImage from '@/images/avatars/priit-latt.jpg'
 import sanderGansenImage from '@/images/avatars/sander-gansen.jpg'
 import sandraSaravImage from '@/images/avatars/sandra-sarav.jpg'
+import tanelKerikmaeImage from '@/images/avatars/tanel-kerikmae.jpg'
+import teaKookmaImage from '@/images/avatars/tea-kookma.jpg'
 import tiitLandImage from '@/images/avatars/tiit-land.jpg'
+import vattanPsImage from '@/images/avatars/vattan-ps.jpg'
 
 const days = [
   {
@@ -20,9 +29,9 @@ const days = [
     dateTime: '2022-04-04',
     speakers: [
       {
-        name: 'Magnus Jones',
-        role: 'EY',
-        image: magnusJonesImage,
+        name: 'Astra Tikas',
+        role: 'INO co-founder and CEO',
+        image: astraTikasImage,
       },
       {
         name: 'Priit Lätt',
@@ -33,6 +42,21 @@ const days = [
         name: 'Sander Gansen',
         role: 'NFT Tallinn Organizer',
         image: sanderGansenImage,
+      },
+      {
+        name: 'Tanel Kerikmäe',
+        role: 'TalTech LegalLab founder',
+        image: tanelKerikmaeImage,
+      },
+      {
+        name: 'Tea Kookma',
+        role: 'TalTech LegalLab CEO',
+        image: teaKookmaImage,
+      },
+      {
+        name: 'Vattan PS',
+        role: 'Founderly founder and CEO',
+        image: vattanPsImage,
       },
       {
         name: 'Sandra Särav',
@@ -48,6 +72,41 @@ const days = [
         name: 'Ian Lee',
         role: 'Syndicate DAO founder and CEO',
         image: ianLeeImage,
+      },
+      {
+        name: 'Magnus Jones',
+        role: 'EY',
+        image: magnusJonesImage,
+      },
+      {
+        name: 'Idir Laurent',
+        role: 'DPO DPD',
+        image: idirLaurentImage,
+      },
+      {
+        name: 'Eyal EithcowichImage',
+        role: 'DeepDAO CEO',
+        image: eyalEithcowichImage,
+      },
+      {
+        name: 'Innar Liiv',
+        role: 'TalTech PhD',
+        image: innarLiivImage,
+      },
+      {
+        name: 'Polina Brottier',
+        role: 'Binance Head of Marketing for the Baltics',
+        image: polinaBrottierImage,
+      },
+      {
+        name: 'Julia Ront',
+        role: 'Vespia co-founder and CEO',
+        image: juliaRontImage,
+      },
+      {
+        name: 'Javier Ortin',
+        role: 'INO co-founder and CTO',
+        image: javierOrtinImage,
       },
     ],
   },
@@ -180,16 +239,8 @@ export function Speakers() {
             Speakers
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
-            DAO Day is proud to feature an impressive lineup of industry
-            experts, innovators, and thought leaders in the field of
-            decentralized autonomous organizations (DAOs). Our speakers come
-            from a wide range of backgrounds, including blockchain development,
-            governance, economics, and law. They will be sharing their insights,
-            knowledge, and experiences on how DAOs are shaping the future of
-            decentralized governance and how we can leverage this technology to
-            build more equitable and efficient systems. We are excited to have
-            them join us and we know you will find their presentations
-            informative and inspiring.
+            Featuring an impressive lineup of industry experts, innovators, and
+            thought leaders.
           </p>
         </div>
         <Tab.Group
@@ -197,11 +248,11 @@ export function Speakers() {
           className="mt-14 grid grid-cols-1 items-start gap-y-8 gap-x-8 sm:mt-16 sm:gap-y-16 lg:mt-24 lg:grid-cols-4"
           vertical={tabOrientation === 'vertical'}
         >
-          <Tab.Panels className="lg:col-span-3">
+          <Tab.Panels className="lg:col-span-4">
             {days.map((day) => (
               <Tab.Panel
                 key={day.dateTime}
-                className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 sm:gap-y-16 md:grid-cols-3 [&:not(:focus-visible)]:focus:outline-none"
+                className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 sm:gap-y-16 md:grid-cols-4 [&:not(:focus-visible)]:focus:outline-none"
                 unmount={false}
               >
                 {day.speakers.map((speaker, speakerIndex) => (

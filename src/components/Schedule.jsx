@@ -243,7 +243,7 @@ function TimeSlots({ day, className }) {
       {day.timeSlots.map((timeSlot, timeSlotIndex) => (
         <li
           key={timeSlot.start}
-          aria-label={`${timeSlot.name} talking about ${timeSlot.description} at ${timeSlot.start} - ${timeSlot.end} PST`}
+          aria-label={`${timeSlot.name} talking about ${timeSlot.description} at ${timeSlot.start} - ${timeSlot.end} EET`}
         >
           {timeSlotIndex > 0 && (
             <div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
@@ -264,7 +264,7 @@ function TimeSlots({ day, className }) {
             <time dateTime={`${day.dateTime}T${timeSlot.end}-08:00`}>
               {timeSlot.end}
             </time>{' '}
-            PST
+            EET
           </p>
         </li>
       ))}
@@ -296,11 +296,9 @@ export function Schedule() {
             organizations (DAOs).
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
-            Our agenda includes keynote speakers, panel discussions, breakout
-            sessions, workshops and networking opportunities. With a diverse
-            range of topics covered, you will leave the conference with a deeper
-            understanding of the cutting-edge technology and trends driving the
-            future of decentralized governance.
+            We’ll delve into some complex legal and tooling questions
+            surrounding DAOs and discuss Estonia’s legal framework for creating
+            and managing them—and plenty more.
           </p>
         </div>
       </Container>

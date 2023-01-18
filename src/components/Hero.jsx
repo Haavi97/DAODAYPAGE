@@ -28,25 +28,17 @@ export function Hero() {
           </h1>
           <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-blue-900">
             <p>
-              There has been a massive growth in the number of DAOs
-              (community-led organizations with no central leadership) over the
-              past year—and they’re increasingly popular as a way for brands,
-              communities, and investors to organize their activities. But not
-              everyone in the space is convinced that they’re being formed
-              correctly or in a way that ensures success.
+              Join us for a day of thought-provoking presentations, engaging
+              conversations and valuable networking opportunities with leading
+              movers and shakers in the DAO (community-led organizations with no
+              central leadership) community.
             </p>
             <p>
-              That’s why we’re hosting a full-day dedicated event to the
-              opportunities and challenges of DAOs — decentralized autonomous
-              organizations. We can’t wait to hear from some of the leading
-              movers, shakers and risk-takers in DAO at this event co-organized
-              by Internet Native Organization, eResidency and TalTech Legal Lab.
-            </p>
-            <p>
-              We’ll delve into some complex legal and tooling questions
-              surrounding DAOs and discuss Estonia’s legal framework for
-              creating and managing them—and plenty more—at this one-day
-              conference.
+              The event is being organized by the non-profit{' '}
+              <strong>Internet Native Organization</strong> (INO), which is
+              working to introduce a DAO Sandbox that will allow it to test
+              Estonia’s legal framework for DAOs in collaboration with TalTech
+              Legal Lab and eResidency.
             </p>
           </div>
           <Button href="#" className="mt-10 w-full sm:hidden">
