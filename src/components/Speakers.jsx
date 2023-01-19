@@ -12,7 +12,7 @@ import ianLeeImage from '@/images/avatars/ian-lee.jpg'
 import idirLaurentImage from '@/images/avatars/idir-laurent.jpg'
 import innarLiivImage from '@/images/avatars/innar-liiv.jpg'
 import javierOrtinImage from '@/images/avatars/javier-ortin.jpg'
-import juliaRontImage from '@/images/avatars/julia-ront.jpg'
+// import juliaRontImage from '@/images/avatars/julia-ront.jpg'
 import magnusJonesImage from '@/images/avatars/magnus-jones.jpg'
 import polinaBrottierImage from '@/images/avatars/polina-brottier.jpg'
 import priitLattImage from '@/images/avatars/priit-latt.jpg'
@@ -99,11 +99,11 @@ const days = [
         role: 'Binance Head of Marketing for the Baltics',
         image: polinaBrottierImage,
       },
-      {
-        name: 'Julia Ront',
-        role: 'Vespia co-founder and CEO',
-        image: juliaRontImage,
-      },
+      // {
+      //   name: 'Julia Ront',
+      //   role: 'Vespia co-founder and CEO',
+      //   image: juliaRontImage,
+      // },
       {
         name: 'Javier Ortin',
         role: 'INO co-founder and CTO',
