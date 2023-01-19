@@ -111,7 +111,7 @@ const days = [
       },
       {
         name: 'Dima Sarle',
-        role: 'Earthians founder and CTO',
+        role: 'Earthians founder and CEO',
         image: dimaSarleImage,
       },
     ],
