@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 import { Container } from '@/components/Container'
-import logoINO from '@/images/logos/logoINO1.png'
+import logoINO from '@/images/logos/logoINO2.png'
 import logoLegalLab from '@/images/logos/legallab.png'
 import logoEResidency from '@/images/logos/e-residency_official-2.png'
 import logoChainalysis from '@/images/logos/Chainalysis-Logo.png'

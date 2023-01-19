@@ -7,6 +7,7 @@ import { Container } from '@/components/Container'
 import { DiamondIcon } from '@/components/DiamondIcon'
 import astraTikasImage from '@/images/avatars/astra-tikas.jpg'
 import eyalEithcowichImage from '@/images/avatars/eyal-eithcowich.jpg'
+import dimaSarleImage  from '@/images/avatars/dima-sarle.jpg'
 import ianLeeImage from '@/images/avatars/ian-lee.jpg'
 import idirLaurentImage from '@/images/avatars/idir-laurent.jpg'
 import innarLiivImage from '@/images/avatars/innar-liiv.jpg'
@@ -107,6 +108,11 @@ const days = [
         name: 'Javier Ortin',
         role: 'INO co-founder and CTO',
         image: javierOrtinImage,
+      },
+      {
+        name: 'Dima Sarle',
+        role: 'Earthians founder and CTO',
+        image: dimaSarleImage,
       },
     ],
   },
