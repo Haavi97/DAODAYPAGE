@@ -1,0 +1,82 @@
+.menuBubble {
+  position: fixed;
+  right: 3%;
+  bottom: 5%;
+  background-color: #93c5fd;
+  border-radius: 50%;
+  width: 7%;
+  aspect-ratio: 1 / 1;
+  color: #3b82f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    background-color: #e0e0e0;
+  }
+  z-index: 1000;
+}
+.menuIcon {
+  font-size: 20px;
+  color: #3b82f6;
+}
+
+.menuOpen {
+  position: fixed;
+  right: 12%;
+  bottom: 5%;
+  color: #3b82f6;
+  transition: width 1s height 1s;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+}
+
+.menuItem {
+  position: relative;
+  color: #3b82f6;
+  background-color: #93c5fd;
+  border-radius: 1rem;
+  font-size: 20px;
+  margin-top: 5%;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .menuBubble {
+    position: fixed;
+    right: 3%;
+    bottom: 5%;
+    color: #3b82f6;
+    background-color: #93c5fd;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      background-color: #e0e0e0;
+    }
+    z-index: 1000;
+  }
+
+  .menuOpen {
+    position: fixed;
+    right: 3%;
+    bottom: 110px;
+    color: #3b82f6;
+    transition: width 1s height 1s;
+    display: flex;
+    flex-direction: column;
+    z-index: 1001;
+  }
+}

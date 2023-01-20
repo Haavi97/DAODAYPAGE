@@ -4,6 +4,7 @@ import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
 import { Newsletter } from '@/components/Newsletter'
+import { NavBubble } from '@/components/NavBubble'
 import { Schedule } from '@/components/Schedule'
 import { Speakers } from '@/components/Speakers'
 import { Sponsors } from '@/components/Sponsors'
@@ -19,6 +20,7 @@ export default function Home() {
         />
       </Head>
       <Header />
+      <NavBubble />
       <main>
         <Hero />
         <Speakers />
