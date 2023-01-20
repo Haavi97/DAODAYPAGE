@@ -7,7 +7,7 @@ import { Container } from '@/components/Container'
 import { DiamondIcon } from '@/components/DiamondIcon'
 import astraTikasImage from '@/images/avatars/astra-tikas.jpg'
 import eyalEithcowichImage from '@/images/avatars/eyal-eithcowich.jpg'
-import dimaSarleImage  from '@/images/avatars/dima-sarle.jpg'
+import dimaSarleImage from '@/images/avatars/dima-sarle.jpg'
 import ianLeeImage from '@/images/avatars/ian-lee.jpg'
 import idirLaurentImage from '@/images/avatars/idir-laurent.jpg'
 import innarLiivImage from '@/images/avatars/innar-liiv.jpg'
@@ -46,12 +46,12 @@ const days = [
       },
       {
         name: 'Tanel Kerikmäe',
-        role: 'TalTech LegalLab founder',
+        role: 'TalTech Legal Lab Chief Strategist',
         image: tanelKerikmaeImage,
       },
       {
         name: 'Tea Kookma',
-        role: 'TalTech LegalLab CEO',
+        role: 'TalTech Legal Lab CEO',
         image: teaKookmaImage,
       },
       {
