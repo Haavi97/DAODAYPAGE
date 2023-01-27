@@ -15,8 +15,8 @@ const sponsors = [
   { name: 'LegalLab', logo: logoLegalLab },
   { name: 'EResidency', logo: logoEResidency },
   { name: 'Chainalysis', logo: logoChainalysis },
-  { name: 'Unigrid Foundation', logo: logoUnigrid },
-  { name: 'Delfi', logo: logoDelfi },
+  // { name: 'Unigrid Foundation', logo: logoUnigrid },
+  // { name: 'Delfi', logo: logoDelfi },
   { name: 'Founderly', logo: logoFounderly },
   { name: 'Easy Feedback Token', logo: logoEFT },
 ]

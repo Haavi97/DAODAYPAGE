@@ -6,14 +6,14 @@ import clsx from 'clsx'
 import { Container } from '@/components/Container'
 import { DiamondIcon } from '@/components/DiamondIcon'
 import astraTikasImage from '@/images/avatars/astra-tikas.jpg'
-import eyalEithcowichImage from '@/images/avatars/eyal-eithcowich.jpg'
+// import eyalEithcowichImage from '@/images/avatars/eyal-eithcowich.jpg'
 import dimaSarleImage from '@/images/avatars/dima-sarle.jpg'
 import ianLeeImage from '@/images/avatars/ian-lee.jpg'
 import idirLaurentImage from '@/images/avatars/idir-laurent.jpg'
 import innarLiivImage from '@/images/avatars/innar-liiv.jpg'
 import javierOrtinImage from '@/images/avatars/javier-ortin.jpg'
 // import juliaRontImage from '@/images/avatars/julia-ront.jpg'
-import magnusJonesImage from '@/images/avatars/magnus-jones.jpg'
+// import magnusJonesImage from '@/images/avatars/magnus-jones.jpg'
 import polinaBrottierImage from '@/images/avatars/polina-brottier.jpg'
 import priitLattImage from '@/images/avatars/priit-latt.jpg'
 import sanderGansenImage from '@/images/avatars/sander-gansen.jpg'
@@ -74,21 +74,21 @@ const days = [
         role: 'Syndicate DAO founder and CEO',
         image: ianLeeImage,
       },
-      {
-        name: 'Magnus Jones',
-        role: 'EY',
-        image: magnusJonesImage,
-      },
+      // {
+      //   name: 'Magnus Jones',
+      //   role: 'EY',
+      //   image: magnusJonesImage,
+      // },
       {
         name: 'Idir Laurent',
         role: 'DPO DPD',
         image: idirLaurentImage,
       },
-      {
-        name: 'Eyal EithcowichImage',
-        role: 'DeepDAO CEO',
-        image: eyalEithcowichImage,
-      },
+      // {
+      //   name: 'Eyal Eithcowich',
+      //   role: 'DeepDAO CEO',
+      //   image: eyalEithcowichImage,
+      // },
       {
         name: 'Innar Liiv',
         role: 'TalTech PhD',
@@ -122,11 +122,6 @@ const days = [
     dateTime: '2022-04-05',
     speakers: [
       {
-        name: 'Magnus Jones',
-        role: 'EY',
-        image: magnusJonesImage,
-      },
-      {
         name: 'Priit Lätt',
         role: 'PWCL',
         image: priitLattImage,
@@ -158,11 +153,6 @@ const days = [
     date: 'April 6',
     dateTime: '2022-04-06',
     speakers: [
-      {
-        name: 'Magnus Jones',
-        role: 'EY',
-        image: magnusJonesImage,
-      },
       {
         name: 'Priit Lätt',
         role: 'PWCL',

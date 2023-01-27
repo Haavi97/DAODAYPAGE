@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>DAODay - A Full Day Of Dedicated Foray Into The DAO</title>
+        <title>DAO Day - A Full Day Of Dedicated Foray Into The DAO</title>
         <meta
           name="description"
           content="We'll delve into some complex legal and tooling questions surrounding DAOs and discuss Estonia's legal framework for creating and managing them—and plenty more—at this one-day conference."
