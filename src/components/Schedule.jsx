@@ -43,6 +43,12 @@ const schedule = [
     timeSlots: [
       {
         name: '--',
+        description: 'OPENING & INTRO',
+        start: '10:00AM',
+        end: '10:00AM',
+      },
+      {
+        name: '--',
         description: 'I DAO LANDSCAPE',
         start: '10:30AM',
         end: '11:40AM',
