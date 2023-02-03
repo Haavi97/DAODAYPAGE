@@ -37,9 +37,9 @@ const introSchedule = [
 
 const schedule = [
   {
-    date: 'Overall agenda',
+    date: '',
     dateTime: '2023-03-28',
-    summary: '--',
+    summary: '',
     timeSlots: [
       {
         name: '--',
@@ -61,8 +61,7 @@ const schedule = [
       },
       {
         name: '--',
-        description:
-          'III DECENTRALIZED OPERATIONS',
+        description: 'III DECENTRALIZED OPERATIONS',
         start: '02:00PM',
         end: '03:00PM',
       },
@@ -346,7 +345,7 @@ function TimeSlots({ day, className }) {
 
 function ScheduleStatic() {
   return (
-    <div className="hidden lg:grid lg:grid-cols-3 lg:gap-x-8">
+    <div className="hidden lg:grid lg:grid-cols-1 lg:gap-x-8">
       {schedule.map((day) => (
         <section key={day.dateTime}>
           <DaySummary day={day} />
