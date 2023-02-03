@@ -37,155 +37,194 @@ const introSchedule = [
 
 const schedule = [
   {
-    date: '10.25 I  DAO LANDSCAPE',
+    date: 'Overall agenda',
     dateTime: '2023-03-28',
-    summary:
-      "--",
+    summary: '--',
     timeSlots: [
       {
         name: '--',
-        description: 'What is a difference between DAO & INO? What is INO? ',
+        description: 'I DAO LANDSCAPE',
         start: '10:30AM',
-        end: '10:45AM',
+        end: '11:40AM',
+      },
+      {
+        name: '--',
+        description: 'II TRANSPARENT GOVERNANCE',
+        start: '11:40AM',
+        end: '13:00AM',
+      },
+      {
+        name: '--',
+        description: 'Lunch break',
+        start: '01:00PM',
+        end: '02:00PM',
       },
       {
         name: '--',
         description:
-          'Whats happening in the space of decentralized organizations?',
-        start: '10:45AM',
-        end: '11:00AM',
-      },
-      {
-        name: '--',
-        description: 'e-Estonia & Government stack (Open Source Stack)',
-        start: '11:00AM',
-        end: '11:15AM',
-      },
-      {
-        name: '--',
-        description:
-          'Investments in Internet Native Backoffice / Internet First Innovation. ',
-        start: '11:15AM',
-        end: '11:30AM',
-      },
-      {
-        name: '--',
-        description: 'Challenges like KYC, AML (scams) & GDPR? Legal needs.',
-        start: '11:30AM',
-        end: '11:45AM',
-      },
-      {
-        name: 'Break',
-        description: null,
-        start: '11:45AM',
-        end: '12:00AM',
-      },
-    ],
-  },
-  {
-    date: '11:40 II TRANSPARENT GOVERNANCE',
-    dateTime: '2023-03-28',
-    summary:
-      '--',
-    timeSlots: [
-      {
-        name: '--',
-        description: 'Basics of governance.',
-        start: '12:00AM',
-        end: '12:15AM',
-      },
-      {
-        name: '--',
-        description: 'Is DAO really decentralized? ',
-        start: '12:15AM',
-        end: '13:00PM',
-      },
-      {
-        name: 'Lunch',
-        description: null,
-        start: '1:00PM',
-        end: '2:00PM',
-      },
-    ],
-  },
-  {
-    date: '14.00 III DECENTRALIZED OPERATIONS',
-    dateTime: '2023-03-28',
-    summary:
-      "--",
-    timeSlots: [
-      {
-        name: '--',
-        description: 'What entails running a DAO?',
+          'III DECENTRALIZED OPERATIONS',
         start: '02:00PM',
-        end: '02:15PM',
-      },
-      {
-        name: '--',
-        description: 'Problems & challenges in operations',
-        start: '02:15PM',
         end: '03:00PM',
       },
-    ],
-  },
-  {
-    date: '15.00 IV LEGAL STRUCTURES',
-    dateTime: '2023-03-28',
-    summary:
-      "--",
-    timeSlots: [
       {
         name: '--',
-        description: 'General regulations & MiCA',
+        description: 'IV LEGAL STRUCTURES',
         start: '03:00PM',
-        end: '03:30PM',
-      },
-      {
-        name: '--',
-        description: 'The necessity of legal wrappers',
-        start: '03:30PM',
-        end: '03:45PM',
-      },
-      {
-        name: '--',
-        description: 'Estonian readiness for a DAO',
-        start: '03:45PM',
-        end: '04:15PM',
-      },
-      {
-        name: '--',
-        description: 'COFFEE & cold snacks BREAK',
-        start: '04:15PM',
         end: '04:45PM',
       },
-    ],
-  },
-  {
-    date: '16.45 V THE RISE OF INTERNET NATIVE ORGANIZATIONS',
-    dateTime: '2023-03-28',
-    summary:
-      "--",
-    timeSlots: [
       {
         name: '--',
-        description: 'government organization ',
+        description: 'V THE RISE OF INTERNET NATIVE ORGANIZATIONS',
         start: '04:45PM',
-        end: '05:00PM',
-      },
-      {
-        name: '--',
-        description: 'The future of companies & collaborations.',
-        start: '05:00PM',
-        end: '05:30PM',
-      },
-      {
-        name: '--',
-        description: 'CLOSING ',
-        start: '05:30PM',
         end: '05:45PM',
       },
     ],
   },
+  // {
+  //   date: '10.25 I  DAO LANDSCAPE',
+  //   dateTime: '2023-03-28',
+  //   summary: '--',
+  //   timeSlots: [
+  //     {
+  //       name: '--',
+  //       description: 'What is a difference between DAO & INO? What is INO? ',
+  //       start: '10:30AM',
+  //       end: '10:45AM',
+  //     },
+  //     {
+  //       name: '--',
+  //       description:
+  //         'Whats happening in the space of decentralized organizations?',
+  //       start: '10:45AM',
+  //       end: '11:00AM',
+  //     },
+  //     {
+  //       name: '--',
+  //       description: 'e-Estonia & Government stack (Open Source Stack)',
+  //       start: '11:00AM',
+  //       end: '11:15AM',
+  //     },
+  //     {
+  //       name: '--',
+  //       description:
+  //         'Investments in Internet Native Backoffice / Internet First Innovation. ',
+  //       start: '11:15AM',
+  //       end: '11:30AM',
+  //     },
+  //     {
+  //       name: '--',
+  //       description: 'Challenges like KYC, AML (scams) & GDPR? Legal needs.',
+  //       start: '11:30AM',
+  //       end: '11:45AM',
+  //     },
+  //     {
+  //       name: 'Break',
+  //       description: null,
+  //       start: '11:45AM',
+  //       end: '12:00AM',
+  //     },
+  //   ],
+  // },
+  // {
+  //   date: '11:40 II TRANSPARENT GOVERNANCE',
+  //   dateTime: '2023-03-28',
+  //   summary: '--',
+  //   timeSlots: [
+  //     {
+  //       name: '--',
+  //       description: 'Basics of governance.',
+  //       start: '12:00AM',
+  //       end: '12:15AM',
+  //     },
+  //     {
+  //       name: '--',
+  //       description: 'Is DAO really decentralized? ',
+  //       start: '12:15AM',
+  //       end: '13:00PM',
+  //     },
+  //     {
+  //       name: 'Lunch',
+  //       description: null,
+  //       start: '1:00PM',
+  //       end: '2:00PM',
+  //     },
+  //   ],
+  // },
+  // {
+  //   date: '14.00 III DECENTRALIZED OPERATIONS',
+  //   dateTime: '2023-03-28',
+  //   summary: '--',
+  //   timeSlots: [
+  //     {
+  //       name: '--',
+  //       description: 'What entails running a DAO?',
+  //       start: '02:00PM',
+  //       end: '02:15PM',
+  //     },
+  //     {
+  //       name: '--',
+  //       description: 'Problems & challenges in operations',
+  //       start: '02:15PM',
+  //       end: '03:00PM',
+  //     },
+  //   ],
+  // },
+  // {
+  //   date: '15.00 IV LEGAL STRUCTURES',
+  //   dateTime: '2023-03-28',
+  //   summary: '--',
+  //   timeSlots: [
+  //     {
+  //       name: '--',
+  //       description: 'General regulations & MiCA',
+  //       start: '03:00PM',
+  //       end: '03:30PM',
+  //     },
+  //     {
+  //       name: '--',
+  //       description: 'The necessity of legal wrappers',
+  //       start: '03:30PM',
+  //       end: '03:45PM',
+  //     },
+  //     {
+  //       name: '--',
+  //       description: 'Estonian readiness for a DAO',
+  //       start: '03:45PM',
+  //       end: '04:15PM',
+  //     },
+  //     {
+  //       name: '--',
+  //       description: 'COFFEE & cold snacks BREAK',
+  //       start: '04:15PM',
+  //       end: '04:45PM',
+  //     },
+  //   ],
+  // },
+  // {
+  //   date: '16.45 V THE RISE OF INTERNET NATIVE ORGANIZATIONS',
+  //   dateTime: '2023-03-28',
+  //   summary: '--',
+  //   timeSlots: [
+  //     {
+  //       name: '--',
+  //       description: 'government organization ',
+  //       start: '04:45PM',
+  //       end: '05:00PM',
+  //     },
+  //     {
+  //       name: '--',
+  //       description: 'The future of companies & collaborations.',
+  //       start: '05:00PM',
+  //       end: '05:30PM',
+  //     },
+  //     {
+  //       name: '--',
+  //       description: 'CLOSING ',
+  //       start: '05:30PM',
+  //       end: '05:45PM',
+  //     },
+  //   ],
+  // },
 ]
 
 function ScheduleTabbed() {
@@ -209,7 +248,7 @@ function ScheduleTabbed() {
   return (
     <Tab.Group
       as="div"
-      className="mx-auto grid max-w-2xl grid-cols-1 gap-y-6 sm:grid-cols-2 lg:hidden"
+      className="center mx-auto grid max-w-2xl grid-cols-1 gap-y-6 sm:grid-cols-2 lg:hidden"
       vertical={tabOrientation === 'vertical'}
     >
       <Tab.List className="-mx-4 flex gap-x-4 gap-y-10 overflow-x-auto pl-4 pb-4 sm:mx-0 sm:flex-col sm:pb-0 sm:pl-0 sm:pr-8">
