@@ -15,7 +15,7 @@ const introSchedule = [
     timeSlots: [
       {
         name: 'Astra Tikas. INO',
-        description: 'DAO Regulations today.',
+        description: 'Welcome words',
         start: '9:30AM',
         end: '09:35AM',
       },
@@ -37,87 +37,68 @@ const introSchedule = [
 
 const schedule = [
   {
-    date: '09.50 I  DAO LANDSCAPE',
+    date: '10.25 I  DAO LANDSCAPE',
     dateTime: '2023-03-28',
     summary:
-      "We will start with some inspirational speeches about DAO's and hear about the basics of DAO's.",
+      "--",
     timeSlots: [
       {
-        name: 'eResidency, Maren?',
-        description: 'What DAO mentality can provide to society?',
-        start: '9:50AM',
-        end: '09:55AM',
-      },
-      {
-        name: 'Tea. Legal Lab',
-        description: 'Stealing fingerprints',
-        start: '09:55AM',
-        end: '10:00AM',
-      },
-      {
-        name: 'DAO builder from outside Estonia',
-        description: 'Anatomy of the DAO World',
-        start: '10:00AM',
-        end: '10:30AM',
-      },
-      {
-        name: 'Priit Lätt, PWCL',
-        description: 'Estonian DAO experience',
+        name: '--',
+        description: 'What is a difference between DAO & INO? What is INO? ',
         start: '10:30AM',
         end: '10:45AM',
       },
       {
-        name: 'Dima Sarle. Earthians',
-        description: 'How does DAO work technically?',
+        name: '--',
+        description:
+          'Whats happening in the space of decentralized organizations?',
         start: '10:45AM',
         end: '11:00AM',
       },
       {
-        name: 'Leader: Sander Gansen (NFT Tallinn)',
-        description: 'Panel discussion: Is a DAO just a trend?',
+        name: '--',
+        description: 'e-Estonia & Government stack (Open Source Stack)',
         start: '11:00AM',
+        end: '11:15AM',
+      },
+      {
+        name: '--',
+        description:
+          'Investments in Internet Native Backoffice / Internet First Innovation. ',
+        start: '11:15AM',
         end: '11:30AM',
+      },
+      {
+        name: '--',
+        description: 'Challenges like KYC, AML (scams) & GDPR? Legal needs.',
+        start: '11:30AM',
+        end: '11:45AM',
       },
       {
         name: 'Break',
         description: null,
-        start: '11:30AM',
+        start: '11:45AM',
         end: '12:00AM',
       },
     ],
   },
   {
-    date: '11:40 II DAO REGULATION',
+    date: '11:40 II TRANSPARENT GOVERNANCE',
     dateTime: '2023-03-28',
     summary:
-      'We will discuss what is the current regulatory landscape for DAOs and what are the future plans.',
+      '--',
     timeSlots: [
       {
-        name: 'Magnus Jones. EY',
-        description: 'DAO Regulations today.',
-        start: '11:40AM',
-        end: '11:55AM',
+        name: '--',
+        description: 'Basics of governance.',
+        start: '12:00AM',
+        end: '12:15AM',
       },
       {
-        name: 'Ian Lee. Syndicate DAO',
-        description:
-          'How can DAOs be legally operated (the case of investment DAOs)?',
-        start: '11:55AM',
-        end: '12:10PM',
-      },
-      {
-        name: 'Sandra Särav. Ministry of Economic Affairs and Communications.',
-        description:
-          'Is the Estonian government ready enough to implement automated systems?',
-        start: '12:10PM',
-        end: '12:25PM',
-      },
-      {
-        name: 'Innar Liiv, Tanel Kerikmäe, Ahto Buldas, Tannel Tammet?',
-        description:
-          'Academic approach to blockchain technologies and legal aspects involving it.',
-        start: '12:25PM',
-        end: '1:00PM',
+        name: '--',
+        description: 'Is DAO really decentralized? ',
+        start: '12:15AM',
+        end: '13:00PM',
       },
       {
         name: 'Lunch',
@@ -128,28 +109,80 @@ const schedule = [
     ],
   },
   {
-    date: '14.00 III CURRENT CHALLENGES',
+    date: '14.00 III DECENTRALIZED OPERATIONS',
     dateTime: '2023-03-28',
     summary:
-      "We discuss what are the fronts in which DAO's have the biggest challenges.",
+      "--",
     timeSlots: [
       {
-        name: 'Julia Ront',
-        description: 'KYC & AML challenges. ',
+        name: '--',
+        description: 'What entails running a DAO?',
         start: '02:00PM',
-        end: '02:20PM',
+        end: '02:15PM',
       },
       {
-        name: 'Kaido Künnapas?',
-        description: 'DAO taxes & auditing',
-        start: '02:20PM',
-        end: '02:40PM',
+        name: '--',
+        description: 'Problems & challenges in operations',
+        start: '02:15PM',
+        end: '03:00PM',
+      },
+    ],
+  },
+  {
+    date: '15.00 IV LEGAL STRUCTURES',
+    dateTime: '2023-03-28',
+    summary:
+      "--",
+    timeSlots: [
+      {
+        name: '--',
+        description: 'General regulations & MiCA',
+        start: '03:00PM',
+        end: '03:30PM',
       },
       {
-        name: 'Idir Laurent',
-        description: 'Data privacy issue in open-source code & members',
-        start: '02:40PM',
-        end: '02:40PM',
+        name: '--',
+        description: 'The necessity of legal wrappers',
+        start: '03:30PM',
+        end: '03:45PM',
+      },
+      {
+        name: '--',
+        description: 'Estonian readiness for a DAO',
+        start: '03:45PM',
+        end: '04:15PM',
+      },
+      {
+        name: '--',
+        description: 'COFFEE & cold snacks BREAK',
+        start: '04:15PM',
+        end: '04:45PM',
+      },
+    ],
+  },
+  {
+    date: '16.45 V THE RISE OF INTERNET NATIVE ORGANIZATIONS',
+    dateTime: '2023-03-28',
+    summary:
+      "--",
+    timeSlots: [
+      {
+        name: '--',
+        description: 'government organization ',
+        start: '04:45PM',
+        end: '05:00PM',
+      },
+      {
+        name: '--',
+        description: 'The future of companies & collaborations.',
+        start: '05:00PM',
+        end: '05:30PM',
+      },
+      {
+        name: '--',
+        description: 'CLOSING ',
+        start: '05:30PM',
+        end: '05:45PM',
       },
     ],
   },
