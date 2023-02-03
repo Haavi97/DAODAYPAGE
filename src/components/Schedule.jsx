@@ -45,7 +45,7 @@ const schedule = [
         name: '--',
         description: 'OPENING & INTRO',
         start: '10:00AM',
-        end: '10:00AM',
+        end: '10:30AM',
       },
       {
         name: '--',
