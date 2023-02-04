@@ -23,15 +23,17 @@ export function Hero() {
       <Container className="relative">
         <div className="mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
           <h1 className="font-display text-5xl font-bold tracking-tighter text-blue-600 sm:text-7xl">
-            <span className="sr-only">DAODay - </span>A Full Day Of Dedicated
-            Foray Into The DAO
+            <span className="sr-only">DAODay - </span>The Future Of Community,
+            Coordination and Collaboration
           </h1>
           <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-blue-900">
             <p>
-              Join us for a day of thought-provoking presentations, engaging
-              conversations and valuable networking opportunities with leading
-              movers and shakers in the DAO (community-led organizations with no
-              central leadership) community.
+              Prepare for a full day of expert-led presentations and panel
+              discussions that will provide you with an in-depth introduction to
+              the internet-first organizational structure. This autonomous model
+              is reshaping how people work together, share profits and make
+              decisions in ways that traditional organizations can't. The impact
+              on global society could be tremendous.
             </p>
             <p>
               The event is being organized by the non-profit{' '}
