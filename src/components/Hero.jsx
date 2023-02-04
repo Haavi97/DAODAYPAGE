@@ -32,7 +32,7 @@ export function Hero() {
               discussions that will provide you with an in-depth introduction to
               the internet-first organizational structure. This autonomous model
               is reshaping how people work together, share profits and make
-              decisions in ways that traditional organizations can't. The impact
+              decisions in ways that traditional organizations can’t. The impact
               on global society could be tremendous.
             </p>
             <p>
