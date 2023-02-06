@@ -9,6 +9,8 @@ import { Schedule } from '@/components/Schedule'
 import { Speakers } from '@/components/Speakers'
 import { Sponsors } from '@/components/Sponsors'
 
+import metaImage from '@/images/dao-day-estonia.png'
+
 export default function Home() {
   return (
     <>
@@ -23,7 +25,7 @@ export default function Home() {
           property="og:description"
           content="a full day of expert-led presentations and panel discussions that will provide you with an in-depth introduction to the internet-first organizational structure."
         />
-        <meta property="og:image" content="/images/dao-day-estonia.png>" />
+        <meta property="og:image" content={metaImage} />
       </Head>
       <Header />
       {/* <NavBubble /> */}

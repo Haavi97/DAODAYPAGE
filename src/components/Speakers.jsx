@@ -125,12 +125,12 @@ const days = [
         institution: 'TalTech',
         image: tiitLandImage,
       },
-      {
-        name: 'Vattan PS',
-        role: 'Founder and CEO',
-        institution: 'Founderly',
-        image: vattanPsImage,
-      },
+      // {
+      //   name: 'Vattan PS',
+      //   role: 'Founder and CEO',
+      //   institution: 'Founderly',
+      //   image: vattanPsImage,
+      // },
       {
         name: 'Javier Ortin',
         role: 'Board member',
