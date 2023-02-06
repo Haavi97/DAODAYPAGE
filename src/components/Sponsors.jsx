@@ -14,7 +14,7 @@ import logoChainalysis from '@/images/logos/chainalysis.png'
 // import logoFounderly from '@/images/logos/founderly-logo.png'
 // import logoEFT from '@/images/logos/EasyFeedback-logo.png'
 import logoFounderly from '@/images/logos/founderly.png'
-import logoEFT from '@/images/logos/easyFeedback.png'
+import logoEFT from '@/images/logos/easyfeedback.png'
 
 const sponsors = [
   { name: 'INO', logo: logoINO },
