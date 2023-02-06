@@ -6,18 +6,23 @@ import clsx from 'clsx'
 import { Container } from '@/components/Container'
 import { DiamondIcon } from '@/components/DiamondIcon'
 import astraTikasImage from '@/images/avatars/astra-tikas.jpg'
-// import eyalEithcowichImage from '@/images/avatars/eyal-eithcowich.jpg'
 import dimaSarleImage from '@/images/avatars/dima-sarle.jpg'
+import eyalEithcowichImage from '@/images/avatars/eyal-eithcowich.jpg'
 import ianLeeImage from '@/images/avatars/ian-lee.jpg'
 import idirLaurentImage from '@/images/avatars/idir-laurent.jpg'
 import innarLiivImage from '@/images/avatars/innar-liiv.jpg'
 import javierOrtinImage from '@/images/avatars/javier-ortin.jpg'
-// import juliaRontImage from '@/images/avatars/julia-ront.jpg'
-// import magnusJonesImage from '@/images/avatars/magnus-jones.jpg'
+import johnnyChinImage from '@/images/avatars/johnny-chin.jpg'
+import juliaRontImage from '@/images/avatars/julia-ront.jpg'
+import kevinWerbachImage from '@/images/avatars/kevin-werbach.jpg'
+import magnusJonesImage from '@/images/avatars/magnus-jones.jpg'
+import mariliisKukkImage from '@/images/avatars/mariliis-kukk.jpg'
+import paulBrodyImage from '@/images/avatars/paul-brody.jpg'
 import polinaBrottierImage from '@/images/avatars/polina-brottier.jpg'
 import priitLattImage from '@/images/avatars/priit-latt.jpg'
 import sanderGansenImage from '@/images/avatars/sander-gansen.jpg'
 import sandraSaravImage from '@/images/avatars/sandra-sarav.jpg'
+import stenverJerkkuImage from '@/images/avatars/stenver-jerkku.jpg'
 import tanelKerikmaeImage from '@/images/avatars/tanel-kerikmae.jpg'
 import teaKookmaImage from '@/images/avatars/tea-kookma.jpg'
 import tiitLandImage from '@/images/avatars/tiit-land.jpg'
@@ -30,154 +35,133 @@ const days = [
     dateTime: '2022-04-04',
     speakers: [
       {
+        name: 'Paul R. Brody',
+        role: 'Global Blockchain Leader',
+        institution: 'EY',
+        image: paulBrodyImage,
+      },
+      {
+        name: 'Kevin Werbach',
+        role: 'Professor of Legal Studies & Ethics',
+        institution: 'The Wharton School',
+        image: kevinWerbachImage,
+      },
+      {
+        name: 'Eyal Eithcowich',
+        role: 'CEO',
+        institution: 'DeepDAO',
+        image: eyalEithcowichImage,
+      },
+      {
+        name: 'Johnny Chin',
+        role: 'Founder & Chief Growth Officer',
+        institution: 'Origami',
+        image: johnnyChinImage,
+      },
+      {
         name: 'Astra Tikas',
-        role: 'INO co-founder and CEO',
+        role: 'Board member',
+        institution: 'INO',
         image: astraTikasImage,
       },
       {
-        name: 'Priit Lätt',
-        role: 'PWCL',
-        image: priitLattImage,
-      },
-      {
-        name: 'Sander Gansen',
-        role: 'NFT Tallinn Organizer',
-        image: sanderGansenImage,
-      },
-      {
-        name: 'Tanel Kerikmäe',
-        role: 'TalTech Legal Lab Chief Strategist',
-        image: tanelKerikmaeImage,
-      },
-      {
         name: 'Tea Kookma',
-        role: 'TalTech Legal Lab CEO',
+        role: 'Lawyer & CEO',
+        institution: 'TalTech Legal Lab',
         image: teaKookmaImage,
       },
       {
-        name: 'Vattan PS',
-        role: 'Founderly founder and CEO',
-        image: vattanPsImage,
-      },
-      {
         name: 'Sandra Särav',
-        role: 'Deputy Secretary General for Business and Consumer Environment; Ministry of Economic Affairs and Communications.',
+        role: 'Deputy Secretary General for Business and Consumer Environment',
+        institution:
+          'Estonian Ministry of Economic Affairs and Communications.',
         image: sandraSaravImage,
       },
       {
+        name: 'Mari-Liis Kukk',
+        role: 'Head of Innovation Department',
+        institution: 'Estonian Financial Supervision and Resolution Authority',
+        image: mariliisKukkImage,
+      },
+      {
+        name: 'Priit Lätt',
+        role: 'Partner',
+        institution: 'PwC Legal Baltics',
+        image: priitLattImage,
+      },
+      {
+        name: 'Stenver Jerkku',
+        role: 'Founder & CEO',
+        institution: 'Solid World DAO',
+        image: stenverJerkkuImage,
+      },
+      {
+        name: 'Sander Gansen',
+        role: 'Co-Founder & The Ape',
+        institution: 'NFT Tallinn',
+        image: sanderGansenImage,
+      },
+      {
+        name: 'Dima Sarle',
+        role: 'Founder and CEO',
+        institution: 'Earthians',
+        image: dimaSarleImage,
+      },
+      {
+        name: 'Tanel Kerikmäe',
+        role: 'Director',
+        institution: 'Tallinn Law School',
+        image: tanelKerikmaeImage,
+      },
+      {
+        name: 'Dr. Idir Laurent Khiar',
+        role: 'Privacy & ICT Law',
+        institution: 'PEAK7',
+        image: idirLaurentImage,
+      },
+      {
         name: 'Tiit Land',
-        role: 'TalTech Rector',
+        role: 'Rector',
+        institution: 'TalTech',
         image: tiitLandImage,
       },
       {
-        name: 'Ian Lee',
-        role: 'Syndicate DAO founder and CEO',
-        image: ianLeeImage,
+        name: 'Vattan PS',
+        role: 'Founder and CEO',
+        institution: 'Founderly',
+        image: vattanPsImage,
       },
+      {
+        name: 'Javier Ortin',
+        role: 'Board member',
+        institution: 'INO',
+        image: javierOrtinImage,
+      },
+      // {
+      //   name: 'Ian Lee',
+      //   role: 'Syndicate DAO founder and CEO',
+      //   image: ianLeeImage,
+      // },
       // {
       //   name: 'Magnus Jones',
       //   role: 'EY',
       //   image: magnusJonesImage,
       // },
-      {
-        name: 'Idir Laurent',
-        role: 'DPO DPD',
-        image: idirLaurentImage,
-      },
       // {
-      //   name: 'Eyal Eithcowich',
-      //   role: 'DeepDAO CEO',
-      //   image: eyalEithcowichImage,
+      //   name: 'Innar Liiv',
+      //   role: 'TalTech PhD',
+      //   image: innarLiivImage,
       // },
-      {
-        name: 'Innar Liiv',
-        role: 'TalTech PhD',
-        image: innarLiivImage,
-      },
-      {
-        name: 'Polina Brottier',
-        role: 'Binance Head of Marketing for the Baltics',
-        image: polinaBrottierImage,
-      },
+      // {
+      //   name: 'Polina Brottier',
+      //   role: 'Binance Head of Marketing for the Baltics',
+      //   image: polinaBrottierImage,
+      // },
       // {
       //   name: 'Julia Ront',
       //   role: 'Vespia co-founder and CEO',
       //   image: juliaRontImage,
       // },
-      {
-        name: 'Javier Ortin',
-        role: 'INO co-founder and CTO',
-        image: javierOrtinImage,
-      },
-      {
-        name: 'Dima Sarle',
-        role: 'Earthians founder and CEO',
-        image: dimaSarleImage,
-      },
-    ],
-  },
-  {
-    name: 'Speakers & Workshops',
-    date: 'April 5',
-    dateTime: '2022-04-05',
-    speakers: [
-      {
-        name: 'Priit Lätt',
-        role: 'PWCL',
-        image: priitLattImage,
-      },
-      {
-        name: 'Sander Gansen',
-        role: 'NFT Tallinn Organizer',
-        image: sanderGansenImage,
-      },
-      {
-        name: 'Sandra Särav',
-        role: 'Deputy Secretary General for Business and Consumer Environment; Ministry of Economic Affairs and Communications.',
-        image: sandraSaravImage,
-      },
-      {
-        name: 'Tiit Land',
-        role: 'TalTech Rector',
-        image: tiitLandImage,
-      },
-      {
-        name: 'Ian Lee',
-        role: 'Syndicate DAO founder and CEO',
-        image: ianLeeImage,
-      },
-    ],
-  },
-  {
-    name: 'Interviews',
-    date: 'April 6',
-    dateTime: '2022-04-06',
-    speakers: [
-      {
-        name: 'Priit Lätt',
-        role: 'PWCL',
-        image: priitLattImage,
-      },
-      {
-        name: 'Sander Gansen',
-        role: 'NFT Tallinn Organizer',
-        image: sanderGansenImage,
-      },
-      {
-        name: 'Sandra Särav',
-        role: 'Deputy Secretary General for Business and Consumer Environment; Ministry of Economic Affairs and Communications.',
-        image: sandraSaravImage,
-      },
-      {
-        name: 'Tiit Land',
-        role: 'TalTech Rector',
-        image: tiitLandImage,
-      },
-      {
-        name: 'Ian Lee',
-        role: 'Syndicate DAO founder and CEO',
-        image: ianLeeImage,
-      },
     ],
   },
 ]
@@ -281,7 +265,7 @@ export function Speakers() {
                       {speaker.name}
                     </h3>
                     <p className="mt-1 text-base tracking-tight text-slate-500">
-                      {speaker.role}
+                      {speaker.role}, <strong>{speaker.institution}</strong>
                     </p>
                   </div>
                 ))}

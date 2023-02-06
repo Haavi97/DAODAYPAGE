@@ -13,14 +13,20 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>DAO Day - A Full Day Of Dedicated Foray Into The DAO</title>
+        <title>DAO DAY Estonia - March 28, 2023</title>
         <meta
           name="description"
-          content="We'll delve into some complex legal and tooling questions surrounding DAOs and discuss Estonia's legal framework for creating and managing them—and plenty more—at this one-day conference."
+          content="A full day of expert-led presentations and panel discussions that will provide you with an in-depth introduction to the internet-first organizational structure."
         />
+        <meta property="og:title" content="DAO DAY Estonia - March 28, 2023" />
+        <meta
+          property="og:description"
+          content="a full day of expert-led presentations and panel discussions that will provide you with an in-depth introduction to the internet-first organizational structure."
+        />
+        <meta property="og:image" content="/images/dao-day-estonia.png>" />
       </Head>
       <Header />
-      <NavBubble />
+      {/* <NavBubble /> */}
       <main>
         <Hero />
         <Speakers />

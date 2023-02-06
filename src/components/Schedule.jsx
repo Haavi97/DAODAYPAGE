@@ -356,6 +356,12 @@ function ScheduleStatic() {
         <section key={day.dateTime}>
           <DaySummary day={day} />
           <TimeSlots day={day} className="mt-10" />
+          <p className="mt-4 tracking-tight text-blue-900">
+            We’re building out a strong agenda and we’ll update here in the
+            coming weeks. In the meantime, you can get a sense of what to expect
+            at DAO Day 2023 by looking at the categories and speakers listed
+            above.
+          </p>
         </section>
       ))}
     </div>
