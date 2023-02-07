@@ -40,8 +40,7 @@ export function Hero() {
               <strong>Internet Native Organization (INO)</strong>, which is
               working to introduce a tooling and legal Sandbox that will allow
               it to test Estonia’s legal framework for internet-first
-              organizations in collaboration with TalTech Legal Lab and
-              eResidency.
+              organizations in collaboration with TalTech Legal.
             </p>
           </div>
           <Button
