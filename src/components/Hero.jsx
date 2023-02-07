@@ -54,7 +54,7 @@ export function Hero() {
             {[
               ['Speakers', '30'],
               ['People Attending', '500+'],
-              ['Venue', 'Tallinn'],
+              // ['Venue', 'Tallinn'],
               ['Location', 'Tallinn, Estonia'],
             ].map(([name, value]) => (
               <div key={name}>
