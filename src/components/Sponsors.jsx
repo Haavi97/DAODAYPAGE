@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Container } from '@/components/Container'
 import logoINO from '@/images/logos/ino.png'
 import logoLegalLab from '@/images/logos/taltech-legal-lab.png'
-// import logoEResidency from '@/images/logos/eresidency.png'
+import logoEResidency from '@/images/logos/eresidency.png'
 import logoChainalysis from '@/images/logos/chainalysis.png'
 // import logoINO from '@/images/logos/logoINO2.png'
 // import logoLegalLab from '@/images/logos/TalTechLegalLabHorizontal.png'
@@ -19,7 +19,7 @@ import logoEFT from '@/images/logos/easyfeedback.png'
 const sponsors = [
   { name: 'INO', logo: logoINO },
   { name: 'LegalLab', logo: logoLegalLab },
-  // { name: 'EResidency', logo: logoEResidency },
+  { name: 'EResidency', logo: logoEResidency },
   { name: 'Chainalysis', logo: logoChainalysis },
   // { name: 'Unigrid Foundation', logo: logoUnigrid },
   // { name: 'Delfi', logo: logoDelfi },
