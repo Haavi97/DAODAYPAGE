@@ -64,19 +64,19 @@ const days = [
         institution: 'Internet Native Organization',
         image: astraTikasImage,
       },
-      // {
-      //   name: 'Tea Kookma',
-      //   role: 'Lawyer & CEO',
-      //   institution: 'TalTech Legal Lab',
-      //   image: teaKookmaImage,
-      // },
-      // {
-      //   name: 'Sandra Särav',
-      //   role: 'Deputy Secretary General for Business and Consumer Environment',
-      //   institution:
-      //     'Estonian Ministry of Economic Affairs and Communications.',
-      //   image: sandraSaravImage,
-      // },
+      {
+        name: 'Tea Kookma',
+        role: 'Lawyer & CEO',
+        institution: 'TalTech Legal Lab',
+        image: teaKookmaImage,
+      },
+      {
+        name: 'Sandra Särav',
+        role: 'Deputy Secretary General for Business and Consumer Environment',
+        institution:
+          'Estonian Ministry of Economic Affairs and Communications.',
+        image: sandraSaravImage,
+      },
       {
         name: 'Mari-Liis Kukk',
         role: 'Head of Innovation Department',
@@ -107,24 +107,24 @@ const days = [
         institution: 'Earthians',
         image: dimaSarleImage,
       },
-      // {
-      //   name: 'Tanel Kerikmäe',
-      //   role: 'Director',
-      //   institution: 'Tallinn Law School',
-      //   image: tanelKerikmaeImage,
-      // },
+      {
+        name: 'Tanel Kerikmäe',
+        role: 'Director',
+        institution: 'Tallinn Law School',
+        image: tanelKerikmaeImage,
+      },
       {
         name: 'Dr. Idir Laurent Khiar',
         role: 'Privacy & ICT Law',
         institution: 'PEAK7',
         image: idirLaurentImage,
       },
-      // {
-      //   name: 'Tiit Land',
-      //   role: 'Rector',
-      //   institution: 'TalTech',
-      //   image: tiitLandImage,
-      // },
+      {
+        name: 'Tiit Land',
+        role: 'Rector',
+        institution: 'TalTech',
+        image: tiitLandImage,
+      },
       // {
       //   name: 'Vattan PS',
       //   role: 'Founder and CEO',
