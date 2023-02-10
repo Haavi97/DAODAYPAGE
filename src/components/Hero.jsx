@@ -22,10 +22,29 @@ export function Hero() {
       </div>
       <Container className="relative">
         <div className="mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
-          <h1 className="font-display text-5xl font-bold tracking-tighter text-blue-600 sm:text-7xl">
-            <span className="sr-only">DAO Day, Estonia </span>The Future Of
-            Community, Coordination & Collaboration
+          <strong class="mb-2 block text-2xl font-medium tracking-tighter">
+            A Conference Exploring
+          </strong>
+          <h1 class="font-display text-5xl font-bold tracking-tighter text-blue-600 sm:text-7xl">
+            The Future Of Community, Coordination & Collaboration
           </h1>
+          <dl className="my-10 grid grid-cols-2 gap-y-6 gap-x-10 sm:mt-16 sm:gap-y-10 sm:gap-x-16 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
+            {[
+              ['Date', 'March 28'],
+              ['Speakers', '30'],
+              ['People Attending', '500+'],
+              // ['Venue', 'Tallinn'],
+              // ['Location', 'Tallinn, Estonia'],
+              ['Target groups', 'Legal, Tech & Academics'],
+            ].map(([name, value]) => (
+              <div key={name}>
+                <dt className="font-mono text-sm text-blue-600">{name}</dt>
+                <dd className="mt-0.5 text-xl font-semibold tracking-tight text-blue-900">
+                  {value}
+                </dd>
+              </div>
+            ))}
+          </dl>
           <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-blue-900">
             <p>
               Prepare for a full day of expert-led presentations and panel
@@ -40,7 +59,7 @@ export function Hero() {
               <strong>Internet Native Organization (INO)</strong>, which is
               working to introduce a tooling and legal Sandbox that will allow
               it to test Estonia’s legal framework for internet-first
-              organizations in collaboration with TalTech Legal.
+              organizations.
             </p>
           </div>
           <Button
@@ -49,21 +68,6 @@ export function Hero() {
           >
             Get your tickets
           </Button>
-          <dl className="mt-10 grid grid-cols-2 gap-y-6 gap-x-10 sm:mt-16 sm:gap-y-10 sm:gap-x-16 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
-            {[
-              ['Speakers', '30'],
-              ['People Attending', '500+'],
-              // ['Venue', 'Tallinn'],
-              ['Location', 'Tallinn, Estonia'],
-            ].map(([name, value]) => (
-              <div key={name}>
-                <dt className="font-mono text-sm text-blue-600">{name}</dt>
-                <dd className="mt-0.5 text-2xl font-semibold tracking-tight text-blue-900">
-                  {value}
-                </dd>
-              </div>
-            ))}
-          </dl>
         </div>
       </Container>
     </div>
