@@ -22,10 +22,10 @@ export function Hero() {
       </div>
       <Container className="relative">
         <div className="mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
-          <strong class="mb-2 block text-2xl font-medium tracking-tighter">
+          <strong class="mb-2 block text-2xl font-medium tracking-tighter text-blue-600">
             A Conference Exploring
           </strong>
-          <h1 class="font-display text-5xl font-bold tracking-tighter text-blue-600 sm:text-7xl">
+          <h1 class="font-display text-5xl font-bold tracking-tighter text-blue-600 sm:text-5xl">
             The Future Of Community, Coordination & Collaboration
           </h1>
           <dl className="my-10 grid grid-cols-2 gap-y-6 gap-x-10 sm:mt-16 sm:gap-y-10 sm:gap-x-16 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
@@ -45,7 +45,7 @@ export function Hero() {
               </div>
             ))}
           </dl>
-          <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-blue-900">
+          <div className="mt-6 space-y-6 font-display text-xl tracking-tight text-blue-900">
             <p>
               Prepare for a full day of expert-led presentations and panel
               discussions that will provide you with an in-depth introduction to

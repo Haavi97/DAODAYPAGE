@@ -2,7 +2,7 @@ export function Logo(props) {
   return (
     <svg
       aria-hidden="true"
-      class="h-16 w-auto"
+      class="h-20 w-auto"
       viewBox="0 0 1303 550"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

@@ -12,10 +12,10 @@ export function Header() {
         </div>
         <div className="order-first -mx-4 flex flex-auto basis-full overflow-x-auto whitespace-nowrap border-b border-blue-600/10 py-4 font-mono text-sm text-blue-600 sm:-mx-6 lg:order-none lg:mx-0 lg:basis-auto lg:border-0 lg:py-0">
           <div class="mx-auto flex items-center gap-6 px-6">
-            <a class="text-sm text-blue-600 hover:text-blue-900" href="#">
+            <a class="text-sm text-blue-600 hover:text-blue-900" href="https://info.internetnative.org/dd-sponsors">
               Be a Sponsor
             </a>
-            <a class="text-sm text-blue-600 hover:text-blue-900" href="#">
+            <a class="text-sm text-blue-600 hover:text-blue-900" href="https://info.internetnative.org/dd-volunteers">
               Apply to Volunteer
             </a>
           </div>
