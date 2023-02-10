@@ -22,7 +22,7 @@ export function Hero() {
       </div>
       <Container className="relative">
         <div className="mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
-          <strong class="mb-2 block text-2xl font-medium tracking-tighter text-blue-600">
+          <strong class="mb-2 block text-xl font-medium tracking-tighter text-blue-600">
             A Conference Exploring
           </strong>
           <h1 class="font-display text-5xl font-bold tracking-tighter text-blue-600 sm:text-5xl">
