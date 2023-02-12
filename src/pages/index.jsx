@@ -22,7 +22,7 @@ export default function Home() {
         <meta property="og:title" content="DAO DAY Estonia - March 28, 2023" />
         <meta
           property="og:description"
-          content="a full day of expert-led presentations and panel discussions that will provide you with an in-depth introduction to the internet-first organizational structure."
+          content="A full day of expert-led presentations and panel discussions that will provide you with an in-depth introduction to the internet-first organizational structure."
         />
         <meta property="og:image" content="/dao-day-estonia.png" />
       </Head>
