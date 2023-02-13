@@ -15,6 +15,7 @@ export default function Home() {
       <Head>
         <title>DAO DAY Estonia - March 28, 2023</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="canonical" href="https://daoday.ee/" />
         <meta
           name="description"
           content="A full day of expert-led presentations and panel discussions that will provide you with an in-depth introduction to the internet-first organizational structure."
@@ -25,6 +26,7 @@ export default function Home() {
           content="A full day of expert-led presentations and panel discussions that will provide you with an in-depth introduction to the internet-first organizational structure."
         />
         <meta property="og:image" content="/dao-day-estonia.png" />
+
       </Head>
       <Header />
       {/* <NavBubble /> */}
