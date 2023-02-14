@@ -61,7 +61,7 @@ const days = [
       },
       {
         name: 'Astra Tikas',
-        role: 'Founding Board member',
+        role: 'Founding Board Member',
         institution: 'Internet Native Organization',
         image: astraTikasImage,
       },
@@ -140,7 +140,7 @@ const days = [
       // },
       {
         name: 'Javier Ortin',
-        role: 'Founding Board member',
+        role: 'Founding Board Member',
         institution: 'Internet Native Organization',
         image: javierOrtinImage,
       },
