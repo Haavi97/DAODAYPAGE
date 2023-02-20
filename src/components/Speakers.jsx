@@ -26,6 +26,7 @@ import sandraSaravImage from '@/images/avatars/sandra-sarav.jpg'
 import stenverJerkkuImage from '@/images/avatars/stenver-jerkku.jpg'
 import tanelKerikmaeImage from '@/images/avatars/tanel-kerikmae.jpg'
 import teaKookmaImage from '@/images/avatars/tea-kookma.jpg'
+import thomasMetzlerImage from '@/images/avatars/tanel-kerikmae.jpg'
 import tiitLandImage from '@/images/avatars/tiit-land.jpg'
 import vattanPsImage from '@/images/avatars/vattan-ps.jpg'
 
@@ -41,12 +42,12 @@ const days = [
         institution: 'EY',
         image: paulBrodyImage,
       },
-      {
-        name: 'Kevin Werbach',
-        role: 'Professor of Legal Studies & Ethics',
-        institution: 'The Wharton School',
-        image: kevinWerbachImage,
-      },
+      // {
+      //   name: 'Kevin Werbach',
+      //   role: 'Professor of Legal Studies & Ethics',
+      //   institution: 'The Wharton School',
+      //   image: kevinWerbachImage,
+      // },
       {
         name: 'Eyal Eithcowich',
         role: 'CEO',
@@ -89,6 +90,12 @@ const days = [
         role: 'Partner',
         institution: 'PwC Legal Baltics',
         image: priitLattImage,
+      },
+      {
+        name: 'Thomas Metzler',
+        role: 'Professor of Entrepreneurship, Marketing & Innovation // Entrepreneur',
+        institution: 'FHV.at / WalletFrens.xyz / MadeMeThink.xyz',
+        image: thomasMetzlerImage,
       },
       {
         name: 'Ott Velsberg',
