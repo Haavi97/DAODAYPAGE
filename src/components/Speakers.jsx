@@ -26,7 +26,7 @@ import sandraSaravImage from '@/images/avatars/sandra-sarav.jpg'
 import stenverJerkkuImage from '@/images/avatars/stenver-jerkku.jpg'
 import tanelKerikmaeImage from '@/images/avatars/tanel-kerikmae.jpg'
 import teaKookmaImage from '@/images/avatars/tea-kookma.jpg'
-import thomasMetzlerImage from '@/images/avatars/tanel-kerikmae.jpg'
+import thomasMetzlerImage from '@/images/avatars/thomas-metzler.jpg'
 import tiitLandImage from '@/images/avatars/tiit-land.jpg'
 import vattanPsImage from '@/images/avatars/vattan-ps.jpg'
 
