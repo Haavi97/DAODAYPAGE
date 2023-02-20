@@ -100,8 +100,8 @@ const days = [
       // },
       {
         name: 'Kaido Künnapas',
-        role: 'Tax partner / senior lecturer',
-        institution: 'Sorainen Law Firm / TalTech Law School',
+        role: 'Partner',
+        institution: 'Sorainen Law Firm',
         image: kaidoKunnapasImage,
       },
       {
