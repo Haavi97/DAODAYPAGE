@@ -14,6 +14,7 @@ import innarLiivImage from '@/images/avatars/innar-liiv.jpg'
 import javierOrtinImage from '@/images/avatars/javier-ortin.jpg'
 import johnnyChinImage from '@/images/avatars/johnny-chin.jpg'
 import juliaRontImage from '@/images/avatars/julia-ront.jpg'
+import kaidoKunnapasImage from '@/images/avatars/kaido-kunnapas.jpg'
 import kevinWerbachImage from '@/images/avatars/kevin-werbach.jpg'
 import magnusJonesImage from '@/images/avatars/magnus-jones.jpg'
 import mariliisKukkImage from '@/images/avatars/mariliis-kukk.jpg'
@@ -91,11 +92,17 @@ const days = [
         institution: 'PwC Legal Baltics',
         image: priitLattImage,
       },
+      // {
+      //   name: 'Thomas Metzler',
+      //   role: 'Professor of Entrepreneurship, Marketing & Innovation // Entrepreneur',
+      //   institution: 'FHV.at / WalletFrens.xyz / MadeMeThink.xyz',
+      //   image: thomasMetzlerImage,
+      // },
       {
-        name: 'Thomas Metzler',
-        role: 'Professor of Entrepreneurship, Marketing & Innovation // Entrepreneur',
-        institution: 'FHV.at / WalletFrens.xyz / MadeMeThink.xyz',
-        image: thomasMetzlerImage,
+        name: 'Kaido Künnapas',
+        role: 'Tax partner / senior lecturer',
+        institution: 'Sorainen Law Firm / TalTech Law School',
+        image: kaidoKunnapasImage,
       },
       {
         name: 'Ott Velsberg',
