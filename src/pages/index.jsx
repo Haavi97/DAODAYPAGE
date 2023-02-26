@@ -36,7 +36,7 @@ export default function Home() {
         <Speakers />
         <Schedule />
         <Sponsors />
-        <Newsletter />
+        {/* <Newsletter /> */}
       </main>
       <Footer />
       <Timer />
