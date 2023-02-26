@@ -5,184 +5,103 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import { DiamondIcon } from '@/components/DiamondIcon'
-import astraTikasImage from '@/images/avatars/astra-tikas.jpg'
-import dimaSarleImage from '@/images/avatars/dima-sarle.jpg'
-import eyalEithcowichImage from '@/images/avatars/eyal-eithcowich.jpg'
-import ianLeeImage from '@/images/avatars/ian-lee.jpg'
-import idirLaurentImage from '@/images/avatars/idir-laurent.jpg'
-import innarLiivImage from '@/images/avatars/innar-liiv.jpg'
-import javierOrtinImage from '@/images/avatars/javier-ortin.jpg'
-import johnnyChinImage from '@/images/avatars/johnny-chin.jpg'
-import juliaRontImage from '@/images/avatars/julia-ront.jpg'
-import kaidoKunnapasImage from '@/images/avatars/kaido-kunnapas.jpg'
-import kevinWerbachImage from '@/images/avatars/kevin-werbach.jpg'
-import magnusJonesImage from '@/images/avatars/magnus-jones.jpg'
-import mariliisKukkImage from '@/images/avatars/mariliis-kukk.jpg'
-import ottVelsbergImage from '@/images/avatars/ott-velsberg.jpg'
-import paulBrodyImage from '@/images/avatars/paul-brody.jpg'
-import polinaBrottierImage from '@/images/avatars/polina-brottier.jpg'
-import priitLattImage from '@/images/avatars/priit-latt.jpg'
-import sanderGansenImage from '@/images/avatars/sander-gansen.jpg'
-import sandraSaravImage from '@/images/avatars/sandra-sarav.jpg'
-import stenverJerkkuImage from '@/images/avatars/stenver-jerkku.jpg'
-import tanelKerikmaeImage from '@/images/avatars/tanel-kerikmae.jpg'
-import teaKookmaImage from '@/images/avatars/tea-kookma.jpg'
-import thomasMetzlerImage from '@/images/avatars/thomas-metzler.jpg'
-import tiitLandImage from '@/images/avatars/tiit-land.jpg'
-import vattanPsImage from '@/images/avatars/vattan-ps.jpg'
+import paulBImage from '@/images/avatars/paul-brody-ey.jpg'
+import aidenS from '@/images/avatars/aiden-slavin-wef.jpg'
+import eyalEImage from '@/images/avatars/eyal-eithcowich-deepdao.jpg'
+import kevinO from '@/images/avatars/kevin-owocki-gitcoin.jpg'
+import johnnyC from '@/images/avatars/johnny-chin-origami.jpg'
+import connorS from '@/images/avatars/connor-spelliscy-drc.jpg'
+import priitL from '@/images/avatars/priit-laat-pwc.jpg'
+import kaidoK from '@/images/avatars/kaido-kunnapas-sorainen.jpg'
+import viljarK from '@/images/avatars/viljar-kahari-edau.jpg'
+import ottV from '@/images/avatars/ott-velsberg-mkm.jpg'
+import mariL from '@/images/avatars/mari-liis-kukk-fi.jpg'
+import astraT from '@/images/avatars/astra-tikas-ino.jpg'
+import stenverJ from '@/images/avatars/stenver-jerkku-swd.jpg'
+import dimaS from '@/images/avatars/dima-sarle-earthians.jpg'
+import idirL from '@/images/avatars/idir-laurent-khiar.jpg'
 
 const days = [
   {
-    name: 'Opening Day',
-    date: 'April 4',
-    dateTime: '2022-04-04',
+    name: 'DAO Day',
+    date: 'March 28',
+    dateTime: '2023-03-28',
     speakers: [
       {
         name: 'Paul R. Brody',
-        role: 'Global Blockchain Leader',
-        institution: 'EY',
-        image: paulBrodyImage,
+        role: 'Global Blockchain Leader, EY',
+        image: paulBImage,
       },
-      // {
-      //   name: 'Kevin Werbach',
-      //   role: 'Professor of Legal Studies & Ethics',
-      //   institution: 'The Wharton School',
-      //   image: kevinWerbachImage,
-      // },
+      {
+        name: 'Aiden Slavin',
+        role: 'CISA Project Lead, World Economic Forum',
+        image: aidenS,
+      },
       {
         name: 'Eyal Eithcowich',
-        role: 'CEO',
-        institution: 'DeepDAO',
-        image: eyalEithcowichImage,
+        role: 'CEO, DeepDAO',
+        image: eyalEImage,
+      },
+      {
+        name: 'Kevin Owocki',
+        role: 'Founder, GitCoin/Supermodular',
+        image: kevinO,
       },
       {
         name: 'Johnny Chin',
-        role: 'Founder & Chief Growth Officer',
-        institution: 'Origami',
-        image: johnnyChinImage,
+        role: 'Co-Founder, Origami',
+        image: johnnyC,
       },
       {
-        name: 'Astra Tikas',
-        role: 'Founding Board Member',
-        institution: 'Internet Native Organization',
-        image: astraTikasImage,
-      },
-      // {
-      //   name: 'Tea Kookma',
-      //   role: 'Lawyer & CEO',
-      //   institution: 'TalTech Legal Lab',
-      //   image: teaKookmaImage,
-      // },
-      // {
-      //   name: 'Sandra Särav',
-      //   role: 'Deputy Secretary General for Business and Consumer Environment',
-      //   institution:
-      //     'Estonian Ministry of Economic Affairs and Communications.',
-      //   image: sandraSaravImage,
-      // },
-      {
-        name: 'Mari-Liis Kukk',
-        role: 'Head of Innovation Department',
-        institution: 'Estonian Financial Supervision and Resolution Authority',
-        image: mariliisKukkImage,
+        name: 'Connor Spelliscy',
+        role: 'Executive Director, DAO Research Collective',
+        image: connorS,
       },
       {
         name: 'Priit Lätt',
-        role: 'Partner',
-        institution: 'PwC Legal Baltics',
-        image: priitLattImage,
+        role: 'Partner, PwC Legal Baltics',
+        image: priitL,
       },
-      // {
-      //   name: 'Thomas Metzler',
-      //   role: 'Professor of Entrepreneurship, Marketing & Innovation // Entrepreneur',
-      //   institution: 'FHV.at / WalletFrens.xyz / MadeMeThink.xyz',
-      //   image: thomasMetzlerImage,
-      // },
       {
         name: 'Kaido Künnapas',
-        role: 'Partner',
-        institution: 'Sorainen Law Firm',
-        image: kaidoKunnapasImage,
+        role: 'Partner, Sorainen Law Firm',
+        image: kaidoK,
+      },
+      {
+        name: 'Viljar Kähari',
+        role: 'Board Member, Estonian Digital Assets Union',
+        image: viljarK,
       },
       {
         name: 'Ott Velsberg',
-        role: 'Chief Data Officer',
-        institution: 'Estonian Government',
-        image: ottVelsbergImage,
+        role: 'Chief Data Officer, Republic of Estonia',
+        image: ottV,
+      },
+      {
+        name: 'Mari-Liis Kukk',
+        role: 'Head of Innovation Department, Estonian Financial Supervision and Resolution Authority',
+        image: mariL,
+      },
+      {
+        name: 'Astra Tikas',
+        role: 'Founding Board Member, Internet Native Organization',
+        image: astraT,
       },
       {
         name: 'Stenver Jerkku',
-        role: 'Founder & CEO',
-        institution: 'Solid World DAO',
-        image: stenverJerkkuImage,
+        role: 'Founder & CEO, Solid World DAO',
+        image: stenverJ,
       },
-      // {
-      //   name: 'Sander Gansen',
-      //   role: 'Co-Founder & The Ape',
-      //   institution: 'NFT Tallinn',
-      //   image: sanderGansenImage,
-      // },
       {
         name: 'Dima Sarle',
-        role: 'Founder and CEO',
-        institution: 'Earthians',
-        image: dimaSarleImage,
+        role: 'Founder and CEO, Earthians',
+        image: dimaS,
       },
-      // {
-      //   name: 'Tanel Kerikmäe',
-      //   role: 'Director',
-      //   institution: 'Tallinn Law School',
-      //   image: tanelKerikmaeImage,
-      // },
       {
         name: 'Dr. Idir Laurent Khiar',
-        role: 'Privacy & ICT Law',
-        institution: 'PEAK7',
-        image: idirLaurentImage,
+        role: 'Privacy & ICT Law, PEAK7',
+        image: idirL,
       },
-      // {
-      //   name: 'Tiit Land',
-      //   role: 'Rector',
-      //   institution: 'TalTech',
-      //   image: tiitLandImage,
-      // },
-      // {
-      //   name: 'Vattan PS',
-      //   role: 'Founder and CEO',
-      //   institution: 'Founderly',
-      //   image: vattanPsImage,
-      // },
-      {
-        name: 'Javier Ortin',
-        role: 'Founding Board Member',
-        institution: 'Internet Native Organization',
-        image: javierOrtinImage,
-      },
-      // {
-      //   name: 'Ian Lee',
-      //   role: 'Syndicate DAO founder and CEO',
-      //   image: ianLeeImage,
-      // },
-      // {
-      //   name: 'Magnus Jones',
-      //   role: 'EY',
-      //   image: magnusJonesImage,
-      // },
-      // {
-      //   name: 'Innar Liiv',
-      //   role: 'TalTech PhD',
-      //   image: innarLiivImage,
-      // },
-      // {
-      //   name: 'Polina Brottier',
-      //   role: 'Binance Head of Marketing for the Baltics',
-      //   image: polinaBrottierImage,
-      // },
-      // {
-      //   name: 'Julia Ront',
-      //   role: 'Vespia co-founder and CEO',
-      //   image: juliaRontImage,
-      // },
     ],
   },
 ]
@@ -239,24 +158,16 @@ export function Speakers() {
           >
             Speakers
           </h2>
-          <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
-            Featuring an impressive lineup of industry experts, innovators, and
-            thought leaders.
+          <p className="mt-4 font-display text-xl lg:text-2xl tracking-tight text-blue-900">
+          Featuring an impressive lineup of industry experts, innovators, and thought leaders.
           </p>
         </div>
-        <Tab.Group
-          as="div"
-          className="mt-14 grid grid-cols-1 items-start gap-y-8 gap-x-8 sm:mt-16 sm:gap-y-16 lg:mt-24 lg:grid-cols-4"
-          vertical={tabOrientation === 'vertical'}
-        >
-          <Tab.Panels className="lg:col-span-4">
-            {days.map((day) => (
-              <Tab.Panel
-                key={day.dateTime}
-                className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 sm:gap-y-16 md:grid-cols-4 [&:not(:focus-visible)]:focus:outline-none"
-                unmount={false}
-              >
-                {day.speakers.map((speaker, speakerIndex) => (
+        
+            
+          <div className="mt-14 lg:mt-24">
+              <div
+                className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 sm:gap-y-16 md:grid-cols-3 [&:not(:focus-visible)]:focus:outline-none">
+                {days[0].speakers.map((speaker, speakerIndex) => (
                   <div key={speakerIndex}>
                     <div className="group relative h-[17.5rem] transform overflow-hidden rounded-4xl">
                       <div
@@ -276,7 +187,7 @@ export function Speakers() {
                         <Image
                           className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110"
                           src={speaker.image}
-                          alt=""
+                          alt="{speaker.name}"
                           priority
                           sizes="(min-width: 1280px) 17.5rem, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
                         />
@@ -286,14 +197,12 @@ export function Speakers() {
                       {speaker.name}
                     </h3>
                     <p className="mt-1 text-base tracking-tight text-slate-500">
-                      {speaker.role}, <strong>{speaker.institution}</strong>
+                      {speaker.role}
                     </p>
                   </div>
                 ))}
-              </Tab.Panel>
-            ))}
-          </Tab.Panels>
-        </Tab.Group>
+              </div>
+          </div>
       </Container>
     </section>
   )

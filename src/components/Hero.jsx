@@ -2,15 +2,20 @@ import Image from 'next/image'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-import backgroundImage from '@/images/background.jpg'
+import { DiamondIcon } from '@/components/DiamondIcon'
+
+const stats = [
+  { id: 1, name: 'Speakers', value: '30' },
+  { id: 2, name: 'Attendees', value: '500+' },
+]
 
 export function Hero() {
   return (
     <div className="relative pt-10 pb-20 sm:py-24">
       <div className="absolute inset-x-0 -top-48 -bottom-14 overflow-hidden bg-indigo-50">
         <Image
-          className="absolute top-0 left-0 translate-y-[-10%] translate-x-[-55%] -scale-x-100 sm:left-1/2 sm:translate-y-[-6%] sm:translate-x-[-98%] lg:translate-x-[-106%] xl:translate-x-[-122%]"
-          src={backgroundImage}
+          className="absolute -top-[1rem] left-1/2 -ml-[40rem] w-[163.125rem] max-w-none sm:-ml-[67.5rem]"
+          src="https://tailwindui.com/img/beams-home@95.jpg"
           alt=""
           width={918}
           height={1495}
@@ -21,52 +26,47 @@ export function Hero() {
         <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-white" />
       </div>
       <Container className="relative">
-        <div className="mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
-          <strong class="mb-2 block text-xl font-medium tracking-tighter text-blue-600">
-            A Conference Exploring
-          </strong>
-          <h1 class="font-display text-5xl font-bold tracking-tighter text-blue-600 sm:text-5xl">
-            The Future Of Community, Coordination & Collaboration
-          </h1>
-          <dl className="my-10 grid grid-cols-2 gap-y-6 gap-x-10 sm:mt-16 sm:gap-y-10 sm:gap-x-16 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
-            {[
-              ['Date', 'March 28'],
-              ['Speakers', '30'],
-              ['People Attending', '500+'],
-              // ['Venue', 'Tallinn'],
-              // ['Location', 'Tallinn, Estonia'],
-              ['Target groups', 'Legal, Tech & Academics'],
-            ].map(([name, value]) => (
-              <div key={name}>
-                <dt className="font-mono text-sm text-blue-600">{name}</dt>
-                <dd className="mt-0.5 text-xl font-semibold tracking-tight text-blue-900">
-                  {value}
-                </dd>
-              </div>
-            ))}
-          </dl>
-          <div className="mt-6 space-y-6 font-display text-xl tracking-tight text-blue-900">
+        <div className="mx-auto lg:max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="mx-auto flex items-center gap-4 mb-2 text-blue-900 text-sm md:text-2xl font-medium">
             <p>
-              Prepare for a full day of expert-led presentations and panel
-              discussions that will provide you with an in-depth introduction to
-              the internet-first organizational structure. This autonomous model
-              is reshaping how people work together, share profits and make
-              decisions in ways that traditional organizations can’t. The impact
-              on global society could be tremendous.
+              <time dateTime="2022-04-06">March 28, 2023</time>
             </p>
-            <p>
-              The event is being organized by the non-profit{' '}
-              <strong>Internet Native Organization (INO)</strong>, which is
-              working to introduce a tooling and legal Sandbox that will allow
-              it to test Estonia’s legal framework for internet-first
-              organizations.
-            </p>
+            <DiamondIcon className="h-1.5 w-1.5 overflow-visible fill-current stroke-current" />
+            <p>Tallinn, Estonia & Online</p>
           </div>
-          <Button
-            href="https://info.internetnative.org/dd-registration"
-            className="mt-10 w-full sm:hidden"
-          >
-            Get your tickets
+          <h1 className="font-display text-4xl font-bold tracking-tighter text-blue-600 sm:text-7xl">
+            <span className="sr-only">DAO Day Estonia - </span>The Future Of Community, Governance & Collaboration 
+          </h1>
+          <div className="mt-6 font-display text-base lg:text-xl tracking-tight text-blue-900">
+            <div class="lg:flex">
+              <div class="space-y-6 lg:w-3/4 lg:pr-16">
+                <p>  
+                In the first-ever biggest DAO conference in Europe, experts from across the academic, public, private, legal, compliance, and fintech sectors will gather to explore the future of DAOs as a new way to organize and collaborate.
+                </p>
+                <p>
+                This full-day hybrid conference features expert-led presentations and panel discussions designed to give you an in-depth introduction to the internet-first organizational structure and its impact on innovation.
+                </p>
+                <p>Free registration is available for a limited number of public sector representatives from governmental, research, and academic institutions.</p>
+              </div>
+              <div class="hidden lg:flex flex-col justify-between">
+                <div>
+                  <dl className="mt-2 flex-1 grid max-w-xl grid-cols-1 gap-8 sm:grid-cols-2">
+                    {stats.map((stat) => (
+                      <div key={stat.id} className="flex flex-col gap-y-3 border-l border-blue-900/10 pl-6">
+                        <dt className="font-mono text-sm text-blue-600">{stat.name}</dt>
+                        <dd className="order-first text-3xl font-semibold tracking-tight text-blue-900">{stat.value}</dd>
+                      </div>
+                    ))}
+                  </dl>
+                </div>
+                <Button href="https://info.internetnative.org/dd-registration" className="flex space-x-3 w-full">
+                  <span>Register Now</span> <span aria-hidden="true">&rarr;</span>
+                </Button>
+              </div>
+            </div>
+          </div>
+          <Button href="https://info.internetnative.org/dd-registration" className="mt-10 flex space-x-3 w-full sm:hidden">
+            <span>Register Now</span> <span aria-hidden="true">&rarr;</span>
           </Button>
         </div>
       </Container>

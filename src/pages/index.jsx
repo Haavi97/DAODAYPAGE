@@ -8,6 +8,7 @@ import { NavBubble } from '@/components/NavBubble'
 import { Schedule } from '@/components/Schedule'
 import { Speakers } from '@/components/Speakers'
 import { Sponsors } from '@/components/Sponsors'
+import { Timer } from '@/components/Timer'
 
 export default function Home() {
   return (
@@ -34,10 +35,11 @@ export default function Home() {
         <Hero />
         <Speakers />
         <Schedule />
-        {/* <Sponsors /> */}
+        <Sponsors />
         <Newsletter />
       </main>
       <Footer />
+      <Timer />
     </>
   )
 }

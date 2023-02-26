@@ -8,22 +8,16 @@ export function Header() {
     <header className="relative z-50 pb-11 lg:pt-11">
       <Container className="flex flex-wrap items-center justify-center sm:justify-between lg:flex-nowrap">
         <div className="mt-10 lg:mt-0 lg:grow lg:basis-0">
-          <Logo className="h-12 w-auto text-slate-900" />
+          <Logo className="h-16 w-auto text-slate-900" />
         </div>
         <div className="order-first -mx-4 flex flex-auto basis-full overflow-x-auto whitespace-nowrap border-b border-blue-600/10 py-4 font-mono text-sm text-blue-600 sm:-mx-6 lg:order-none lg:mx-0 lg:basis-auto lg:border-0 lg:py-0">
-          <div class="mx-auto flex items-center gap-6 px-6">
-            <a class="text-sm text-blue-600 hover:text-blue-900" href="https://info.internetnative.org/dd-sponsors">
-              Be a Sponsor
-            </a>
-            <a class="text-sm text-blue-600 hover:text-blue-900" href="https://info.internetnative.org/dd-volunteers">
-              Apply to Volunteer
-            </a>
+          <div className="mx-auto flex items-center gap-4 px-4">
+            <a href="https://info.internetnative.org/dd-sponsors" target="_blank" rel="noreferrer noopener" className="inline-block rounded-lg py-1 px-2 text-sm text-blue-600 hover:bg-blue-100 hover:text-blue-900">Be a Sponsor</a>
+            <a href="https://info.internetnative.org/dd-volunteers" target="_blank" rel="noreferrer noopener" className="inline-block rounded-lg py-1 px-2 text-sm text-blue-600 hover:bg-blue-100 hover:text-blue-900">Apply to Volunteer</a>
           </div>
         </div>
         <div className="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
-          <Button href="https://info.internetnative.org/dd-registration">
-            Get your tickets
-          </Button>
+          <Button href="https://info.internetnative.org/dd-registration">Register</Button>
         </div>
       </Container>
     </header>

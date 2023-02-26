@@ -1,30 +1,14 @@
 import Image from 'next/image'
 
 import { Container } from '@/components/Container'
-import logoINO from '@/images/logos/ino.png'
-import logoLegalLab from '@/images/logos/taltech-legal-lab.png'
-import logoEResidency from '@/images/logos/eresidency.png'
-import logoChainalysis from '@/images/logos/chainalysis.png'
-// import logoINO from '@/images/logos/logoINO2.png'
-// import logoLegalLab from '@/images/logos/TalTechLegalLabHorizontal.png'
-// import logoEResidency from '@/images/logos/e-residency_official-2.png'
-// import logoChainalysis from '@/images/logos/Chainalysis-Logo.png'
-// import logoUnigrid from '@/images/logos/Unigrid-Logo.png'
-// import logoDelfi from '@/images/logos/Delfi-Logo.png'
-// import logoFounderly from '@/images/logos/founderly-logo.png'
-// import logoEFT from '@/images/logos/EasyFeedback-logo.png'
-import logoFounderly from '@/images/logos/founderly.png'
-import logoEFT from '@/images/logos/easyfeedback.png'
+import logoINO from '@/images/logos/ino.svg'
+import logoFounderly from '@/images/logos/founderly.svg'
+import logoChainalysis from '@/images/logos/chainalysis.svg'
 
 const sponsors = [
-  { name: 'INO', logo: logoINO },
-  { name: 'LegalLab', logo: logoLegalLab },
-  { name: 'EResidency', logo: logoEResidency },
-  { name: 'Chainalysis', logo: logoChainalysis },
-  // { name: 'Unigrid Foundation', logo: logoUnigrid },
-  // { name: 'Delfi', logo: logoDelfi },
+  { name: 'Internet Native Organization', logo: logoINO },
   { name: 'Founderly', logo: logoFounderly },
-  { name: 'Easy Feedback Token', logo: logoEFT },
+  { name: 'Chainalysis', logo: logoChainalysis },
 ]
 
 export function Sponsors() {
@@ -40,9 +24,18 @@ export function Sponsors() {
               key={sponsor.name}
               className="flex items-center justify-center"
             >
-              <Image src={sponsor.logo} alt={sponsor.name} unoptimized />
+              <Image height={sponsor.name === 'Internet Native Organization' ? 75 : 50} src={sponsor.logo} alt={sponsor.name} unoptimized />
             </div>
           ))}
+        </div>
+        <div className="mt-16 flex justify-center">
+          <p className="relative space-x-3 rounded-full bg-gradient-to-r from-pink-50 to-blue-50 px-4 py-1.5 text-sm leading-6 text-blue-900 ring-1 ring-inset ring-pink-900/5">
+            <span className="hidden md:inline">Is your company interested in sponsoring DAO Day?</span>
+            <a href="https://info.internetnative.org/dd-sponsors" className="font-semibold text-blue-600">
+              <span className="absolute inset-0" aria-hidden="true" /> Apply To Sponsor{' '}
+              <span aria-hidden="true">&rarr;</span>
+            </a>
+          </p>
         </div>
       </Container>
     </section>
