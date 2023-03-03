@@ -24,13 +24,13 @@ export function Footer() {
               class="tex-slate-500 hover:text-blue-600"
               href="/terms-and-conditions"
             >
-              Terms
+              Terms and Conditions
             </Link>
             <Link
               class="tex-slate-500 hover:text-blue-600"
               href="/privacy-policy"
             >
-              Privacy
+              Privacy Policy
             </Link>
           </p>
         </div>
