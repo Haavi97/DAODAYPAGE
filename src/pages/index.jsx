@@ -26,8 +26,7 @@ export default function Home() {
           property="og:description"
           content="A full day of expert-led presentations and panel discussions that will provide you with an in-depth introduction to the internet-first organizational structure."
         />
-        <meta property="og:image" content="/dao-day-estonia.png" />
-
+        <meta name="image" property="og:image" content="/dao-day-estonia.png" />
       </Head>
       <Header />
       {/* <NavBubble /> */}
