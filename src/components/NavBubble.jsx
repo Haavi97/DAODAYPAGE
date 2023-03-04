@@ -11,10 +11,6 @@ import styles from './styles.module.scss'
 export const NavBubble = ({ href, className, ...props }) => {
   const [isOpen, setIsOpen] = useState(false)
 
-  useEffect(() => {
-    console.log('isOpen', isOpen)
-  }, [isOpen])
-
   const clicked = () => {
     setIsOpen(!isOpen)
   }
@@ -23,7 +19,7 @@ export const NavBubble = ({ href, className, ...props }) => {
     <>
       <div onClick={clicked} className={styles.menuBubble}>
         <div className={styles.menuBubbleText}>Menu</div>
-        <Image className={styles.menuIcon} src={bubbleImage} />
+        <Image className={styles.menuIcon} src={bubbleImage} alt="Menu" />
       </div>
       {isOpen ? (
         <>
