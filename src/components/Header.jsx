@@ -1,10 +1,13 @@
+import Link from 'next/link'
+import { useRouter } from 'next/router'
+
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { DiamondIcon } from '@/components/DiamondIcon'
 import { Logo } from '@/components/Logo'
-import Link from 'next/link'
 
 export function Header() {
+  const router = useRouter()
   return (
     <header className="relative z-50 pb-11 lg:pt-11">
       <Container className="flex flex-wrap items-center justify-center sm:justify-between lg:flex-nowrap">
@@ -34,7 +37,14 @@ export function Header() {
           </div>
         </div>
         <div className="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
-          <Button href="/tickets">Register</Button>
+          <Button
+            href={
+              '/tickets' +
+              (router.query.promo ? '?promo=' + router.query.promo : '')
+            }
+          >
+            Register
+          </Button>
         </div>
       </Container>
     </header>
