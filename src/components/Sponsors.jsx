@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Container } from '@/components/Container'
 import logoINO from '@/images/logos/ino.svg'
 import logoFounderly from '@/images/logos/founderly.svg'
-import logoCoinspaid from '@/images/logos/coinspaid.jpg'
+import logoCoinspaid from '@/images/logos/coinspaid.svg'
 import logoChainalysis from '@/images/logos/chainalysis.svg'
 
 const sponsors = [

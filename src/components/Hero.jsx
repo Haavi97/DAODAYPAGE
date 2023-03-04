@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { useRouter } from 'next/router'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
@@ -10,6 +11,7 @@ const stats = [
 ]
 
 export function Hero() {
+  const router = useRouter()
   return (
     <div className="relative pt-10 pb-20 sm:py-24">
       <div className="absolute inset-x-0 -top-48 -bottom-14 overflow-hidden bg-indigo-50">
@@ -77,7 +79,13 @@ export function Hero() {
                     ))}
                   </dl>
                 </div>
-                <Button href="/tickets" className="flex w-full space-x-3">
+                <Button
+                  href={
+                    '/tickets' +
+                    (router.query.promo ? '?promo=' + router.query.promo : '')
+                  }
+                  className="flex w-full space-x-3"
+                >
                   <span>Register Now</span>{' '}
                   <span aria-hidden="true">&rarr;</span>
                 </Button>
@@ -85,7 +93,10 @@ export function Hero() {
             </div>
           </div>
           <Button
-            href="/tickets"
+            href={
+              '/tickets' +
+              (router.query.promo ? '?promo=' + router.query.promo : '')
+            }
             className="mt-10 flex w-full space-x-3 lg:hidden"
           >
             <span>Register Now</span> <span aria-hidden="true">&rarr;</span>
