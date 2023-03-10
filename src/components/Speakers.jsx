@@ -14,12 +14,15 @@ import connorS from '@/images/avatars/connor-spelliscy-drc.jpg'
 import priitL from '@/images/avatars/priit-laat-pwc.jpg'
 import kaidoK from '@/images/avatars/kaido-kunnapas-sorainen.jpg'
 import viljarK from '@/images/avatars/viljar-kahari-edau.jpg'
-import ottV from '@/images/avatars/ott-velsberg-mkm.jpg'
+import aleksaM from '@/images/avatars/aleksa-dtp.jpg'
 import mariL from '@/images/avatars/mari-liis-kukk-fi.jpg'
 import astraT from '@/images/avatars/astra-tikas-ino.jpg'
+import ottV from '@/images/avatars/ott-velsberg-mkm.jpg'
 import stenverJ from '@/images/avatars/stenver-jerkku-swd.jpg'
 import dimaS from '@/images/avatars/dima-sarle-earthians.jpg'
-import idirL from '@/images/avatars/idir-laurent-khiar.jpg'
+import georgeB from '@/images/avatars/george-basiladze-w.jpg'
+import fredH from '@/images/avatars/frederic-hubin-coinspaid.jpg'
+import magnusJ from '@/images/avatars/magnus-jones-ey.jpg'
 
 const days = [
   {
@@ -73,9 +76,9 @@ const days = [
         image: viljarK,
       },
       {
-        name: 'Ott Velsberg',
-        role: 'Chief Data Officer, Republic of Estonia',
-        image: ottV,
+        name: 'Aleksa Mil',
+        role: 'Host, DAO Today podcast',
+        image: aleksaM,
       },
       {
         name: 'Mari-Liis Kukk',
@@ -88,6 +91,11 @@ const days = [
         image: astraT,
       },
       {
+        name: 'Ott Velsberg',
+        role: 'Chief Data Officer, Republic of Estonia',
+        image: ottV,
+      },
+      {
         name: 'Stenver Jerkku',
         role: 'Founder & CEO, Solid World DAO',
         image: stenverJ,
@@ -98,9 +106,19 @@ const days = [
         image: dimaS,
       },
       {
-        name: 'Dr. Idir Laurent Khiar',
-        role: 'Privacy & ICT Law, PEAK7',
-        image: idirL,
+        name: 'George Basiladze',
+        role: 'Co-Founder and CEO and CEO, Wert',
+        image: georgeB,
+      },
+      {
+        name: 'Frédéric Hubin',
+        role: 'Management Board, CoinsPaid',
+        image: fredH,
+      },
+      {
+        name: 'Magnus Jones',
+        role: 'Nordic Blockchain & Innovation Lead, EY',
+        image: magnusJ,
       },
     ],
   },
@@ -166,37 +184,14 @@ export function Speakers() {
             
           <div className="mt-14 lg:mt-24">
               <div
-                className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 sm:gap-y-16 md:grid-cols-3 [&:not(:focus-visible)]:focus:outline-none">
+                className="grid grid-cols-2 gap-x-8 gap-y-10 sm:grid-cols-2 sm:gap-y-16 md:grid-cols-3 [&:not(:focus-visible)]:focus:outline-none">
                 {days[0].speakers.map((speaker, speakerIndex) => (
                   <div key={speakerIndex}>
-                    <div className="group relative h-[17.5rem] transform overflow-hidden rounded-4xl">
-                      <div
-                        className={clsx(
-                          'absolute top-0 left-0 right-4 bottom-6 rounded-4xl border transition duration-300 group-hover:scale-95 xl:right-6',
-                          [
-                            'border-blue-300',
-                            'border-indigo-300',
-                            'border-sky-300',
-                          ][speakerIndex % 3]
-                        )}
-                      />
-                      <div
-                        className="absolute inset-0 bg-indigo-50"
-                        style={{ clipPath: `url(#${id}-${speakerIndex % 3})` }}
-                      >
-                        <Image
-                          className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110"
-                          src={speaker.image}
-                          alt="{speaker.name}"
-                          priority
-                          sizes="(min-width: 1280px) 17.5rem, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
-                        />
-                      </div>
-                    </div>
-                    <h3 className="mt-8 font-display text-xl font-bold tracking-tight text-slate-900">
+                    <Image className="aspect-square w-full rounded-2xl object-cover" src={speaker.image} alt="{speaker.name}" priority />
+                    <h3 className="mt-8 font-display text-lg md:text-xl font-bold tracking-tight text-slate-900">
                       {speaker.name}
                     </h3>
-                    <p className="mt-1 text-base tracking-tight text-slate-500">
+                    <p className="mt-1 text-sm md:text-base tracking-tight text-slate-500">
                       {speaker.role}
                     </p>
                   </div>
