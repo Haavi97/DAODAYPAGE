@@ -107,7 +107,7 @@ const days = [
       },
       {
         name: 'George Basiladze',
-        role: 'Co-Founder and CEO and CEO, Wert',
+        role: 'Co-Founder and CEO, Wert',
         image: georgeB,
       },
       {
