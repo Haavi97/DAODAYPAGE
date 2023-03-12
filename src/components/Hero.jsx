@@ -34,7 +34,7 @@ export function Hero() {
               <time dateTime="2022-04-06">March 28, 2023</time>
             </p>
             <DiamondIcon className="h-1.5 w-1.5 overflow-visible fill-current stroke-current" />
-            <p>Tallinn, Estonia & Online</p>
+            <p>Minterest HQ, Tallinn & Online</p>
           </div>
           <h1 className="font-display text-4xl font-bold tracking-tighter text-blue-600 sm:text-7xl">
             <span className="sr-only">DAO Day Estonia - </span>The Future Of
