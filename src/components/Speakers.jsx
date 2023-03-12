@@ -37,7 +37,7 @@ const days = [
       },
       {
         name: 'Aiden Slavin',
-        role: 'CISA Project Lead, World Economic Forum',
+        role: 'Crypto Impact and Sustainability Accelerator (CISA) Project Lead, World Economic Forum',
         image: aidenS,
       },
       {
