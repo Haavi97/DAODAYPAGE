@@ -14,7 +14,7 @@ const sponsors = [
   { name: 'Internet Native Organization', logo: logoINO },
   { name: 'Founderly', logo: logoFounderly },
   { name: 'PwC Legal', logo: logoPWC },
-  { name: 'Minterest', logo: logoMinterest },
+  // { name: 'Minterest', logo: logoMinterest },
   { name: 'Chainalysis', logo: logoChainalysis },
   { name: 'Wert', logo: logoWert },
   { name: 'CoinsPaid', logo: logoCoinsPaid },
@@ -28,7 +28,7 @@ export function Sponsors() {
         <h2 className="mx-auto max-w-2xl text-center font-display text-4xl font-medium tracking-tighter text-blue-900 sm:text-5xl">
           Organizers and Supporters
         </h2>
-        <div className="mx-auto mt-20 grid max-w-max grid-cols-2 place-content-center gap-y-12 gap-x-16 sm:grid-cols-4 lg:gap-x-32">
+        <div className="mx-auto mt-20 grid max-w-max grid-cols-2 place-content-center gap-y-12 gap-x-16 sm:grid-cols-3 lg:gap-x-32">
           {sponsors.map((sponsor) => (
             <div
               key={sponsor.name}
