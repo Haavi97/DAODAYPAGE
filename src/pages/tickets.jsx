@@ -25,9 +25,10 @@ export default function Tickets() {
       name: 'Online Pass',
       id: 'online-pass',
       href:
-        'https://buy.stripe.com/8wM7uu7MLfHc33a9AB' + router.query.promo
+        'https://buy.stripe.com/8wM7uu7MLfHc33a9AB' +
+        (router.query.promo
           ? '?prefilled_promo_code=' + router.query.promo
-          : '',
+          : ''),
       price: '€9',
       title: 'Join virtually from anywhere!',
       description:
@@ -50,9 +51,10 @@ export default function Tickets() {
       name: 'Patron Pass',
       id: 'patron-pass',
       href:
-        'https://buy.stripe.com/14kdSS6IHcv06fm4gg' + router.query.promo
+        'https://buy.stripe.com/14kdSS6IHcv06fm4gg' +
+        (router.query.promo
           ? '?prefilled_promo_code=' + router.query.promo
-          : '',
+          : ''),
       price: '€500',
       title: 'Skip the waiting list and join the VIP party!',
       description:
