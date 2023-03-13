@@ -33,7 +33,7 @@ export function Hero() {
             <p>
               <time dateTime="2022-04-06">March 28, 2023</time>
             </p>
-            <DiamondIcon className="h-1.5 w-1.5 overflow-visible fill-current stroke-current" />
+            <DiamondIcon className="mx-auto mb-2 flex items-center gap-4 text-xs font-medium text-blue-900 md:text-xl" />
             <p>Minterest HQ, Tallinn & Online</p>
           </div>
           <h1 className="font-display text-4xl font-bold tracking-tighter text-blue-600 sm:text-7xl">
