@@ -11,13 +11,13 @@ export default function Tickets() {
   const router = useRouter()
   const tiers = [
     {
-      name: 'Delegate Pass',
-      id: 'delegate-pass',
+      name: 'Complimentary Pass',
+      id: 'complimentary-pass',
       href: 'https://info.internetnative.org/dd-invite',
-      price: 'Free',
+      price: 'Free*',
       title: 'Apply to request an in-person invitation!',
-      description:
-        'The in-person attendance is limited and will be approved. Priority will be given to public sector representatives from governmental, research, and academic institutions.',
+      description:'Are you a founder, cofounder, or C-level executive of a series B+ startup/scaleup? A journalist from an influential publication? Or a public sector representative from a research/cademic institution?',
+      benefits: ['Full in-person access to the agenda including keynotes, interviews and panels', 'Light breakfast, lunch and coffee breaks'],
       cta: 'Apply Now',
       highlighted: false,
     },
@@ -31,8 +31,8 @@ export default function Tickets() {
           : ''),
       price: '€9',
       title: 'Join virtually from anywhere!',
-      description:
-        'You can access our outstanding programming from anywhere in the world with this online-only pass.',
+      description: 'For anyone interested in exploring the possibilities of a DAO (Decentralized Autonomous Organization) and the future of community governance, collaboration and association.',
+      benefits: ['Full online access to the agenda including keynotes, interviews and panels'],
       cta: 'Buy Now',
       highlighted: false,
     },
@@ -42,23 +42,23 @@ export default function Tickets() {
       href: 'https://info.internetnative.org/dd-students',
       price: 'Free',
       title: 'Request a free online pass to join virtually!',
-      description:
-        'Open to all students, from elementary to postgraduate, as well as recent college graduates. Please provide us with a .edu or university email address and the name of your institution during registration.',
+      description: 'Open to all students, from elementary to postgraduate, as well as recent college graduates. Please provide us with a .edu or university email address and the name of your institution during registration.',
+      benefits: ['All benefits of an online pass'],
       cta: 'Apply Now',
       highlighted: false,
     },
     {
-      name: 'Patron Pass',
-      id: 'patron-pass',
+      name: 'Business Pass',
+      id: 'business-pass',
       href:
         'https://buy.stripe.com/14kdSS6IHcv06fm4gg' +
         (router.query.promo
           ? '?prefilled_promo_code=' + router.query.promo
           : ''),
-      price: '€500',
-      title: 'Skip the waiting list and join the VIP party!',
-      description:
-        'Support DAO Day Estonia by buying a Patron pass, and you will get guaranteed in-person entrance and an invite to the VIP after party.',
+      price: '€350',
+      title: 'Priority in-person access and more perks!',
+      description: 'This pass is for you if you work for a service provider, law firm, consultancy, executive search or big technology company. Or if you are an angel investor or institutional/venture/corporate investor.',
+      benefits: ['Full in-person access to the agenda including keynotes, interviews and panels', 'Light breakfast, lunch and coffee breaks', 'Access to round table discussion and executive lounge at the venue', 'Invite to speakers and VIP dinner (registration required)'],
       cta: 'Buy Now',
       highlighted: true,
     },
@@ -109,9 +109,21 @@ export default function Tickets() {
                 <p className="mt-5 text-lg leading-6 text-blue-900">
                   {tier.title}
                 </p>
-                <p className="mt-3 grow text-sm leading-6 text-slate-500">
-                  {tier.description}
-                </p>
+                <div class="grow">
+                  <p className="mt-3 text-sm leading-6 text-slate-500">
+                    {tier.description}
+                  </p>
+                  <ul role="list" className="mt-6 space-y-3 text-sm leading-6 text-slate-500">
+                    {tier.benefits.map((benefit) => (
+                      <li key={benefit} className="flex gap-x-3">
+                        <svg class="h-6 w-5 flex-none text-blue-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                          <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                        </svg>
+                        {benefit}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
                 <a
                   href={tier.href}
                   aria-describedby={tier.id}
@@ -121,6 +133,9 @@ export default function Tickets() {
                 </a>
               </div>
             ))}
+          </div>
+          <div className="mx-auto max-w-4xl text-center mt-8">
+            <p class="text-slate-500 text-sm">* We have a limited number of free passes set aside. We want to make sure that DAO Day Estonia has a carefully curated audience so you can have the best experience. We reserve passes for media professionals, public sector, economic gardening organizations and different stages of startups to ensure a diverse audience.</p>
           </div>
         </div>
       </main>
