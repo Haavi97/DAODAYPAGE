@@ -32,7 +32,7 @@ export function Sponsors() {
           {sponsors.map((sponsor) => (
             <div
               key={sponsor.name}
-              className={"flex items-center justify-center " + (sponsor.name === 'Internet Native Organization' ? "sm:col-span-4 col-span-2" : "")}
+              className={"flex items-center justify-center " + (sponsor.name === 'Internet Native Organization' ? "sm:col-span-3 col-span-2" : "")}
             >
               <Image height={sponsor.name === 'Internet Native Organization' ? 150 : 75} src={sponsor.logo} alt={sponsor.name} unoptimized />
             </div>
