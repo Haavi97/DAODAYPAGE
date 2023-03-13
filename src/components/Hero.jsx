@@ -55,11 +55,6 @@ export function Hero() {
                   in-depth introduction to the internet-first organizational
                   structure and its impact on innovation.
                 </p>
-                <p>
-                  Free registration is available for a limited number of public
-                  sector representatives from governmental, research, and
-                  academic institutions.
-                </p>
               </div>
               <div class="hidden flex-col justify-between lg:flex">
                 <div>
