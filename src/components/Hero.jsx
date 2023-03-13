@@ -29,11 +29,11 @@ export function Hero() {
       </div>
       <Container className="relative">
         <div className="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
-          <div className="mx-auto mb-2 flex items-center gap-4 text-sm font-medium text-blue-900 md:text-2xl">
+          <div className="mx-auto mb-2 flex items-center gap-4 text-xs font-medium text-blue-900 md:text-xl">
             <p>
               <time dateTime="2022-04-06">March 28, 2023</time>
             </p>
-            <DiamondIcon className="mx-auto mb-2 flex h-1.5 w-1.5 items-center gap-4 overflow-visible fill-current stroke-current text-xs font-medium text-blue-900 md:text-xl" />
+            <DiamondIcon className="h-1.5 w-1.5 overflow-visible fill-current stroke-current" />
             <p>Minterest HQ, Tallinn & Online</p>
           </div>
           <h1 className="font-display text-4xl font-bold tracking-tighter text-blue-600 sm:text-7xl">
