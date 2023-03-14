@@ -23,7 +23,7 @@ import dimaS from '@/images/avatars/dima-sarle-earthians.jpg'
 import georgeB from '@/images/avatars/george-basiladze-w.jpg'
 import fredH from '@/images/avatars/frederic-hubin-coinspaid.jpg'
 import magnusJ from '@/images/avatars/magnus-jones-ey.jpg'
-import mariL from '@/images/avatars/mari-lukkainen-icebreaker.jpg'
+import mariLi from '@/images/avatars/mari-lukkainen-icebreaker.jpg'
 import olgaF from '@/images/avatars/olga-fusseder-chainalysis.jpg'
 import romanG from '@/images/avatars/roman-german-kk.jpg'
 
@@ -127,7 +127,7 @@ const days = [
       {
         name: 'Mari Luukkainen',
         role: 'Principal, Icebreaker.vc',
-        image: mariL,
+        image: mariLi,
       },
       {
         name: 'Olga Fusseder',
