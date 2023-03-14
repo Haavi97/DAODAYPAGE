@@ -6,8 +6,8 @@ import { Container } from '@/components/Container'
 import { DiamondIcon } from '@/components/DiamondIcon'
 
 const stats = [
-  { id: 1, name: 'Speakers', value: '30' },
-  { id: 2, name: 'Attendees', value: '500+' },
+  { id: 1, name: 'Date', value: 'March 28, 2023' },
+  { id: 2, name: 'Location', value: 'Tallinn & Online' },
 ]
 
 export function Hero() {
