@@ -125,6 +125,11 @@ const days = [
         image: magnusJ,
       },
       {
+        name: 'Roman German',
+        role: 'Founder, Krüpto Klubi',
+        image: romanG,
+      },
+      {
         name: 'Mari Luukkainen',
         role: 'Principal, Icebreaker.vc',
         image: mariLi,
@@ -133,11 +138,6 @@ const days = [
         name: 'Olga Fusseder',
         role: 'Head of Sales Eastern Europe, Chainanalysis',
         image: olgaF,
-      },
-      {
-        name: 'Roman German',
-        role: 'Founder, Krüpto Klubi',
-        image: romanG,
       },
     ],
   },
