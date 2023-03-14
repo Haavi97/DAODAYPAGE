@@ -29,7 +29,7 @@ export function Hero() {
       </div>
       <Container className="relative">
         <div className="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
-          <div className="mx-auto mb-2 flex items-center gap-4 text-xs font-medium text-blue-900 md:text-xl">
+          <div className="mx-auto mb-2 flex items-center gap-4 text-xs font-medium text-blue-900 md:text-xl lg:hidden">
             <p>
               <time dateTime="2022-04-06">March 28, 2023</time>
             </p>
@@ -67,7 +67,7 @@ export function Hero() {
                         <dt className="font-mono text-sm text-blue-600">
                           {stat.name}
                         </dt>
-                        <dd className="order-first text-3xl font-semibold tracking-tight text-blue-900">
+                        <dd className="order-first text-xl font-semibold tracking-tight text-blue-900">
                           {stat.value}
                         </dd>
                       </div>
