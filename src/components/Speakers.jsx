@@ -23,6 +23,10 @@ import dimaS from '@/images/avatars/dima-sarle-earthians.jpg'
 import georgeB from '@/images/avatars/george-basiladze-w.jpg'
 import fredH from '@/images/avatars/frederic-hubin-coinspaid.jpg'
 import magnusJ from '@/images/avatars/magnus-jones-ey.jpg'
+import mariL from '@/images/avatars/mari-lukkainen-icebreaker.jpg'
+import olgaF from '@/images/avatars/olga-fusseder-chainalysis.jpg'
+import romanG from '@/images/avatars/roman-german-kk.jpg'
+
 
 const days = [
   {
@@ -119,6 +123,21 @@ const days = [
         name: 'Magnus Jones',
         role: 'Nordic Blockchain & Innovation Lead, EY',
         image: magnusJ,
+      },
+      {
+        name: 'Mari Luukkainen',
+        role: 'Principal, Icebreaker.vc',
+        image: mariL,
+      },
+      {
+        name: 'Olga Fusseder',
+        role: 'Head of Sales Eastern Europe, Chainanalysis',
+        image: olgaF,
+      },
+      {
+        name: 'Roman German',
+        role: 'Founder, Krüpto Klubi',
+        image: romanG,
       },
     ],
   },
