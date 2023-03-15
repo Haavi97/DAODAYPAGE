@@ -24,7 +24,7 @@ import georgeB from '@/images/avatars/george-basiladze-w.jpg'
 import fredH from '@/images/avatars/frederic-hubin-coinspaid.jpg'
 import magnusJ from '@/images/avatars/magnus-jones-ey.jpg'
 import mariLi from '@/images/avatars/mari-lukkainen-icebreaker.jpg'
-import olgaF from '@/images/avatars/olga-fusseder-chainalysis.jpg'
+import amandeepT from '@/images/avatars/amandeep-thandi-chainalysis.jpg'
 import romanG from '@/images/avatars/roman-german-kk.jpg'
 
 
@@ -135,9 +135,9 @@ const days = [
         image: mariLi,
       },
       {
-        name: 'Olga Fusseder',
-        role: 'Head of Sales Eastern Europe, Chainanalysis',
-        image: olgaF,
+        name: 'Amandeep Thandi',
+        role: 'Regulation & Compliance Lead, Chainanalysis',
+        image: amandeepT,
       },
     ],
   },
