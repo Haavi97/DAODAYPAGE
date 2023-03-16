@@ -144,7 +144,7 @@ const days = [
       },
       {
         name: 'Tarmo Kivi',
-        role: 'Regulation & Compliance Lead, Chainanalysis',
+        role: 'Startup Editor, Äripäev',
         image: tarmoK,
       },
       {
