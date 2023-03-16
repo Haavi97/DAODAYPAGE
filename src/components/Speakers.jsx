@@ -154,7 +154,7 @@ const days = [
       },
       {
         name: 'Javier Ortin',
-        role: 'Lead Developer, Easyfeedback',
+        role: 'Founding Board Member, Internet Native Organization',
         image: javierO,
       },
     ],
