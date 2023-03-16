@@ -143,7 +143,7 @@ const days = [
         image: amandeepT,
       },
       {
-        name: 'Tarmo Kivi',
+        name: 'Tarmo Virki',
         role: 'Startup Editor, Äripäev',
         image: tarmoK,
       },
