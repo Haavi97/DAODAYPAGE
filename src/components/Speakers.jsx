@@ -26,6 +26,9 @@ import magnusJ from '@/images/avatars/magnus-jones-ey.jpg'
 import mariLi from '@/images/avatars/mari-lukkainen-icebreaker.jpg'
 import amandeepT from '@/images/avatars/amandeep-thandi-chainalysis.jpg'
 import romanG from '@/images/avatars/roman-german-kk.jpg'
+import tarmoK from '@/images/avatars/tarmo-kivi-single.earth.jpg'
+import reimoH from '@/images/avatars/reimo-hammerberg-wallester.jpg'
+import javierO from '@/images/avatars/javier-ortin-ino.jpg'
 
 
 const days = [
@@ -138,6 +141,21 @@ const days = [
         name: 'Amandeep Thandi',
         role: 'Regulation & Compliance Lead, Chainanalysis',
         image: amandeepT,
+      },
+      {
+        name: 'Tarmo Kivi',
+        role: 'Regulation & Compliance Lead, Chainanalysis',
+        image: tarmoK,
+      },
+      {
+        name: 'Reimo Hammerberg',
+        role: 'Chairman of Supervisory Board, Wallester',
+        image: reimoH,
+      },
+      {
+        name: 'Javier Ortin',
+        role: 'Lead Developer, Easyfeedback',
+        image: javierO,
       },
     ],
   },
