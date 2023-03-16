@@ -26,7 +26,7 @@ import magnusJ from '@/images/avatars/magnus-jones-ey.jpg'
 import mariLi from '@/images/avatars/mari-lukkainen-icebreaker.jpg'
 import amandeepT from '@/images/avatars/amandeep-thandi-chainalysis.jpg'
 import romanG from '@/images/avatars/roman-german-kk.jpg'
-import tarmoK from '@/images/avatars/tarmo-kivi-single.earth.jpg'
+import tarmoV from '@/images/avatars/tarmo-virki-single.earth.jpg'
 import reimoH from '@/images/avatars/reimo-hammerberg-wallester.jpg'
 import javierO from '@/images/avatars/javier-ortin-ino.jpg'
 
@@ -145,7 +145,7 @@ const days = [
       {
         name: 'Tarmo Virki',
         role: 'Startup Editor, Äripäev',
-        image: tarmoK,
+        image: tarmoV,
       },
       {
         name: 'Reimo Hammerberg',
