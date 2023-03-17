@@ -29,6 +29,9 @@ import romanG from '@/images/avatars/roman-german-kk.jpg'
 import tarmoV from '@/images/avatars/tarmo-virki-single.earth.jpg'
 import reimoH from '@/images/avatars/reimo-hammerberg-wallester.jpg'
 import javierO from '@/images/avatars/javier-ortin-ino.jpg'
+import toomasS from '@/images/avatars/toomas-seppel-hlf.jpg'
+import kennethO from '@/images/avatars/kenneth-ofriel-toku.jpg'
+import martaP from '@/images/avatars/marta-piekarska-consensys.jpg'
 
 
 const days = [
@@ -156,6 +159,21 @@ const days = [
         name: 'Javier Ortin',
         role: 'Founding Board Member, Internet Native Organization',
         image: javierO,
+      },
+      {
+        name: 'Toomas Seppel',
+        role: 'Partner, attroney-at-law, Hedman Law Firm',
+        image: toomasS,
+      },
+      {
+        name: 'Kenneth O\'Friel',
+        role: 'CEO & Co-Founder, Toku',
+        image: kennethO,
+      },
+      {
+        name: 'Marta Piekarska',
+        role: 'Director of DAO Strategy and Web3 Engagement, ConsenSys',
+        image: martaP,
       },
     ],
   },
