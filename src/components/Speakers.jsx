@@ -242,7 +242,7 @@ export function Speakers() {
                 className="grid grid-cols-2 gap-x-8 gap-y-10 sm:grid-cols-2 sm:gap-y-16 md:grid-cols-3 [&:not(:focus-visible)]:focus:outline-none">
                 {days[0].speakers.map((speaker, speakerIndex) => (
                   <div key={speakerIndex}>
-                    <Image className="aspect-square w-full rounded-2xl object-cover" src={speaker.image} alt="{speaker.name}" priority />
+                    <Image className="aspect-square w-full rounded-2xl object-cover" src={speaker.image} alt="{speaker.name}" />
                     <h3 className="mt-8 font-display text-lg md:text-xl font-bold tracking-tight text-slate-900">
                       {speaker.name}
                     </h3>

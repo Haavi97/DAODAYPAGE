@@ -30,8 +30,7 @@ export function Hero() {
           src="https://tailwindui.com/img/beams-home@95.jpg"
           alt=""
           width={918}
-          height={1495}
-          priority
+          height={1495}          
           unoptimized
         />
         <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-white" />
