@@ -10,6 +10,16 @@ const stats = [
   { id: 2, name: 'Location', value: 'Tallinn & Online' },
 ]
 
+function extendUrl(query) {
+  query.promo && query.ref
+    ? `?promo=${query.promo}&ref=${query.ref}`
+    : query.promo
+    ? `?promo=${query.promo}`
+    : query.ref
+    ? `?ref=${query.ref}`
+    : ''
+}
+
 export function Hero() {
   const router = useRouter()
   return (
@@ -75,10 +85,7 @@ export function Hero() {
                   </dl>
                 </div>
                 <Button
-                  href={
-                    '/tickets' +
-                    (router.query.promo ? '?promo=' + router.query.promo : '')
-                  }
+                  href={'/tickets' + extendUrl(router.query)}
                   className="flex w-full space-x-3"
                 >
                   <span>Register Now</span>{' '}
@@ -88,10 +95,7 @@ export function Hero() {
             </div>
           </div>
           <Button
-            href={
-              '/tickets' +
-              (router.query.promo ? '?promo=' + router.query.promo : '')
-            }
+            href={'/tickets' + extendUrl(router.query)}
             className="mt-10 flex w-full space-x-3 lg:hidden"
           >
             <span>Register Now</span> <span aria-hidden="true">&rarr;</span>
