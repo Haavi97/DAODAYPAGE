@@ -162,7 +162,7 @@ const days = [
       },
       {
         name: 'Toomas Seppel',
-        role: 'Partner, attroney-at-law, Hedman Law Firm',
+        role: 'Partner, Hedman Law Firm',
         image: toomasS,
       },
       {
@@ -172,7 +172,7 @@ const days = [
       },
       {
         name: 'Marta Piekarska',
-        role: 'Director of DAO Strategy and Web3 Engagement, ConsenSys',
+        role: 'Director of DAO Strategy, ConsenSys',
         image: martaP,
       },
     ],
