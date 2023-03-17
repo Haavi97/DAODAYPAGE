@@ -6,6 +6,16 @@ import { Container } from '@/components/Container'
 import { DiamondIcon } from '@/components/DiamondIcon'
 import { Logo } from '@/components/Logo'
 
+function extendUrl(query) {
+  return query.promo && query.ref
+    ? `?promo=${query.promo}&ref=${query.ref}`
+    : query.promo
+    ? `?promo=${query.promo}`
+    : query.ref
+    ? `?ref=${query.ref}`
+    : ''
+}
+
 export function Header() {
   const router = useRouter()
   return (
@@ -37,14 +47,7 @@ export function Header() {
           </div>
         </div>
         <div className="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
-          <Button
-            href={
-              '/tickets' +
-              (router.query.promo ? '?promo=' + router.query.promo : '')
-            }
-          >
-            Register
-          </Button>
+          <Button href={'/tickets' + extendUrl(router.query)}>Register</Button>
         </div>
       </Container>
     </header>

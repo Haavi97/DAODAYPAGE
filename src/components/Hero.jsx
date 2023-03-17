@@ -11,7 +11,7 @@ const stats = [
 ]
 
 function extendUrl(query) {
-  query.promo && query.ref
+  return query.promo && query.ref
     ? `?promo=${query.promo}&ref=${query.ref}`
     : query.promo
     ? `?promo=${query.promo}`

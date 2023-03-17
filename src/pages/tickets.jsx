@@ -8,7 +8,7 @@ function classNames(...classes) {
 }
 
 function getUrlParam(query) {
-  query.promo && query.ref
+  return query.promo && query.ref
     ? `?prefilled_promo_code=${query.promo}&utm_source=${query.ref}`
     : query.promo
     ? `?prefilled_promo_code=${query.promo}`
