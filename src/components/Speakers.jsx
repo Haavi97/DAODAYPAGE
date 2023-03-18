@@ -168,16 +168,16 @@ const days = [
         role: 'Partner, Hedman Law Firm',
         image: toomasS,
       },
-      {
-        name: 'Jean-Marc Seigneur',
-        role: 'Director of the CAS on Blockchain, University of Geneva',
-        image: jeanM,
-      },
-      {
-        name: 'Franck Nouyrigat',
-        role: 'Founder, Electis',
-        image: franckN,
-      },
+      // {
+      //   name: 'Jean-Marc Seigneur',
+      //   role: 'Director of the CAS on Blockchain, University of Geneva',
+      //   image: jeanM,
+      // },
+      // {
+      //   name: 'Franck Nouyrigat',
+      //   role: 'Founder, Electis',
+      //   image: franckN,
+      // },
       {
         name: 'Kenneth O\'Friel',
         role: 'CEO & Co-Founder, Toku',
@@ -188,11 +188,11 @@ const days = [
         role: 'Director of DAO Strategy, ConsenSys',
         image: martaP,
       },
-      {
-        name: 'Vattan PS',
-        role: 'Co-founder and Strategic Leader, Internet Native Organization',
-        image: vattanP,
-      },
+      // {
+      //   name: 'Vattan PS',
+      //   role: 'Co-founder and Strategic Leader, Internet Native Organization',
+      //   image: vattanP,
+      // },
     ],
   },
 ]
