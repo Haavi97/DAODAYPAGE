@@ -27,7 +27,7 @@ export default function Tickets() {
       price: 'Free*',
       title: 'Apply to request an in-person invitation!',
       description:
-        'Are you a DAO builder/operator, founder, cofounder, or C-level executive of a series B+ startup/scaleup? A journalist from an influential publication? Or a public sector representative from a research/academic institution?',
+        'Are you a DAO builder/operator, founder/cofounder of a VC-backed startup, or C-level executive of a series B+ startup/scaleup? A journalist from an influential publication? Or a public sector representative from a research/academic institution?',
       benefits: [
         'Full in-person access to the agenda including keynotes, interviews and panels',
         'Light breakfast, lunch and coffee breaks',
