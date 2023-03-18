@@ -23,7 +23,8 @@ export default function Tickets() {
     {
       name: 'Complimentary Pass',
       id: 'complimentary-pass',
-      href: 'https://info.internetnative.org/dd-invite',
+      href:
+        'https://info.internetnative.org/dd-invite' + getUrlParam(router.query),
       price: 'Free*',
       title: 'Apply to request an in-person invitation!',
       description:
@@ -53,7 +54,9 @@ export default function Tickets() {
     {
       name: 'Student Pass',
       id: 'student-pass',
-      href: 'https://info.internetnative.org/dd-students',
+      href:
+        'https://info.internetnative.org/dd-students' +
+        getUrlParam(router.query),
       price: 'Free',
       title: 'Request a free online pass to join virtually!',
       description:
