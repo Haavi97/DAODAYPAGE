@@ -32,6 +32,9 @@ import javierO from '@/images/avatars/javier-ortin-ino.jpg'
 import toomasS from '@/images/avatars/toomas-seppel-hlf.jpg'
 import kennethO from '@/images/avatars/kenneth-ofriel-toku.jpg'
 import martaP from '@/images/avatars/marta-piekarska-consensys.jpg'
+import jeanM from '@/images/avatars/jean-marc-seigneur-uniGeneve.jpg'
+import franckN from '@/images/avatars/franck-nouyrigat-electis.jpg'
+import vattanP from '@/images/avatars/vattan-ps-ino.jpg'
 
 
 const days = [
@@ -97,7 +100,7 @@ const days = [
       },
       {
         name: 'Astra Tikas',
-        role: 'Founding Board Member, Internet Native Organization',
+        role: 'Co-founder, Internet Native Organization',
         image: astraT,
       },
       {
@@ -157,13 +160,23 @@ const days = [
       },
       {
         name: 'Javier Ortin',
-        role: 'Founding Board Member, Internet Native Organization',
+        role: 'Co-founder, Internet Native Organization',
         image: javierO,
       },
       {
         name: 'Toomas Seppel',
         role: 'Partner, Hedman Law Firm',
         image: toomasS,
+      },
+      {
+        name: 'Jean-Marc Seigneur',
+        role: 'Director of the CAS on Blockchain, University of Geneva',
+        image: jeanM,
+      },
+      {
+        name: 'Franck Nouyrigat',
+        role: 'Founder, Electis',
+        image: franckN,
       },
       {
         name: 'Kenneth O\'Friel',
@@ -174,6 +187,11 @@ const days = [
         name: 'Marta Piekarska',
         role: 'Director of DAO Strategy, ConsenSys',
         image: martaP,
+      },
+      {
+        name: 'Vattan PS',
+        role: 'Co-founder and Strategic Leader, Internet Native Organization',
+        image: vattanP,
       },
     ],
   },

@@ -29,7 +29,6 @@ export default function Home() {
         <meta name="image" property="og:image" content="/dao-day-estonia.jpg" />
       </Head>
       <Header />
-      {/* <NavBubble /> */}
       <main>
         <Hero />
         <Speakers />
