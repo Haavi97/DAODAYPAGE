@@ -79,7 +79,10 @@ export function Modal({ speaker, image, visible, onClose }) {
                       {speaker.role}
                     </p>
                     <div class="mt-6 text-base leading-7 text-gray-500">
-                      {speaker.bio && speaker.bio.split(/\n/).map(line => <div key={line}>{line}</div>)}
+                      {speaker.bio &&
+                        speaker.bio
+                          .split(/\n/)
+                          .map((line) => <div key={line}>{line}</div>)}
                     </div>
                     <ul role="list" class="mt-6 flex gap-x-6">
                       {speaker.twitter && (

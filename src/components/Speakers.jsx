@@ -60,6 +60,7 @@ let days = [
         name: 'Eyal Eithcowich',
         role: 'CEO, DeepDAO',
         image: eyalEImage,
+        linkedin: 'https://www.linkedin.com/in/eyal-eithcowich-0810925/',
         bio: "20 years of experience developing and leading technology projects for companies such as Apple Computer, TIAA-CREF, and others in the U.S. and Israel. Fell in love with DAOs and never looked back. \nDeepDAO's mission is to provide comprehensive discoverability for the decentralized governance systems. DeepDAO provides comprehensive analytics and information gathering. The main dashboard product enumerates and ranks DAOs using several key metrics such as membership and assets under management (AUM). We are constantly expanding both coverage of DAOs and the metrics that quantify and measure the dynamics of governance processes in DAOs.DeepDAO is covering both financial and governance data on 100+ top DAOs.",
       },
       {
@@ -87,18 +88,21 @@ let days = [
         name: 'Priit Lätt',
         role: 'Partner, PwC Legal Baltics',
         image: priitL,
+        linkedin: 'https://www.linkedin.com/in/priitlatt/', 
         bio: 'Please welcome our next speaker at DAO DAY in Tallinn. Priit Lätt, who heads up the intellectual property/IT, tax dispute and public procurement law practices at PwC Legal in Estonia.\nPriit is a renowned specialist in IP, IT (including the internet of things and cryptocurrencies), tax and public procurement law, representing and advising Estonian and international companies and public institutions. Among other things, Priit has represented a client in Estonia’s biggest software dispute and in Estonia’s first bitcoin-related legal regulation lawsuit. Priit also successfully represented a client in a trademark dispute, in which the Supreme Court declared several important provisions of the Code of Civil Procedure, and Government Regulations that established limits to legal expenses in civil disputes, as invalid and unconstitutional.\nPriit is a founder and board member in numerous professional associations (e.g the Internet of Things and Estonian Cryptocurrency Association). He is also a member of the IP/IT commission of the Estonian Bar Association.',
       },
       {
         name: 'Kaido Künnapas',
         role: 'Partner, Sorainen Law Firm',
         image: kaidoK,
+        linkedin: 'https://www.linkedin.com/in/kaidokunnapas/',
         bio: 'Please welcome our next speaker at DAO DAY in Tallinn. Kaido Künnapas - partner at Sorainen Law Firm. Kaido is the head of the Estonian Tax Law Working Group with a focus on direct taxes. Besides that, Kaido is involved in academic teaching and research, working with leaders in the technology sector.',
       },
       {
         name: 'Viljar Kähari',
         role: 'Board Member, Estonian Digital Assets Union',
         image: viljarK,
+        linkedin: 'https://www.linkedin.com/in/viljarkahari/', 
         bio: 'Viljar Kähari is a co-founder of PwC Legal Estonia with 22 years of experience in the financial services industry. His main focus is on financial services, regulatory compliance & risks and financial transactions and during past years also blockchain and digital assets (including cryptocurrencies).\nViljar advises local and international regulated entities such as banks, credit providers, payment and e-money institutions, fund managers, insurance undertakings and FinTech/RegTech companies on wide range of compliance, licensing and risk matters including setting up or restructuring regulated businesses in Estonia and providing cross-border services abroad. He has also advised cryptocurrency companies on such matters.',
       },
       {
@@ -119,12 +123,13 @@ let days = [
         name: 'Astra Tikas',
         role: 'Co-founder, Internet Native Organization',
         image: astraT,
-        likedin: 'https://www.linkedin.com/in/astratikas/',
+        linkedin: 'https://www.linkedin.com/in/astratikas/',
         bio: 'Astra Tikas is the Co-Founder of INO (Internet Native Organization that brings DAO solutions to the mainstream), former Board Member of the Estonian Cryptocurrency Association, and a consultant on crypto regulations topics. She has worked with various crypto start-ups to help to build them up in her role as an AML strategist. She is also a strong spiritual mind and a musician. Being an entrepreneur since age 21, she will never stop to find solutions and fun in business. \nAs part of her desire to promote cooperation between crypto companies and regulators, she organized a conference titled "Crypto Companies Call to Comply and Cooperate" in spring 2022. In the web3 space she has found her true passion and is one of the knowledgeable persons regarding AML topics; since 2022 she is deep into DAO-related topics. Spring 2023 organizing a DAODAY Estonia www.daoday.ee.',
       },
       {
         name: 'Ott Velsberg',
         role: 'Chief Data Officer, Republic of Estonia',
+        linkedin: 'https://www.linkedin.com/in/ott-velsberg/', 
         bio: 'Ott Velsberg is the current Chief Data Officer of Estonian Government with experience in coordinating data governance and data science, including domains of artificial intelligence, open data, citizen-centric data governance, data privacy and regulation, once-only principle, and much more. Strong experience with innovation management, strategic thinking, data management, data science and digital transformation. Leading Estonia to a trendsetter status in data governance, open data and artificial intelligence. He also serves as a board member for various boards, such as board of Statistics, board of Estonian Language technology, IT Academy AI and machine learning advisory board. He holds a PhD in Informatics at Umea University.',
         image: ottV,
       },
@@ -139,6 +144,7 @@ let days = [
         name: 'Dima Sarle',
         role: 'Founder and CEO, Earthians',
         image: dimaS,
+        linkedin: 'https://www.linkedin.com/in/sarle/', 
         bio: 'Having founded five companies, invested in a dozen startups, exited a business, and bankrupted a couple - Dima is keenly exploring what “work” means in our society and what it is going to mean in the future. He is a philosopher, a father, a mentor, tea drinker and a martial artist. Dima explores humanity through entrepreneurship. ',
       },
       {
@@ -229,6 +235,7 @@ let days = [
         name: "Kenneth O'Friel",
         role: 'CEO & Co-Founder, Toku',
         image: kennethO,
+        linkedin: 'https://www.linkedin.com/in/kenneth-o-friel-234ab073/',
         bio: 'Kenneth is an entrepreneur, angel investor, and co-founder of Toku (prev. WorkDAO), a company that provides a global crypto-native solution to hire and compensate contributors legally and compliantly. Before founding WorkDAO, Ken studied at Bates College and worked at Bank of America Tokyo.',
       },
       {
