@@ -28,6 +28,11 @@ export default function Home() {
         />
         <meta name="image" property="og:image" content="/dao-day-estonia.jpg" />
         <meta
+          name="image"
+          property="og:image:url"
+          content="https://daoday.ee/dao-day-estonia.jpg"
+        />
+        <meta
           property="og:image:secure_url"
           content="https://daoday.ee/dao-day-estonia.jpg"
         />
