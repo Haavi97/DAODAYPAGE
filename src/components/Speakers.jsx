@@ -125,6 +125,7 @@ let days = [
       {
         name: 'Ott Velsberg',
         role: 'Chief Data Officer, Republic of Estonia',
+        bio: 'Ott Velsberg is the current Chief Data Officer of Estonian Government with experience in coordinating data governance and data science, including domains of artificial intelligence, open data, citizen-centric data governance, data privacy and regulation, once-only principle, and much more. Strong experience with innovation management, strategic thinking, data management, data science and digital transformation. Leading Estonia to a trendsetter status in data governance, open data and artificial intelligence. He also serves as a board member for various boards, such as board of Statistics, board of Estonian Language technology, IT Academy AI and machine learning advisory board. He holds a PhD in Informatics at Umea University.',
         image: ottV,
       },
       {
