@@ -296,7 +296,7 @@ export function Speakers() {
         </div>
 
         <div className="mt-14 lg:mt-24">
-          <div className="grid grid-cols-2 gap-x-8 gap-y-10 sm:grid-cols-2 sm:gap-y-16 md:grid-cols-3 [&:not(:focus-visible)]:focus:outline-none">
+          <div className="grid grid-cols-2 gap-x-8 gap-y-10 sm:grid-cols-2 sm:gap-y-16 md:grid-cols-3 [&:not(:focus-visible)]:focus:outline-none cursor-pointer">
             {days[0].speakers.map((speaker, speakerIndex) => (
               <div
                 key={speakerIndex}
@@ -305,7 +305,7 @@ export function Speakers() {
                 <Image
                   className="aspect-square w-full rounded-2xl object-cover"
                   src={speaker.image}
-                  alt="{speaker.name}"
+                  alt={speaker.name}
                 />
                 <h3 className="mt-8 font-display text-lg font-bold tracking-tight text-slate-900 md:text-xl">
                   {speaker.name}
@@ -313,13 +313,6 @@ export function Speakers() {
                 <p className="mt-1 text-sm tracking-tight text-slate-500 md:text-base">
                   {speaker.role}
                 </p>
-                {/* <div id={'speaker' + speakerIndex} hidden>
-                  <Modal
-                    speaker={speaker}
-                    image={speaker.image}
-                    visible={speaker.visible ? true : false}
-                  />
-                </div> */}
               </div>
             ))}
           </div>
