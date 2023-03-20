@@ -27,6 +27,11 @@ export default function Home() {
           content="A full day of expert-led presentations and panel discussions that will provide you with an in-depth introduction to the internet-first organizational structure."
         />
         <meta name="image" property="og:image" content="/dao-day-estonia.jpg" />
+        <meta
+          property="og:image:secure_url"
+          content="https://daoday.ee/dao-day-estonia.jpg"
+        />
+        <meta property="og:image:type" content="image/jpeg" />
       </Head>
       <Header />
       <main>
