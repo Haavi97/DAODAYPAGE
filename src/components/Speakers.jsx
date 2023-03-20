@@ -296,11 +296,12 @@ export function Speakers() {
         </div>
 
         <div className="mt-14 lg:mt-24">
-          <div className="grid grid-cols-2 gap-x-8 gap-y-10 sm:grid-cols-2 sm:gap-y-16 md:grid-cols-3 [&:not(:focus-visible)]:focus:outline-none cursor-pointer">
+          <div className="grid grid-cols-2 gap-x-8 gap-y-10 sm:grid-cols-2 sm:gap-y-16 md:grid-cols-3 [&:not(:focus-visible)]:focus:outline-none">
             {days[0].speakers.map((speaker, speakerIndex) => (
               <div
                 key={speakerIndex}
                 onClick={() => openSpeakerModal(speakerIndex)}
+                className="cursor-pointer"
               >
                 <Image
                   className="aspect-square w-full rounded-2xl object-cover"
