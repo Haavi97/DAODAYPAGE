@@ -684,7 +684,7 @@ export function Schedule() {
                   </p>
                   <p className="mt-2 flex-auto font-semibold sm:mt-0">
                     Keynote - DAOs, compliance challenges, and economic
-                    gardening.
+                    gardening
                   </p>
                   <p
                     class="flex-none cursor-pointer text-sm hover:text-blue-600 sm:ml-6"
@@ -699,7 +699,7 @@ export function Schedule() {
                     <time dateTime="2023-03-28T17:45">17:45 PM EEST</time>
                   </p>
                   <p className="mt-2 flex-auto font-semibold sm:mt-0">
-                    Panel - The future of companies & collaborations.
+                    Panel - The future of companies & collaborations
                   </p>
                   <p class="flex-none space-x-3 text-sm sm:ml-6">
                     <span
