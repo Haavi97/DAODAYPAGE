@@ -674,7 +674,7 @@ export function Schedule() {
             </div>
             <div>
               <h2 className="text-xl font-semibold leading-6 text-blue-600">
-                The Raise of Internet Native Economy
+                The Rise of Internet Native Economy
               </h2>
               <ol className="mt-2 divide-y divide-blue-200 text-sm leading-6 text-blue-900">
                 <li className="items-center py-4 sm:flex">
