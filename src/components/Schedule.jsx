@@ -316,9 +316,9 @@ export function Schedule() {
               <h2 className="text-xl font-semibold leading-6 text-blue-600">
                 Registration & Welcome
               </h2>
-              <ol className="mt-2 divide-y divide-blue-200 text-base leading-6 text-blue-900">
+              <ol className="mt-2 divide-y divide-blue-200 text-sm leading-6 text-blue-900">
                 <li className="items-center py-4 sm:flex">
-                  <p class="w-48 flex-none">
+                  <p class="w-56 flex-none">
                     <time dateTime="2023-03-28T09:30">09:30 AM</time> -{' '}
                     <time dateTime="2023-03-28T10:00">10:00 AM EEST</time>
                   </p>
@@ -330,19 +330,19 @@ export function Schedule() {
                   </p>
                 </li>
                 <li className="items-center py-4 sm:flex">
-                  <p class="w-48 flex-none">
+                  <p class="w-56 flex-none">
                     <time dateTime="2023-03-28T10:00">10:00 AM</time> -{' '}
                     <time dateTime="2023-03-28T10:05">10:05 AM EEST</time>
                   </p>
                   <p className="mt-2 flex-auto font-semibold sm:mt-0">
-                    Welcome & Opening Words
+                    Welcome & Opening words
                   </p>
                   <p class="flex-none text-sm sm:ml-6">
                     DAO Day Organizer / INO Team
                   </p>
                 </li>
                 <li className="items-center py-4 sm:flex">
-                  <p class="w-48 flex-none">
+                  <p class="w-56 flex-none">
                     <time dateTime="2023-03-28T10:05">10:05 AM</time> -{' '}
                     <time dateTime="2023-03-28T10:25">10:25 AM EEST</time>
                   </p>
@@ -362,9 +362,9 @@ export function Schedule() {
               <h2 className="text-xl font-semibold leading-6 text-blue-600">
                 DAO Landscape
               </h2>
-              <ol className="mt-2 divide-y divide-blue-200 text-base leading-6 text-blue-900">
+              <ol className="mt-2 divide-y divide-blue-200 text-sm leading-6 text-blue-900">
                 <li className="items-center py-4 sm:flex">
-                  <p class="w-48 flex-none">
+                  <p class="w-56 flex-none">
                     <time dateTime="2023-03-28T10:25">10:25 AM</time> -{' '}
                     <time dateTime="2023-03-28T10:50">10:50 AM EEST</time>
                   </p>
@@ -379,7 +379,7 @@ export function Schedule() {
                   </p>
                 </li>
                 <li className="items-center py-4 sm:flex">
-                  <p class="w-48 flex-none">
+                  <p class="w-56 flex-none">
                     <time dateTime="2023-03-28T10:50">10:50 AM</time> -{' '}
                     <time dateTime="2023-03-28T11:00">11:00 AM EEST</time>
                   </p>
@@ -394,7 +394,7 @@ export function Schedule() {
                   </p>
                 </li>
                 <li className="items-center py-4 sm:flex">
-                  <p class="w-48 flex-none">
+                  <p class="w-56 flex-none">
                     <time dateTime="2023-03-28T11:00">11:00 AM</time> -{' '}
                     <time dateTime="2023-03-28T11:15">11:15 AM EEST</time>
                   </p>
@@ -409,7 +409,7 @@ export function Schedule() {
                   </p>
                 </li>
                 <li className="items-center py-4 sm:flex">
-                  <p class="w-48 flex-none">
+                  <p class="w-56 flex-none">
                     <time dateTime="2023-03-28T11:15">11:15 AM</time> -{' '}
                     <time dateTime="2023-03-28T12:00">12:00 PM EEST</time>
                   </p>
@@ -449,9 +449,9 @@ export function Schedule() {
               <h2 className="text-xl font-semibold leading-6 text-blue-600">
                 Distributed Governance
               </h2>
-              <ol className="mt-2 divide-y divide-blue-200 text-base leading-6 text-blue-900">
+              <ol className="mt-2 divide-y divide-blue-200 text-sm leading-6 text-blue-900">
                 <li className="items-center py-4 sm:flex">
-                  <p class="w-48 flex-none">
+                  <p class="w-56 flex-none">
                     <time dateTime="2023-03-28T12:00">12:00 PM</time> -{' '}
                     <time dateTime="2023-03-28T12:15">12:15 PM EEST</time>
                   </p>
@@ -466,7 +466,7 @@ export function Schedule() {
                   </p>
                 </li>
                 <li className="items-center py-4 sm:flex">
-                  <p class="w-48 flex-none">
+                  <p class="w-56 flex-none">
                     <time dateTime="2023-03-28T12:15">12:15 PM</time> -{' '}
                     <time dateTime="2023-03-28T13:00">13:00 PM EEST</time>
                   </p>
@@ -510,11 +510,11 @@ export function Schedule() {
             </div>
             <div>
               <h2 className="text-xl font-semibold leading-6 text-blue-600">
-                Lunch Break
+                Lunch break
               </h2>
-              <ol className="mt-2 divide-y divide-blue-200 text-base leading-6 text-blue-900">
+              <ol className="mt-2 divide-y divide-blue-200 text-sm leading-6 text-blue-900">
                 <li className="items-center py-4 sm:flex">
-                  <p class="w-48 flex-none">
+                  <p class="w-56 flex-none">
                     <time dateTime="2023-03-28T13:00">13:00 PM</time> -{' '}
                     <time dateTime="2023-03-28T14:00">14:00 PM EEST</time>
                   </p>
@@ -531,9 +531,9 @@ export function Schedule() {
               <h2 className="text-xl font-semibold leading-6 text-blue-600">
                 Decentralized Operations
               </h2>
-              <ol className="mt-2 divide-y divide-blue-200 text-base leading-6 text-blue-900">
+              <ol className="mt-2 divide-y divide-blue-200 text-sm leading-6 text-blue-900">
                 <li className="items-center py-4 sm:flex">
-                  <p class="w-48 flex-none">
+                  <p class="w-56 flex-none">
                     <time dateTime="2023-03-28T14:00">14:00 PM</time> -{' '}
                     <time dateTime="2023-03-28T14:15">14:15 PM EEST</time>
                   </p>
@@ -548,12 +548,12 @@ export function Schedule() {
                   </p>
                 </li>
                 <li className="items-center py-4 sm:flex">
-                  <p class="w-48 flex-none">
+                  <p class="w-56 flex-none">
                     <time dateTime="2023-03-28T14:15">14:15 PM</time> -{' '}
                     <time dateTime="2023-03-28T15:00">15:00 PM EEST</time>
                   </p>
                   <p className="mt-2 flex-auto font-semibold sm:mt-0">
-                    Panel - DAO Operations - Coordination, Taxation & Compliance
+                    Panel - DAO Operations - Coordination, taxation & compliance
                   </p>
                   <p class="flex-none space-x-3 text-sm sm:ml-6">
                     <span
@@ -594,9 +594,9 @@ export function Schedule() {
               <h2 className="text-xl font-semibold leading-6 text-blue-600">
                 Legal Structures
               </h2>
-              <ol className="mt-2 divide-y divide-blue-200 text-base leading-6 text-blue-900">
+              <ol className="mt-2 divide-y divide-blue-200 text-sm leading-6 text-blue-900">
                 <li className="items-center py-4 sm:flex">
-                  <p class="w-48 flex-none">
+                  <p class="w-56 flex-none">
                     <time dateTime="2023-03-28T15:00">15:00 PM</time> -{' '}
                     <time dateTime="2023-03-28T15:45">15:45 PM EEST</time>
                   </p>
@@ -637,12 +637,12 @@ export function Schedule() {
                   </p>
                 </li>
                 <li className="items-center py-4 sm:flex">
-                  <p class="w-48 flex-none">
+                  <p class="w-56 flex-none">
                     <time dateTime="2023-03-28T15:45">15:45 PM</time> -{' '}
                     <time dateTime="2023-03-28T16:15">16:15 PM EEST</time>
                   </p>
                   <p className="mt-2 flex-auto font-semibold sm:mt-0">
-                    Fireside chat - Blockchain and Decentralized Organizations
+                    Fireside chat - Blockchain and decentralized organizations
                   </p>
                   <p
                     class="flex-none cursor-pointer text-sm hover:text-blue-600 sm:ml-6"
@@ -657,9 +657,9 @@ export function Schedule() {
               <h2 className="text-xl font-semibold leading-6 text-blue-600">
                 Coffee Break
               </h2>
-              <ol className="mt-2 divide-y divide-blue-200 text-base leading-6 text-blue-900">
+              <ol className="mt-2 divide-y divide-blue-200 text-sm leading-6 text-blue-900">
                 <li className="items-center py-4 sm:flex">
-                  <p class="w-48 flex-none">
+                  <p class="w-56 flex-none">
                     <time dateTime="2023-03-28T13:00">16:15 PM</time> -{' '}
                     <time dateTime="2023-03-28T14:00">16:45 PM EEST</time>
                   </p>
@@ -676,15 +676,15 @@ export function Schedule() {
               <h2 className="text-xl font-semibold leading-6 text-blue-600">
                 The Raise of Internet Native Economy
               </h2>
-              <ol className="mt-2 divide-y divide-blue-200 text-base leading-6 text-blue-900">
+              <ol className="mt-2 divide-y divide-blue-200 text-sm leading-6 text-blue-900">
                 <li className="items-center py-4 sm:flex">
-                  <p class="w-48 flex-none">
+                  <p class="w-56 flex-none">
                     <time dateTime="2023-03-28T16:45">16:45 PM</time> -{' '}
                     <time dateTime="2023-03-28T17:00">17:00 PM EEST</time>
                   </p>
                   <p className="mt-2 flex-auto font-semibold sm:mt-0">
-                    Keynote - DAOs, Compliance Challenges, and Economic
-                    Gardening.
+                    Keynote - DAOs, compliance challenges, and economic
+                    gardening.
                   </p>
                   <p
                     class="flex-none cursor-pointer text-sm hover:text-blue-600 sm:ml-6"
@@ -694,7 +694,7 @@ export function Schedule() {
                   </p>
                 </li>
                 <li className="items-center py-4 sm:flex">
-                  <p class="w-48 flex-none">
+                  <p class="w-56 flex-none">
                     <time dateTime="2023-03-28T17:00">17:00 PM</time> -{' '}
                     <time dateTime="2023-03-28T17:45">17:45 PM EEST</time>
                   </p>
@@ -740,14 +740,14 @@ export function Schedule() {
               <h2 className="text-xl font-semibold leading-6 text-blue-600">
                 Wrap
               </h2>
-              <ol className="mt-2 divide-y divide-blue-200 text-base leading-6 text-blue-900">
+              <ol className="mt-2 divide-y divide-blue-200 text-sm leading-6 text-blue-900">
                 <li className="items-center py-4 sm:flex">
-                  <p class="w-48 flex-none">
+                  <p class="w-56 flex-none">
                     <time dateTime="2023-03-28T17:45">17:45 PM</time> -{' '}
                     <time dateTime="2023-03-28T18:00">18:00 PM EEST</time>
                   </p>
                   <p className="mt-2 flex-auto font-semibold sm:mt-0">
-                    Closing Remarks
+                    Closing remarks
                   </p>
                   <p class="flex-none text-sm sm:ml-6">
                     DAO Day Organizer / INO Team
@@ -759,9 +759,9 @@ export function Schedule() {
               <h2 className="text-xl font-semibold leading-6 text-blue-600">
                 Reception
               </h2>
-              <ol className="mt-2 divide-y divide-blue-200 text-base leading-6 text-blue-900">
+              <ol className="mt-2 divide-y divide-blue-200 text-sm leading-6 text-blue-900">
                 <li className="items-center py-4 sm:flex">
-                  <p class="w-48 flex-none">
+                  <p class="w-56 flex-none">
                     <time dateTime="2023-03-28T19:00">19:00 PM EEST</time> -{' '}
                     <time dateTime="2023-03-28T21:00">21:00 PM EEST</time>
                   </p>
