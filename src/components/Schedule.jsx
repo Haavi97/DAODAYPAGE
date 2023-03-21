@@ -238,7 +238,7 @@ let days = [
         bio: 'Kenneth is an entrepreneur, angel investor, and co-founder of Toku (prev. WorkDAO), a company that provides a global crypto-native solution to hire and compensate contributors legally and compliantly. Before founding WorkDAO, Ken studied at Bates College and worked at Bank of America Tokyo.',
       },
       {
-        name: 'Marta Piekarska',
+        name: 'Marta Geater Piekarska',
         role: 'Director of DAO Strategy, ConsenSys',
         image: martaP,
         linkedin: 'linkendin.com/in/martapiekarska',
@@ -544,7 +544,7 @@ export function Schedule() {
                     class="flex-none cursor-pointer text-sm hover:text-blue-600 sm:ml-6"
                     onClick={() => openSpeakerModal(28)}
                   >
-                    Martha Geater Piekarska
+                    Marta Geater Piekarska
                   </p>
                 </li>
                 <li className="items-center py-4 sm:flex">
