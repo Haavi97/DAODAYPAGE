@@ -320,7 +320,7 @@ export function Schedule() {
                 <li className="items-center py-4 sm:flex">
                   <p class="w-48 flex-none">
                     <time dateTime="2023-03-28T09:30">09:30 AM</time> -{' '}
-                    <time dateTime="2023-03-28T10:00">10:00 AM</time>
+                    <time dateTime="2023-03-28T10:00">10:00 AM EEST</time>
                   </p>
                   <p className="mt-2 flex-auto font-semibold sm:mt-0">
                     Doors Open
@@ -332,7 +332,7 @@ export function Schedule() {
                 <li className="items-center py-4 sm:flex">
                   <p class="w-48 flex-none">
                     <time dateTime="2023-03-28T10:00">10:00 AM</time> -{' '}
-                    <time dateTime="2023-03-28T10:05">10:05 AM</time>
+                    <time dateTime="2023-03-28T10:05">10:05 AM EEST</time>
                   </p>
                   <p className="mt-2 flex-auto font-semibold sm:mt-0">
                     Welcome & Opening Words
@@ -344,7 +344,7 @@ export function Schedule() {
                 <li className="items-center py-4 sm:flex">
                   <p class="w-48 flex-none">
                     <time dateTime="2023-03-28T10:05">10:05 AM</time> -{' '}
-                    <time dateTime="2023-03-28T10:25">10:25 AM</time>
+                    <time dateTime="2023-03-28T10:25">10:25 AM EEST</time>
                   </p>
                   <p className="mt-2 flex-auto font-semibold sm:mt-0">
                     Keynote - The vision of Internet Native Organization
@@ -366,7 +366,7 @@ export function Schedule() {
                 <li className="items-center py-4 sm:flex">
                   <p class="w-48 flex-none">
                     <time dateTime="2023-03-28T10:25">10:25 AM</time> -{' '}
-                    <time dateTime="2023-03-28T10:50">10:50 AM</time>
+                    <time dateTime="2023-03-28T10:50">10:50 AM EEST</time>
                   </p>
                   <p className="mt-2 flex-auto font-semibold sm:mt-0">
                     Keynote - Current state of DAOs
@@ -381,7 +381,7 @@ export function Schedule() {
                 <li className="items-center py-4 sm:flex">
                   <p class="w-48 flex-none">
                     <time dateTime="2023-03-28T10:50">10:50 AM</time> -{' '}
-                    <time dateTime="2023-03-28T11:00">11:00 AM</time>
+                    <time dateTime="2023-03-28T11:00">11:00 AM EEST</time>
                   </p>
                   <p className="mt-2 flex-auto font-semibold sm:mt-0">
                     Keynote - How to setup a DAO?
@@ -396,7 +396,7 @@ export function Schedule() {
                 <li className="items-center py-4 sm:flex">
                   <p class="w-48 flex-none">
                     <time dateTime="2023-03-28T11:00">11:00 AM</time> -{' '}
-                    <time dateTime="2023-03-28T11:15">11:15 AM</time>
+                    <time dateTime="2023-03-28T11:15">11:15 AM EEST</time>
                   </p>
                   <p className="mt-2 flex-auto font-semibold sm:mt-0">
                     Keynote - Government stack & fair data economy
@@ -411,7 +411,7 @@ export function Schedule() {
                 <li className="items-center py-4 sm:flex">
                   <p class="w-48 flex-none">
                     <time dateTime="2023-03-28T11:15">11:15 AM</time> -{' '}
-                    <time dateTime="2023-03-28T12:00">12:00 PM</time>
+                    <time dateTime="2023-03-28T12:00">12:00 PM EEST</time>
                   </p>
                   <p className="mt-2 flex-auto font-semibold sm:mt-0">
                     Panel - Estonia&apos;s readiness for DAOs
@@ -452,8 +452,8 @@ export function Schedule() {
               <ol className="mt-2 divide-y divide-blue-200 text-base leading-6 text-blue-900">
                 <li className="items-center py-4 sm:flex">
                   <p class="w-48 flex-none">
-                    <time dateTime="2023-03-28T11:00">12:00 PM</time> -{' '}
-                    <time dateTime="2023-03-28T11:15">12:15 PM</time>
+                    <time dateTime="2023-03-28T12:00">12:00 PM</time> -{' '}
+                    <time dateTime="2023-03-28T12:15">12:15 PM EEST</time>
                   </p>
                   <p className="mt-2 flex-auto font-semibold sm:mt-0">
                     Keynote - Governance 101
@@ -467,8 +467,8 @@ export function Schedule() {
                 </li>
                 <li className="items-center py-4 sm:flex">
                   <p class="w-48 flex-none">
-                    <time dateTime="2023-03-28T11:15">12:15 PM</time> -{' '}
-                    <time dateTime="2023-03-28T12:00">13:00 PM</time>
+                    <time dateTime="2023-03-28T12:15">12:15 PM</time> -{' '}
+                    <time dateTime="2023-03-28T13:00">13:00 PM EEST</time>
                   </p>
                   <p className="mt-2 flex-auto font-semibold sm:mt-0">
                     Panel - Is DAO really decentralized?
@@ -516,7 +516,7 @@ export function Schedule() {
                 <li className="items-center py-4 sm:flex">
                   <p class="w-48 flex-none">
                     <time dateTime="2023-03-28T13:00">13:00 PM</time> -{' '}
-                    <time dateTime="2023-03-28T14:00">14:00 PM</time>
+                    <time dateTime="2023-03-28T14:00">14:00 PM EEST</time>
                   </p>
                   <p className="mt-2 flex-auto font-semibold sm:mt-0">
                     Lunch & Networking
@@ -534,8 +534,8 @@ export function Schedule() {
               <ol className="mt-2 divide-y divide-blue-200 text-base leading-6 text-blue-900">
                 <li className="items-center py-4 sm:flex">
                   <p class="w-48 flex-none">
-                    <time dateTime="2023-03-28T11:00">14:00 PM</time> -{' '}
-                    <time dateTime="2023-03-28T11:15">14:15 PM</time>
+                    <time dateTime="2023-03-28T14:00">14:00 PM</time> -{' '}
+                    <time dateTime="2023-03-28T14:15">14:15 PM EEST</time>
                   </p>
                   <p className="mt-2 flex-auto font-semibold sm:mt-0">
                     Keynote - What entails running a DAO?
@@ -549,8 +549,8 @@ export function Schedule() {
                 </li>
                 <li className="items-center py-4 sm:flex">
                   <p class="w-48 flex-none">
-                    <time dateTime="2023-03-28T11:15">14:15 PM</time> -{' '}
-                    <time dateTime="2023-03-28T12:00">15:00 PM</time>
+                    <time dateTime="2023-03-28T14:15">14:15 PM</time> -{' '}
+                    <time dateTime="2023-03-28T15:00">15:00 PM EEST</time>
                   </p>
                   <p className="mt-2 flex-auto font-semibold sm:mt-0">
                     Panel - DAO Operations - Coordination, Taxation & Compliance
@@ -597,8 +597,8 @@ export function Schedule() {
               <ol className="mt-2 divide-y divide-blue-200 text-base leading-6 text-blue-900">
                 <li className="items-center py-4 sm:flex">
                   <p class="w-48 flex-none">
-                    <time dateTime="2023-03-28T11:15">14:00 PM</time> -{' '}
-                    <time dateTime="2023-03-28T12:00">15:45 PM</time>
+                    <time dateTime="2023-03-28T15:00">15:00 PM</time> -{' '}
+                    <time dateTime="2023-03-28T15:45">15:45 PM EEST</time>
                   </p>
                   <p className="mt-2 flex-auto font-semibold sm:mt-0">
                     Panel - Virtual Assets Regulation and MiCA
@@ -638,8 +638,8 @@ export function Schedule() {
                 </li>
                 <li className="items-center py-4 sm:flex">
                   <p class="w-48 flex-none">
-                    <time dateTime="2023-03-28T11:00">15:45 PM</time> -{' '}
-                    <time dateTime="2023-03-28T11:15">16:15 PM</time>
+                    <time dateTime="2023-03-28T15:45">15:45 PM</time> -{' '}
+                    <time dateTime="2023-03-28T16:15">16:15 PM EEST</time>
                   </p>
                   <p className="mt-2 flex-auto font-semibold sm:mt-0">
                     Fireside chat - Blockchain and Decentralized Organizations
@@ -661,7 +661,7 @@ export function Schedule() {
                 <li className="items-center py-4 sm:flex">
                   <p class="w-48 flex-none">
                     <time dateTime="2023-03-28T13:00">16:15 PM</time> -{' '}
-                    <time dateTime="2023-03-28T14:00">16:45 PM</time>
+                    <time dateTime="2023-03-28T14:00">16:45 PM EEST</time>
                   </p>
                   <p className="mt-2 flex-auto font-semibold sm:mt-0">
                     Coffee o&apos;clock
@@ -679,8 +679,8 @@ export function Schedule() {
               <ol className="mt-2 divide-y divide-blue-200 text-base leading-6 text-blue-900">
                 <li className="items-center py-4 sm:flex">
                   <p class="w-48 flex-none">
-                    <time dateTime="2023-03-28T11:00">16:45 PM</time> -{' '}
-                    <time dateTime="2023-03-28T11:15">17:00 PM</time>
+                    <time dateTime="2023-03-28T16:45">16:45 PM</time> -{' '}
+                    <time dateTime="2023-03-28T17:00">17:00 PM EEST</time>
                   </p>
                   <p className="mt-2 flex-auto font-semibold sm:mt-0">
                     Keynote - DAOs, Compliance Challenges, and Economic
@@ -695,8 +695,8 @@ export function Schedule() {
                 </li>
                 <li className="items-center py-4 sm:flex">
                   <p class="w-48 flex-none">
-                    <time dateTime="2023-03-28T11:15">14:15 PM</time> -{' '}
-                    <time dateTime="2023-03-28T12:00">15:00 PM</time>
+                    <time dateTime="2023-03-28T17:00">17:00 PM</time> -{' '}
+                    <time dateTime="2023-03-28T17:45">17:45 PM EEST</time>
                   </p>
                   <p className="mt-2 flex-auto font-semibold sm:mt-0">
                     Panel - The future of companies & collaborations.
@@ -738,18 +738,37 @@ export function Schedule() {
             </div>
             <div>
               <h2 className="text-xl font-semibold leading-6 text-blue-600">
-                Wrap Up
+                Wrap
               </h2>
               <ol className="mt-2 divide-y divide-blue-200 text-base leading-6 text-blue-900">
                 <li className="items-center py-4 sm:flex">
                   <p class="w-48 flex-none">
-                    <time dateTime="2023-03-28T13:00">17:45 PM</time> -{' '}
-                    <time dateTime="2023-03-28T14:00">18:00 PM</time>
+                    <time dateTime="2023-03-28T17:45">17:45 PM</time> -{' '}
+                    <time dateTime="2023-03-28T18:00">18:00 PM EEST</time>
                   </p>
                   <p className="mt-2 flex-auto font-semibold sm:mt-0">
-                    Coffee o&apos;clock
+                    Closing Remarks
                   </p>
-                  <p class="flex-none text-sm sm:ml-6">Closing Remarks</p>
+                  <p class="flex-none text-sm sm:ml-6">
+                    DAO Day Organizer / INO Team
+                  </p>
+                </li>
+              </ol>
+            </div>
+            <div>
+              <h2 className="text-xl font-semibold leading-6 text-blue-600">
+                Reception
+              </h2>
+              <ol className="mt-2 divide-y divide-blue-200 text-base leading-6 text-blue-900">
+                <li className="items-center py-4 sm:flex">
+                  <p class="w-48 flex-none">
+                    <time dateTime="2023-03-28T19:00">19:00 PM EEST</time> -{' '}
+                    <time dateTime="2023-03-28T21:00">21:00 PM EEST</time>
+                  </p>
+                  <p className="mt-2 flex-auto font-semibold sm:mt-0">
+                    Speakers / VIP Dinner hosted by PwC Legal Estonia
+                  </p>
+                  <p class="flex-none text-sm sm:ml-6">Invitation-only</p>
                 </li>
               </ol>
             </div>
