@@ -1,7 +1,5 @@
-import { useEffect, useId, useState } from 'react'
+import { useId, useState } from 'react'
 import Image from 'next/image'
-import { Tab } from '@headlessui/react'
-import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import { Modal } from '@/components/Modal'
@@ -34,6 +32,7 @@ import kennethO from '@/images/avatars/kenneth-ofriel-toku.jpg'
 import martaP from '@/images/avatars/marta-piekarska-consensys.jpg'
 import jeanM from '@/images/avatars/jean-marc-seigneur-uniGeneve.jpg'
 import franckN from '@/images/avatars/franck-nouyrigat-electis.jpg'
+import vikramA from '@/images/avatars/vikram-aditya-daolens.jpg'
 import vattanP from '@/images/avatars/vattan-ps-ino.jpg'
 
 let days = [
@@ -88,7 +87,7 @@ let days = [
         name: 'Priit Lätt',
         role: 'Partner, PwC Legal Baltics',
         image: priitL,
-        linkedin: 'https://www.linkedin.com/in/priitlatt/', 
+        linkedin: 'https://www.linkedin.com/in/priitlatt/',
         bio: 'Please welcome our next speaker at DAO DAY in Tallinn. Priit Lätt, who heads up the intellectual property/IT, tax dispute and public procurement law practices at PwC Legal in Estonia.\nPriit is a renowned specialist in IP, IT (including the internet of things and cryptocurrencies), tax and public procurement law, representing and advising Estonian and international companies and public institutions. Among other things, Priit has represented a client in Estonia’s biggest software dispute and in Estonia’s first bitcoin-related legal regulation lawsuit. Priit also successfully represented a client in a trademark dispute, in which the Supreme Court declared several important provisions of the Code of Civil Procedure, and Government Regulations that established limits to legal expenses in civil disputes, as invalid and unconstitutional.\nPriit is a founder and board member in numerous professional associations (e.g the Internet of Things and Estonian Cryptocurrency Association). He is also a member of the IP/IT commission of the Estonian Bar Association.',
       },
       {
@@ -102,7 +101,7 @@ let days = [
         name: 'Viljar Kähari',
         role: 'Board Member, Estonian Digital Assets Union',
         image: viljarK,
-        linkedin: 'https://www.linkedin.com/in/viljarkahari/', 
+        linkedin: 'https://www.linkedin.com/in/viljarkahari/',
         bio: 'Viljar Kähari is a co-founder of PwC Legal Estonia with 22 years of experience in the financial services industry. His main focus is on financial services, regulatory compliance & risks and financial transactions and during past years also blockchain and digital assets (including cryptocurrencies).\nViljar advises local and international regulated entities such as banks, credit providers, payment and e-money institutions, fund managers, insurance undertakings and FinTech/RegTech companies on wide range of compliance, licensing and risk matters including setting up or restructuring regulated businesses in Estonia and providing cross-border services abroad. He has also advised cryptocurrency companies on such matters.',
       },
       {
@@ -129,7 +128,7 @@ let days = [
       {
         name: 'Ott Velsberg',
         role: 'Chief Data Officer, Republic of Estonia',
-        linkedin: 'https://www.linkedin.com/in/ott-velsberg/', 
+        linkedin: 'https://www.linkedin.com/in/ott-velsberg/',
         bio: 'Ott Velsberg is the current Chief Data Officer of Estonian Government with experience in coordinating data governance and data science, including domains of artificial intelligence, open data, citizen-centric data governance, data privacy and regulation, once-only principle, and much more. Strong experience with innovation management, strategic thinking, data management, data science and digital transformation. Leading Estonia to a trendsetter status in data governance, open data and artificial intelligence. He also serves as a board member for various boards, such as board of Statistics, board of Estonian Language technology, IT Academy AI and machine learning advisory board. He holds a PhD in Informatics at Umea University.',
         image: ottV,
       },
@@ -144,7 +143,7 @@ let days = [
         name: 'Dima Sarle',
         role: 'Founder and CEO, Earthians',
         image: dimaS,
-        linkedin: 'https://www.linkedin.com/in/sarle/', 
+        linkedin: 'https://www.linkedin.com/in/sarle/',
         bio: 'Having founded five companies, invested in a dozen startups, exited a business, and bankrupted a couple - Dima is keenly exploring what “work” means in our society and what it is going to mean in the future. He is a philosopher, a father, a mentor, tea drinker and a martial artist. Dima explores humanity through entrepreneurship. ',
       },
       {
@@ -217,13 +216,20 @@ let days = [
         linkedin: 'https://www.linkedin.com/in/toomas-seppel/',
         bio: 'Partner of Hedman Law Firm, working with the creative and tech industries. Specialist areas include intellectual property, privacy law, FinTech and IT law. Founder of www.GDPRregister.eu, a data privacy management software.\nWithin the technology industry, he advises on EU laws concerning software-based services, implementation of new technologies and expansion into new business markets. He also covers matters related to companies with crypto-based business models and tokenization projects. ',
       },
-      // {
-      //   name: 'Dr. habil. Jean-Marc Seigneur',
-      //   role: 'Director of the CAS on Blockchain, University of Geneva',
-      //   image: jeanM,
-      // linkedin: 'https://www.linkedin.com/in/jmseigneur/',
-      // bio: "Jean-Marc Seigneur is the director of the blockchain certificate of advanced studies at the University of Geneva. He has published more than 150 peer-reviewed publications in the field of digital trust, from the social to the technical aspects. His habilitation was on augmented human trust. He has evaluated and directed multi-million Euros projects in the field for the European Commission. He is the UN ITU Digital Currency Global Initiative workstream leader for stablecoins, DeFi and NFT. He is the inventor of a patent for dual offline payments with Bitcoins or ERC-20-based CBDC. Dual offline payment was a feature required for the Chinese digital yuan CBDC to work in case of no Internet/data due to no coverage, natural disaster, or war. As part of the ArtistCert community and platform, he is helping artists to create trustworthy NFTs called Signed NFTs, including, in contrast to legacy NFT, the rights of the owner signed by the artist with a Qualified Electronic Signature (QES), equivalent legally in the EU and Switzerland as a handwritten artist signature."
-      // },
+      {
+        name: 'Dr. habil. Jean-Marc Seigneur',
+        role: 'Director of the CAS on Blockchain, University of Geneva',
+        image: jeanM,
+        linkedin: 'https://www.linkedin.com/in/jmseigneur/',
+        bio: 'Jean-Marc Seigneur is the director of the blockchain certificate of advanced studies at the University of Geneva. He has published more than 150 peer-reviewed publications in the field of digital trust, from the social to the technical aspects. His habilitation was on augmented human trust. He has evaluated and directed multi-million Euros projects in the field for the European Commission. He is the UN ITU Digital Currency Global Initiative workstream leader for stablecoins, DeFi and NFT. He is the inventor of a patent for dual offline payments with Bitcoins or ERC-20-based CBDC. Dual offline payment was a feature required for the Chinese digital yuan CBDC to work in case of no Internet/data due to no coverage, natural disaster, or war. As part of the ArtistCert community and platform, he is helping artists to create trustworthy NFTs called Signed NFTs, including, in contrast to legacy NFT, the rights of the owner signed by the artist with a Qualified Electronic Signature (QES), equivalent legally in the EU and Switzerland as a handwritten artist signature.',
+      },
+      {
+        name: 'Vikram Aditya',
+        role: 'Director of the CAS on Blockchain, University of Geneva',
+        image: vikramA,
+        twitter: 'https://twitter.com/viks_rum',
+        bio: "Vikram (aka viks_rum) here from DaoLens. Product, Design and Growth are what I've resonated with the most—been in Web3 2015 onwards. Personally on a mission in 2023 to make sure to shake hands with as many folks as I can working around DAOs. My interest lies at the intersection of DAOs and AI, impact, regenerative future, DAO Operations and Dao-to-Dao collaboration. Coming onto my product, Daolens is a platform with modules that support (gating, discussions, tasks, bounties, payout and reputation, grant management, partner promotion, courses, community calendar etc) by aggregating other players and building some custom modules of our own so that you don't have to jump between tools. Most of the stuff stays on-chain. You can switch these modules on and off hence DaoLens can look like a classroom for some, like Discourse for some, like Trello for some, like a leaderboard for some, like payout tooling for some and like a beautiful community home for others.",
+      },
       // {
       //   name: 'Franck Nouyrigat',
       //   role: 'Founder, Electis',
@@ -245,11 +251,13 @@ let days = [
         linkedin: 'linkendin.com/in/martapiekarska',
         bio: "An expert in Open Source and Ecosystem Leadership, Marta serves as Head DAO Strategist at ConsenSys. She has an impressive track record of leading communities in many organizations including Balancer Labs, The Linux Foundation, Hyperledger, the Sovrin Foundation, and consulting for a plethora of startups. She’s also known for her love of the spotlight fulfilled in public speaking and mentoring which has scored her some awards like Most Influential Person in Blockchain, Consensys’ Women in Crypto, and Coindesk's Top 100 people in Blockchain ones. Marta holds a Ph.D. in Computer Security and Privacy and worked in this space with Apple, Blockstream, Mozilla, Deutsche Telekom, and others. She is a founder of the W3C Blockchain Community Group and presently serves as Chair of the Sovrin Technical Governing Board. Marta is passionate about 3 C: communities (DAO governance), collaboration (decentralisation and blockchain) and cooking (virtually anything). ",
       },
-      // {
-      //   name: 'Vattan PS',
-      //   role: 'Co-founder and Strategic Leader, Internet Native Organization',
-      //   image: vattanP,
-      // },
+      {
+        name: 'Vattan PS',
+        role: 'Board Member, Internet Native Organization',
+        image: vattanP,
+        bio: 'Vattan is a startup influencer whose multi-faceted career spans founding Founderly, venture investing, mentoring, and speaking at various startup conferences. He feels Web3 has a promising future and looks forward to helping startups adopt it. Talk to him about crypto funds, DAO, and programmable money.',
+        linkedin: 'https://www.linkedin.com/in/vattan/',
+      },
     ],
   },
 ]

@@ -44,7 +44,6 @@ export default function Home() {
         <Speakers />
         <Schedule />
         <Sponsors />
-        {/* <Newsletter /> */}
       </main>
       <Footer />
       <Timer />
