@@ -626,7 +626,7 @@ export function Schedule() {
                       class="cursor-pointer hover:text-blue-600"
                       onClick={() => openSpeakerModal(20)}
                     >
-                      Amandeep Thand
+                      Amardeep Thand
                     </span>
                     <span
                       class="cursor-pointer hover:text-blue-600"
