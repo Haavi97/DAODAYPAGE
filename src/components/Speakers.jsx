@@ -64,7 +64,7 @@ let days = [
       },
       {
         name: 'Kyle Weiss',
-        role: 'FExec Director, GitCoin',
+        role: 'Executive Director, GitCoin',
         image: kyleW,
         twitter: 'http://twitter.com/kbw',
         bio: "Kyle is currently the Executive Director of the Gitcoin Foundation, and leads our Gitcoin Passport Protocol. He has been at Gitcoin for a few years now and has been instrumental in the launch of Gitcoin's Protocols and DAO. Before Gitcoin, Kyle was a Product Lead at Twitter and has led a number of Product Management teams in technology organizations. He is a three time startup founder who focuses on building incredible teams and sought after products.",
