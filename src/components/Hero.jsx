@@ -3,12 +3,6 @@ import { useRouter } from 'next/router'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-import { DiamondIcon } from '@/components/DiamondIcon'
-
-const stats = [
-  { id: 1, name: 'Date', value: 'March 28, 2023' },
-  { id: 2, name: 'Location', value: 'Tallinn & Online' },
-]
 
 function extendUrl(query) {
   return query.promo && query.ref
@@ -30,7 +24,8 @@ export function Hero() {
           src="https://tailwindui.com/img/beams-home@95.jpg"
           alt=""
           width={918}
-          height={1495}          
+          height={1495}
+          priority
           unoptimized
         />
         <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-white" />
@@ -38,13 +33,6 @@ export function Hero() {
       </div>
       <Container className="relative">
         <div className="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
-          <div className="mx-auto mb-2 flex items-center gap-4 text-xs font-medium text-blue-900 md:text-xl lg:hidden">
-            <p>
-              <time dateTime="2022-04-06">March 28, 2023</time>
-            </p>
-            <DiamondIcon className="h-1.5 w-1.5 overflow-visible fill-current stroke-current" />
-            <p>Erinevate Tubade Klubi, Tallinn & Online</p>
-          </div>
           <h1 className="font-display text-4xl font-bold tracking-tighter text-blue-600 sm:text-7xl">
             <span className="sr-only">DAO Day Estonia - </span>The Future Of
             Community, Governance & Collaboration
@@ -65,22 +53,29 @@ export function Hero() {
                   structure and its impact on innovation.
                 </p>
               </div>
-              <div class="hidden flex-col justify-between lg:flex">
-                <div>
-                  <dl className="mt-2 grid max-w-xl flex-1 grid-cols-1 gap-8 sm:grid-cols-2">
-                    {stats.map((stat) => (
-                      <div
-                        key={stat.id}
-                        className="flex flex-col gap-y-3 border-l border-blue-900/10 pl-6"
-                      >
-                        <dt className="font-mono text-sm text-blue-600">
-                          {stat.name}
-                        </dt>
-                        <dd className="order-first text-xl font-semibold tracking-tight text-blue-900">
-                          {stat.value}
-                        </dd>
-                      </div>
-                    ))}
+              <div class="hidden flex-col justify-between space-y-8 lg:flex">
+                <div class="lg:flex lg:flex-auto lg:justify-center">
+                  <dl class="w-64 space-y-6 xl:w-80">
+                    <div class="flex flex-col-reverse gap-y-1">
+                      <dt class="text-base leading-7 text-blue-600">Date</dt>
+                      <dd class="text-xl font-semibold tracking-tight text-blue-900">
+                        March 28, 2023
+                      </dd>
+                    </div>
+                    <div class="flex flex-col-reverse gap-y-1">
+                      <dt class="text-base leading-7 text-blue-600">Venue</dt>
+                      <dd class="text-xl font-semibold tracking-tight text-blue-900">
+                        <a
+                          href="https://goo.gl/maps/7gWELQRoVbfpuZJA9"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          class="hover:text-blue-600"
+                        >
+                          Erinevate Tubade Klubi
+                        </a>
+                        , Tallinn
+                      </dd>
+                    </div>
                   </dl>
                 </div>
                 <Button

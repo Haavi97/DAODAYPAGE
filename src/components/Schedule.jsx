@@ -6,7 +6,7 @@ import { Modal } from '@/components/Modal'
 import paulBImage from '@/images/avatars/paul-brody-ey.jpg'
 import aidenS from '@/images/avatars/aiden-slavin-wef.jpg'
 import eyalEImage from '@/images/avatars/eyal-eithcowich-deepdao.jpg'
-import kevinO from '@/images/avatars/kevin-owocki-gitcoin.jpg'
+import kyleW from '@/images/avatars/kyle-weiss-gitcoin.jpg'
 import johnnyC from '@/images/avatars/johnny-chin-origami.jpg'
 import connorS from '@/images/avatars/connor-spelliscy-drc.jpg'
 import priitL from '@/images/avatars/priit-laat-pwc.jpg'
@@ -63,11 +63,11 @@ let days = [
         bio: "20 years of experience developing and leading technology projects for companies such as Apple Computer, TIAA-CREF, and others in the U.S. and Israel. Fell in love with DAOs and never looked back. \nDeepDAO's mission is to provide comprehensive discoverability for the decentralized governance systems. DeepDAO provides comprehensive analytics and information gathering. The main dashboard product enumerates and ranks DAOs using several key metrics such as membership and assets under management (AUM). We are constantly expanding both coverage of DAOs and the metrics that quantify and measure the dynamics of governance processes in DAOs.DeepDAO is covering both financial and governance data on 100+ top DAOs.",
       },
       {
-        name: 'Kevin Owocki',
-        role: 'Founder, GitCoin/Supermodular',
-        image: kevinO,
-        twitter: 'https://twitter.com/owocki',
-        bio: 'Kevin Owocki is a blockchain expert, computer scientist, co-founder of Gitcoin and CEO/founder of SuperModular, a venture studio that builds regen web3 projects. After completing his BS in Computer Science, Kevin spent 15 years in the world of web2, working in engineering leadership serving as a CTO and founder for open source software and web startups.\nKevin co-founded Gitcoin in 2017 where his vision of a positive-sum ecosystem supported by public goods helped raise and distribute over $72 million to projects in the ecosystem. Kevin is now fully focused on building his new project, SuperModular, aiming to build a modular stack of products used specifically for public goods and funding tools. Kevin is also the host of the Green Pill podcast on the Bankless network, where he discusses regenerative crypto-economic systems that create positive externalities for the world.',
+        name: 'Kyle Weiss',
+        role: 'FExec Director, GitCoin',
+        image: kyleW,
+        twitter: 'http://twitter.com/kbw',
+        bio: "Kyle is currently the Executive Director of the Gitcoin Foundation, and leads our Gitcoin Passport Protocol. He has been at Gitcoin for a few years now and has been instrumental in the launch of Gitcoin's Protocols and DAO. Before Gitcoin, Kyle was a Product Lead at Twitter and has led a number of Product Management teams in technology organizations. He is a three time startup founder who focuses on building incredible teams and sought after products.",
       },
       {
         name: 'Johnny Chin',
@@ -462,7 +462,7 @@ export function Schedule() {
                     class="flex-none cursor-pointer text-sm hover:text-blue-600 sm:ml-6"
                     onClick={() => openSpeakerModal(3)}
                   >
-                    Kevin Owocki
+                    Kyle Weiss
                   </p>
                 </li>
                 <li className="items-center py-4 sm:flex">
