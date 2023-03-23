@@ -34,6 +34,7 @@ import jeanM from '@/images/avatars/jean-marc-seigneur-uniGeneve.jpg'
 import franckN from '@/images/avatars/franck-nouyrigat-electis.jpg'
 import vikramA from '@/images/avatars/vikram-aditya-daolens.jpg'
 import vattanP from '@/images/avatars/vattan-ps-ino.jpg'
+import rezS from '@/images/avatars/al-william-solidworld.jpg'
 
 let days = [
   {
@@ -257,6 +258,13 @@ let days = [
         image: franckN,
         linkedin: 'https://www.linkedin.com/in/francknouyrigat',
         bio: "Franck Nouyrigat is a French-American developer-turned-entrepreneur, making significant contributions to the tech and startup ecosystem. He co-founded Startup Weekend, a global movement promoting entrepreneurship through 54-hour events, and Massive, a venture-backed distributed computing platform. Franck is currently working on the first web3 e-voting platform: Electis.com. He actively volunteers to help founders in org like Unleash.org. Franck's passion and work continue to influence the technology landscape worldwide; he divides his time between Tallinn, France, and the United States where he is building the first peer to peer startup studio: one37 (Coming soon!)",
+      },
+      {
+        name: 'Al William',
+        role: 'Co-Founder, Solid World DAO',
+        image: rezS,
+        linkedin: 'https://www.linkedin.com/in/awtammsaar/',
+        bio: "Hi I'm Rez! \nI'm the co-founder of Solid World (previously Solid World DAO), which is building scalable climate financing infrastructure. I'm obsessed with the subfields of crypto and environmental finance called ReFi. I co-host a podcast called This Week in ReFi and occasionally write a blog about carbon and tokenomics.",
       },
     ],
   },
@@ -728,9 +736,9 @@ export function Schedule() {
                     </span>
                     <span
                       class="cursor-pointer hover:text-blue-600"
-                      onClick={() => openSpeakerModal(13)}
+                      onClick={() => openSpeakerModal(31)}
                     >
-                      Stenver Jerkku
+                      Al William
                     </span>
                   </p>
                 </li>
