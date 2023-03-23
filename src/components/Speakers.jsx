@@ -153,12 +153,19 @@ let days = [
         linkedin: 'https://www.linkedin.com/in/georgebasiladze/',
         bio: 'George Basiladze is co-founder and CEO of Wert, a fintech company dedicated to creating products that expand fiat payment access to NFTs and the Web3 space.\nBefore Wert he co-founded Cryptopay, which launched in 2013 and still is one of the oldest Bitcoin wallets available in the UK with more than 1.5 million customers worldwide.\nPrevious roles: Chief Analyst for NordWest Energy, Corporate Financial Analyst for Evli Bank PLC, and Deal Intelligence Analyst for ReDeal AG, gaining years of experience in the financial and technology sectors. George was born in Georgia and is currently based in Estonia.',
       },
+      // {
+      //   name: 'Frédéric Hubin',
+      //   role: 'Management Board, CoinsPaid',
+      //   image: fredH,
+      //   linkedin: 'https://www.linkedin.com/in/fhubin/',
+      //   bio: "Frédéric has been working in the banking and financial sector for nearly 25 years with experience acquired in Switzerland, Luxembourg, the United Kingdom, Belgium, the Netherlands, France and now Estonia. His expertise spans most of a bank's businesses, from payments to        derivatives pricing or from compliance to clearing and settlement. Frédéric's interest in DLT dates back to 2013 and he started developing smart contracts mimicking derivatives as early as 2016. He is currently a board member of Dream Finance OÜ, the company operating the CoinsPaid, CryptoProcessing and Altra.House brands.",
+      // },
       {
-        name: 'Frédéric Hubin',
-        role: 'Management Board, CoinsPaid',
-        image: fredH,
-        linkedin: 'https://www.linkedin.com/in/fhubin/',
-        bio: "Frédéric has been working in the banking and financial sector for nearly 25 years with experience acquired in Switzerland, Luxembourg, the United Kingdom, Belgium, the Netherlands, France and now Estonia. His expertise spans most of a bank's businesses, from payments to        derivatives pricing or from compliance to clearing and settlement. Frédéric's interest in DLT dates back to 2013 and he started developing smart contracts mimicking derivatives as early as 2016. He is currently a board member of Dream Finance OÜ, the company operating the CoinsPaid, CryptoProcessing and Altra.House brands.",
+        name: 'Franck Nouyrigat',
+        role: 'Founder, Electis',
+        image: franckN,
+        linkedin: 'https://www.linkedin.com/in/francknouyrigat',
+        bio: "Franck Nouyrigat is a French-American developer-turned-entrepreneur, making significant contributions to the tech and startup ecosystem. He co-founded Startup Weekend, a global movement promoting entrepreneurship through 54-hour events, and Massive, a venture-backed distributed computing platform. Franck is currently working on the first web3 e-voting platform: Electis.com. He actively volunteers to help founders in org like Unleash.org. Franck's passion and work continue to influence the technology landscape worldwide; he divides his time between Tallinn, France, and the United States where he is building the first peer to peer startup studio: one37 (Coming soon!)",
       },
       {
         name: 'Magnus Jones',
@@ -230,13 +237,6 @@ let days = [
         twitter: 'https://twitter.com/viks_rum',
         bio: "Vikram (aka viks_rum) here from DaoLens. Product, Design and Growth are what I've resonated with the most—been in Web3 2015 onwards. Personally on a mission in 2023 to make sure to shake hands with as many folks as I can working around DAOs. My interest lies at the intersection of DAOs and AI, impact, regenerative future, DAO Operations and Dao-to-Dao collaboration. Coming onto my product, Daolens is a platform with modules that support (gating, discussions, tasks, bounties, payout and reputation, grant management, partner promotion, courses, community calendar etc) by aggregating other players and building some custom modules of our own so that you don't have to jump between tools. Most of the stuff stays on-chain. You can switch these modules on and off hence DaoLens can look like a classroom for some, like Discourse for some, like Trello for some, like a leaderboard for some, like payout tooling for some and like a beautiful community home for others.",
       },
-      // {
-      //   name: 'Franck Nouyrigat',
-      //   role: 'Founder, Electis',
-      //   image: franckN,
-      // linkedin: 'https://www.linkedin.com/in/francknouyrigat',
-      // bio: "Franck Nouyrigat is a French-American developer-turned-entrepreneur, making significant contributions to the tech and startup ecosystem. He co-founded Startup Weekend, a global movement promoting entrepreneurship through 54-hour events, and Massive, a venture-backed distributed computing platform. Franck is currently working on the first web3 e-voting platform: Electis.com. He actively volunteers to help founders in org like Unleash.org. Franck's passion and work continue to influence the technology landscape worldwide; he divides his time between Tallinn, France, and the United States where he is building the first peer to peer startup studio: one37 (Coming soon!)",
-      // },
       {
         name: "Kenneth O'Friel",
         role: 'CEO & Co-Founder, Toku',
