@@ -235,7 +235,7 @@ let days = [
         role: 'CEO & Co-Founder, Toku',
         image: kennethO,
         linkedin: 'https://www.linkedin.com/in/kenneth-o-friel-234ab073/',
-        bio: 'Kenneth is an entrepreneur, angel investor, and co-founder of Toku (prev. WorkDAO), a company that provides a global crypto-native solution to hire and compensate contributors legally and compliantly. Before founding WorkDAO, Ken studied at Bates College and worked at Bank of America Tokyo.',
+        bio: "Ken O'Friel is the co-founder and CEO of Toku, the comprehensive and global solution for token payroll and tax compliance. Toku provides their customers peace of mind with 100% tax compliance on all token-based compensation in over 100 countries globally, via a comprehensive suite of services including token-based payroll, token-based grant administration, employment and tax compliance, and WorkDAO – a unique set of employment and compensation services tailored for the needs of DAOs",
       },
       {
         name: 'Marta Geater Piekarska',
