@@ -449,6 +449,12 @@ export function Schedule() {
                     >
                       Javier Ortin
                     </span>
+                    <span
+                      class="cursor-pointer hover:text-blue-600"
+                      onClick={() => openSpeakerModal(31)}
+                    >
+                      Al William
+                    </span>
                   </p>
                 </li>
               </ol>
@@ -736,9 +742,9 @@ export function Schedule() {
                     </span>
                     <span
                       class="cursor-pointer hover:text-blue-600"
-                      onClick={() => openSpeakerModal(31)}
+                      onClick={() => openSpeakerModal(13)}
                     >
-                      Al William
+                      Stenver Jerkku
                     </span>
                   </p>
                 </li>
