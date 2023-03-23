@@ -225,7 +225,7 @@ let days = [
       },
       {
         name: 'Vikram Aditya',
-        role: 'Director of the CAS on Blockchain, University of Geneva',
+        role: 'Co-Founder & CEO, DAOLens',
         image: vikramA,
         twitter: 'https://twitter.com/viks_rum',
         bio: "Vikram (aka viks_rum) here from DaoLens. Product, Design and Growth are what I've resonated with the most—been in Web3 2015 onwards. Personally on a mission in 2023 to make sure to shake hands with as many folks as I can working around DAOs. My interest lies at the intersection of DAOs and AI, impact, regenerative future, DAO Operations and Dao-to-Dao collaboration. Coming onto my product, Daolens is a platform with modules that support (gating, discussions, tasks, bounties, payout and reputation, grant management, partner promotion, courses, community calendar etc) by aggregating other players and building some custom modules of our own so that you don't have to jump between tools. Most of the stuff stays on-chain. You can switch these modules on and off hence DaoLens can look like a classroom for some, like Discourse for some, like Trello for some, like a leaderboard for some, like payout tooling for some and like a beautiful community home for others.",
@@ -718,7 +718,7 @@ export function Schedule() {
                       class="cursor-pointer hover:text-blue-600"
                       onClick={() => openSpeakerModal(19)}
                     >
-                      Mari Luukainen
+                      Mari Luukkainen
                     </span>
                     <span
                       class="cursor-pointer hover:text-blue-600"

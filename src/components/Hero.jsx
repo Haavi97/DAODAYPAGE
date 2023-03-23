@@ -14,6 +14,16 @@ function extendUrl(query) {
     : ''
 }
 
+function getUrlParam(query) {
+  return query.promo && query.ref
+    ? `?prefilled_promo_code=${query.promo}&utm_source=${query.ref}`
+    : query.promo
+    ? `?prefilled_promo_code=${query.promo}`
+    : query.ref
+    ? `?utm_source=${query.ref}`
+    : ''
+}
+
 export function Hero() {
   const router = useRouter()
   return (
@@ -79,7 +89,7 @@ export function Hero() {
                   </dl>
                 </div>
                 <Button
-                  href={'/tickets' + extendUrl(router.query)}
+                  href={'https://info.internetnative.org/dd-request-invite' + getUrlParam(router.query)}
                   className="flex w-full space-x-3"
                 >
                   <span>Register Now</span>{' '}
@@ -89,7 +99,7 @@ export function Hero() {
             </div>
           </div>
           <Button
-            href={'/tickets' + extendUrl(router.query)}
+            href={'https://info.internetnative.org/dd-request-invite' + getUrlParam(router.query)}
             className="mt-10 flex w-full space-x-3 lg:hidden"
           >
             <span>Register Now</span> <span aria-hidden="true">&rarr;</span>
