@@ -263,7 +263,7 @@ let days = [
         name: 'Al William',
         role: 'Co-Founder, Solid World DAO',
         image: rezS,
-        linkedin: 'https://www.linkedin.com/in/awtammsaar/',
+        twitter: 'https://twitter.com/0xRez',
         bio: "Hi I'm Rez! \nI'm the co-founder of Solid World (previously Solid World DAO), which is building scalable climate financing infrastructure. I'm obsessed with the subfields of crypto and environmental finance called ReFi. I co-host a podcast called This Week in ReFi and occasionally write a blog about carbon and tokenomics.",
       },
     ],
