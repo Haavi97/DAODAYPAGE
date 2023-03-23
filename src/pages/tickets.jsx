@@ -70,14 +70,13 @@ export default function Tickets() {
       id: 'business-pass',
       href:
         'https://buy.stripe.com/14kdSS6IHcv06fm4gg' + getUrlParam(router.query),
-      price: '€350',
+      price: '€199',
       title: 'Priority in-person access and more perks!',
       description:
         'This pass is for you if you work for a service provider, law firm, consultancy, executive search or big technology company. Or if you are an angel investor or institutional/venture/corporate investor.',
       benefits: [
         'Full in-person access to the agenda including keynotes, interviews and panels',
         'Light breakfast, lunch and coffee breaks',
-        'Access to round table discussion and executive lounge at the venue',
         'Invite to speakers and VIP dinner (registration required)',
       ],
       cta: 'Buy Now',
