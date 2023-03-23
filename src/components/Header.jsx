@@ -15,6 +15,16 @@ function extendUrl(query) {
     : ''
 }
 
+function getUrlParam(query) {
+  return query.promo && query.ref
+    ? `?prefilled_promo_code=${query.promo}&utm_source=${query.ref}`
+    : query.promo
+    ? `?prefilled_promo_code=${query.promo}`
+    : query.ref
+    ? `?utm_source=${query.ref}`
+    : ''
+}
+
 export function Header() {
   const router = useRouter()
   return (
@@ -61,7 +71,7 @@ export function Header() {
           </div>
         </div>
         <div className="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
-          <Button href={'/tickets' + extendUrl(router.query)}>Register</Button>
+          <Button href={'https://info.internetnative.org/dd-request-invite' + getUrlParam(router.query)}>Register</Button>
         </div>
       </Container>
     </header>
