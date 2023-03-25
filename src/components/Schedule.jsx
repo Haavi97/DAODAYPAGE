@@ -121,7 +121,7 @@ let days = [
       },
       {
         name: 'Astra Tikas',
-        role: 'Co-founder, Internet Native Organization',
+        role: 'Board member, Internet Native Organization',
         image: astraT,
         linkedin: 'https://www.linkedin.com/in/astratikas/',
         bio: 'Astra Tikas is the Co-Founder of INO (Internet Native Organization that brings DAO solutions to the mainstream), former Board Member of the Estonian Cryptocurrency Association, and a consultant on crypto regulations topics. She has worked with various crypto start-ups to help to build them up in her role as an AML strategist. She is also a strong spiritual mind and a musician. Being an entrepreneur since age 21, she will never stop to find solutions and fun in business. \nAs part of her desire to promote cooperation between crypto companies and regulators, she organized a conference titled "Crypto Companies Call to Comply and Cooperate" in spring 2022. In the web3 space she has found her true passion and is one of the knowledgeable persons regarding AML topics; since 2022 she is deep into DAO-related topics. Spring 2023 organizing a DAODAY Estonia www.daoday.ee.',
@@ -205,10 +205,10 @@ let days = [
       },
       {
         name: 'Javier Ortin',
-        role: 'Co-founder, Internet Native Organization',
+        role: 'Board member, Internet Native Organization',
         image: javierO,
         linkedin: 'https://www.linkedin.com/in/javier-ortín-cervera-a6112b1b7/',
-        bio: 'Javier is a blockchain developer, who’s deep journey with DAO’s started 2022 as co-founding the INO. He leads Easy feedback Protocol development, has master degree from TalTech and is teaching programming and robotics. One of the leading minds in Estonia regarding DAO topics.',
+        bio: 'Javier is a blockchain developer, who’s deep journey with DAO’s started 2022 as co-founding the INO. He leads Easy Feedback Protocol development, has an engineering background rooted in TalTech and he is teaching mostly programming and electronics. He is a big Web3 enthusiast and likes to research about DAO related topics. ',
       },
       {
         name: 'Toomas Seppel',
