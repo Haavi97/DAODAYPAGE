@@ -392,7 +392,7 @@ export function Schedule() {
                     <time dateTime="2023-03-28T11:00">11:00 AM EEST</time>
                   </p>
                   <p className="mt-2 flex-auto font-semibold sm:mt-0">
-                    Keynote - How to setup a DAO?
+                    Keynote - Effective DAO Operations and AI
                   </p>
                   <p
                     class="flex-none cursor-pointer text-sm hover:text-blue-600 sm:ml-6"
@@ -629,12 +629,6 @@ export function Schedule() {
                       onClick={() => openSpeakerModal(10)}
                     >
                       Mari-Liis Kukk
-                    </span>
-                    <span
-                      class="cursor-pointer hover:text-blue-600"
-                      onClick={() => openSpeakerModal(16)}
-                    >
-                      Frédéric Hubin
                     </span>
                     <span
                       class="cursor-pointer hover:text-blue-600"
