@@ -248,7 +248,7 @@ let days = [
         name: 'Marta Geater Piekarska',
         role: 'Director of DAO Strategy, ConsenSys',
         image: martaP,
-        linkedin: 'linkendin.com/in/martapiekarska',
+        linkedin: 'https://www.linkedin.com/in/martapiekarska/',
         bio: "An expert in Open Source and Ecosystem Leadership, Marta serves as Head DAO Strategist at ConsenSys. She has an impressive track record of leading communities in many organizations including Balancer Labs, The Linux Foundation, Hyperledger, the Sovrin Foundation, and consulting for a plethora of startups. She’s also known for her love of the spotlight fulfilled in public speaking and mentoring which has scored her some awards like Most Influential Person in Blockchain, Consensys’ Women in Crypto, and Coindesk's Top 100 people in Blockchain ones. Marta holds a Ph.D. in Computer Security and Privacy and worked in this space with Apple, Blockstream, Mozilla, Deutsche Telekom, and others. She is a founder of the W3C Blockchain Community Group and presently serves as Chair of the Sovrin Technical Governing Board. Marta is passionate about 3 C: communities (DAO governance), collaboration (decentralisation and blockchain) and cooking (virtually anything). ",
       },
       {
