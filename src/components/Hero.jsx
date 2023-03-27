@@ -89,7 +89,7 @@ export function Hero() {
                   </dl>
                 </div>
                 <Button
-                  href={'https://info.internetnative.org/dd-request-invite' + getUrlParam(router.query)}
+                  href={'https://daoday.ee/tickets' + getUrlParam(router.query)}
                   className="flex w-full space-x-3"
                 >
                   <span>Register Now</span>{' '}
@@ -99,7 +99,7 @@ export function Hero() {
             </div>
           </div>
           <Button
-            href={'https://info.internetnative.org/dd-request-invite' + getUrlParam(router.query)}
+            href={'https://daoday.ee/tickets' + getUrlParam(router.query)}
             className="mt-10 flex w-full space-x-3 lg:hidden"
           >
             <span>Register Now</span> <span aria-hidden="true">&rarr;</span>

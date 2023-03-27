@@ -71,7 +71,11 @@ export function Header() {
           </div>
         </div>
         <div className="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
-          <Button href={'https://info.internetnative.org/dd-request-invite' + getUrlParam(router.query)}>Register</Button>
+          <Button
+            href={'https://daoday.ee/tickets' + getUrlParam(router.query)}
+          >
+            Register
+          </Button>
         </div>
       </Container>
     </header>
