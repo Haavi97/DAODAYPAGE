@@ -35,6 +35,7 @@ import franckN from '@/images/avatars/franck-nouyrigat-electis.jpg'
 import vikramA from '@/images/avatars/vikram-aditya-daolens.jpg'
 import vattanP from '@/images/avatars/vattan-ps-ino.jpg'
 import rezS from '@/images/avatars/al-william-solidworld.jpg'
+import annaA from '@/images/avatars/anna-agu-lexlaw.jpg'
 
 let days = [
   {
@@ -266,6 +267,12 @@ let days = [
         twitter: 'https://twitter.com/0xRez',
         bio: "Hi I'm Rez! \nI'm the co-founder of Solid World (previously Solid World DAO), which is building scalable climate financing infrastructure. I'm obsessed with the subfields of crypto and environmental finance called ReFi. I co-host a podcast called This Week in ReFi and occasionally write a blog about carbon and tokenomics.",
       },
+      {
+        name: 'Anna Agu',
+        role: 'Founder and Partner, Lex Law Office',
+        image: annaA,
+        linkedin: 'https://www.linkedin.com/in/anna-agu-55930717b/',
+        bio: "Anna has extensive experience working for tax authorities and government working groups. Anna also had a government authority working and practice exchange visits in different EU countries. During her career, she has taken part in the development of changes in regulation and cooperation between the public authorities of Estonia. Due to this experience, Anna considers vital the cooperation between innovations start-ups, government authorities and legal experts to provide the elaboration of innovational technology and a supportive business environment.\nSince 2018 Anna advises companies in the field of cryptocurrency, compliance and Fintech regulation, with a specialization in the Estonian and EU regulation. Anna is also a public speaker and co-organizer of CryptoFin Conference.\nIn 2020 Anna was a member of Virtual assets and Blockchain working Group, who is working on the EU virtual assets regulation and communication with EU government authorities. In 2021-2022 Anna drafted the expert opinion and amendments to the Estonian VASPs regulation and took a part of the round tables and discussions with the legislators in Estonia.\nAnna assists clients in the legal issues related to finance law, the Money-Laundering regulation, compliance, corporate law, communication with government authorities and regulators."},
     ],
   },
 ]
@@ -629,6 +636,12 @@ export function Schedule() {
                       onClick={() => openSpeakerModal(10)}
                     >
                       Mari-Liis Kukk
+                    </span>
+                    <span
+                      class="cursor-pointer hover:text-blue-600"
+                      onClick={() => openSpeakerModal(32)}
+                    >
+                      Anna Agu
                     </span>
                     <span
                       class="cursor-pointer hover:text-blue-600"
