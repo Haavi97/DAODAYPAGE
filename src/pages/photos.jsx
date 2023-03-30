@@ -2,8 +2,6 @@ import Head from 'next/head'
 import { useRouter } from 'next/router'
 import { Footer } from '@/components/Footer'
 import { Gallery } from '@/components/Gallery'
-// import Gallery from "react-photo-gallery";
-// import ImageGallery from 'react-image-gallery';
 import { Header } from '@/components/Header'
 import { pitures } from "@/components/Pictures";
 
