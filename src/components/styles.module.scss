@@ -46,6 +46,23 @@
   padding: 0 1rem;
 }
 
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  padding: 5% 10%;
+}
+
+.galleryImage {
+  margin: 1rem 1rem;
+}
+
 @media only screen and (max-width: 768px) {
   .menuBubble {
     position: fixed;

@@ -272,7 +272,8 @@ let days = [
         role: 'Founder and Partner, Lex Law Office',
         image: annaA,
         linkedin: 'https://www.linkedin.com/in/anna-agu-55930717b/',
-        bio: "Anna has extensive experience working for tax authorities and government working groups. Anna also had a government authority working and practice exchange visits in different EU countries. During her career, she has taken part in the development of changes in regulation and cooperation between the public authorities of Estonia. Due to this experience, Anna considers vital the cooperation between innovations start-ups, government authorities and legal experts to provide the elaboration of innovational technology and a supportive business environment.\nSince 2018 Anna advises companies in the field of cryptocurrency, compliance and Fintech regulation, with a specialization in the Estonian and EU regulation. Anna is also a public speaker and co-organizer of CryptoFin Conference.\nIn 2020 Anna was a member of Virtual assets and Blockchain working Group, who is working on the EU virtual assets regulation and communication with EU government authorities. In 2021-2022 Anna drafted the expert opinion and amendments to the Estonian VASPs regulation and took a part of the round tables and discussions with the legislators in Estonia.\nAnna assists clients in the legal issues related to finance law, the Money-Laundering regulation, compliance, corporate law, communication with government authorities and regulators."},
+        bio: 'Anna has extensive experience working for tax authorities and government working groups. Anna also had a government authority working and practice exchange visits in different EU countries. During her career, she has taken part in the development of changes in regulation and cooperation between the public authorities of Estonia. Due to this experience, Anna considers vital the cooperation between innovations start-ups, government authorities and legal experts to provide the elaboration of innovational technology and a supportive business environment.\nSince 2018 Anna advises companies in the field of cryptocurrency, compliance and Fintech regulation, with a specialization in the Estonian and EU regulation. Anna is also a public speaker and co-organizer of CryptoFin Conference.\nIn 2020 Anna was a member of Virtual assets and Blockchain working Group, who is working on the EU virtual assets regulation and communication with EU government authorities. In 2021-2022 Anna drafted the expert opinion and amendments to the Estonian VASPs regulation and took a part of the round tables and discussions with the legislators in Estonia.\nAnna assists clients in the legal issues related to finance law, the Money-Laundering regulation, compliance, corporate law, communication with government authorities and regulators.',
+      },
     ],
   },
 ]
@@ -350,10 +351,28 @@ export function Schedule() {
                     <time dateTime="2023-03-28T10:05">10:05 AM EEST</time>
                   </p>
                   <p className="mt-2 flex-auto font-semibold sm:mt-0">
-                    Welcome & Opening words
+                    Welcome & The vision of Internet Native Organization
                   </p>
-                  <p class="flex-none text-sm sm:ml-6">
-                    DAO Day Organizer / INO Team
+
+                  <p class="flex-none space-x-3 text-sm sm:ml-6">
+                    <span
+                      class="cursor-pointer hover:text-blue-600"
+                      onClick={() => openSpeakerModal(12)}
+                    >
+                      Astra Tikas
+                    </span>
+                    <span
+                      class="cursor-pointer hover:text-blue-600"
+                      onClick={() => openSpeakerModal(23)}
+                    >
+                      Javier Ortin
+                    </span>
+                    <span
+                      class="cursor-pointer hover:text-blue-600"
+                      onClick={() => openSpeakerModal(29)}
+                    >
+                      Vattan PS
+                    </span>
                   </p>
                 </li>
                 <li className="items-center py-4 sm:flex">
