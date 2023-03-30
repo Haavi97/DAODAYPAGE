@@ -86,7 +86,7 @@ export default function Tickets() {
   return (
     <>
       <Head>
-        <title>Register - DAO Day Estonia</title>
+        <title>DAO Day Estonia</title>
         <meta name="description" content="" />
         <meta name="robots" content="noindex, nofollow" />
       </Head>
