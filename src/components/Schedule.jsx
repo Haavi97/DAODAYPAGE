@@ -357,7 +357,7 @@ export function Schedule() {
                   <p class="flex-none space-x-3 text-sm sm:ml-6">
                     <span
                       class="cursor-pointer hover:text-blue-600"
-                      onClick={() => openSpeakerModal(12)}
+                      onClick={() => openSpeakerModal(11)}
                     >
                       Astra Tikas
                     </span>
