@@ -62,7 +62,7 @@ export function Header() {
             </a>
             <a
               href="https://daoday.ee/photos"
-              target="_blank"
+              target="_self"
               rel="noreferrer noopener"
               className="hidden rounded-lg py-1 px-2 text-sm text-blue-600 hover:bg-blue-100 hover:text-blue-900 lg:inline-block"
             >
