@@ -66,7 +66,7 @@ export function Header() {
               rel="noreferrer noopener"
               className="hidden rounded-lg py-1 px-2 text-sm text-blue-600 hover:bg-blue-100 hover:text-blue-900 lg:inline-block"
             >
-              Event photos
+              Photo gallery
             </a>
           </div>
         </div>
