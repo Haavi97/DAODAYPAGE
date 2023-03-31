@@ -63,7 +63,28 @@
   margin: 1rem 1rem;
 }
 
+.gallery img {
+  margin: 1rem 1rem;
+}
+
 @media only screen and (max-width: 768px) {
+  .gallery {
+    width: 100%;
+    padding: 0.5rem 0.5rem;
+  }
+
+  .galleryImage {
+    padding: 0.5rem 0.5rem;
+  }
+
+  .gallery a {
+    max-width: 30%;
+  }
+
+  .gallery img {
+    padding: 0.5rem 0.5rem;
+  }
+
   .menuBubble {
     position: fixed;
     right: 3%;

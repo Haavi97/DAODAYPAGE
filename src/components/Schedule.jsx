@@ -348,7 +348,7 @@ export function Schedule() {
                 <li className="items-center py-4 sm:flex">
                   <p class="w-56 flex-none">
                     <time dateTime="2023-03-28T10:00">10:00 AM</time> -{' '}
-                    <time dateTime="2023-03-28T10:05">10:05 AM EEST</time>
+                    <time dateTime="2023-03-28T10:05">10:25 AM EEST</time>
                   </p>
                   <p className="mt-2 flex-auto font-semibold sm:mt-0">
                     Welcome & The vision of Internet Native Organization
@@ -373,21 +373,6 @@ export function Schedule() {
                     >
                       Vattan PS
                     </span>
-                  </p>
-                </li>
-                <li className="items-center py-4 sm:flex">
-                  <p class="w-56 flex-none">
-                    <time dateTime="2023-03-28T10:05">10:05 AM</time> -{' '}
-                    <time dateTime="2023-03-28T10:25">10:25 AM EEST</time>
-                  </p>
-                  <p className="mt-2 flex-auto font-semibold sm:mt-0">
-                    Keynote - The vision of Internet Native Organization
-                  </p>
-                  <p
-                    class="flex-none cursor-pointer text-sm hover:text-blue-600 sm:ml-6"
-                    onClick={() => openSpeakerModal(29)}
-                  >
-                    Vattan PS
                   </p>
                 </li>
               </ol>
