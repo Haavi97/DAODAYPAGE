@@ -43,6 +43,11 @@ export function Hero() {
       </div>
       <Container className="relative">
         <div className="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
+          <div className="max-w-full items-center justify-items-center p-5 flex">
+            <Button href={'https://daoday.ee/photos'} className="max-w-xs container mx-auto ">
+              <span>Photo gallery</span>
+            </Button>
+          </div>
           <h1 className="font-display text-4xl font-bold tracking-tighter text-blue-600 sm:text-7xl">
             <span className="sr-only">DAO Day Estonia - </span>The Future Of
             Community, Governance & Collaboration
